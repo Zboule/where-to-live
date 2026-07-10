@@ -1,0 +1,72 @@
+# EXPENSES · destination_living · helsinki — the COMFORTABLE post-move life in
+# Helsinki — Munkkiniemi (leafy, sea, good schools), Finland.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here (the hoitovastike sits in the real-estate holding costs).
+# Comfortable: comfortable but NOT luxurious: one car + HSL transit for the rest, minimal domestic help,
+# several holidays a year INCLUDING winter escapes south (the Nordic-winter tax on the travel line),
+# weekly eating out, mid-tier international school (2 kids) + rich kids' activities.
+# Public healthcare ~free; the cash line is a small private top-up (työterveys covers the employed adult) +
+# dental/out-of-pocket. Utilities modest because heating/water are often inside the housing-company vastike.
+# ~92100 EUR/yr (~7680 EUR/mo) excl. housing.
+# Fact-checked 2026: Numbeo Helsinki, Tilastokeskus (Statistics Finland), HSL fares, Autoliitto, Kela.
+id: destination_living
+variant_label: Helsinki - Munkkiniemi
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 13200, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating (much already in the vastike)"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3600, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1320, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "One car + HSL public transport"
+    category: Transport
+    currency: EUR
+    growth: [{ year: 2026, per_year: 8400, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Domestic help (minimal, cleaning every other week)"
+    category: Staff
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (public ~free; private top-up + dental)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel (incl. winter escapes)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 12000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4800, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: EUR
+    growth: [{ year: 2026, per_year: 32000, growth_rate: 0.03 }]

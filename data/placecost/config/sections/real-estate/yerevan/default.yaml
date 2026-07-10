@@ -1,0 +1,59 @@
+# REAL ESTATE · yerevan · default (4-unit Kentron complex, all cash) — a diversification +
+# Box-3 play. OFF by default: a 4-unit, ~$672k cash commitment is a lot to bake into the
+# base plan, and buying it in 2030 collides with the relocation home purchase. Toggle it on
+# (Assets menu) to see the tax-optimised variant, ideally with a later purchase date.
+#
+# Rationale: foreign real estate is exempt from Dutch Box 3 (NL–Armenia treaty), and
+# Armenian rental income is taxed locally at a flat 10% (0% CGT on individual resale).
+# A central Kentron short-let complex throws off a high USD yield (~9% gross) on top of
+# appreciation, so per euro it beats leaving the money in the Box-3-taxed portfolio
+# (~5% gross − 2.12% wealth tax ≈ 2.9% net). It trades liquidity for diversification
+# and a higher after-tax return. Sized to ~4 units and dated 2030 so the portfolio can
+# fund it in cash without the buffer going negative; tune the value/rent and purchase
+# date together. AMD is thin/volatile, so value & income are kept in USD, and the
+# appreciation assumption is deliberately conservative — the real risk is FX + resale
+# depth + regional geopolitics, none of which this model captures.
+id: yerevan
+variant_label: 4-unit complex (cash)
+name: "Yerevan complex"
+enabled: false
+country: AM
+currency: USD
+owned_from: 2030-01-01
+current_value: 672000          # 4 × ~$168k (70 m² @ ~$2,400/m², central Kentron)
+appreciation_rate: 0.03        # conservative; real downside is FX (AMD) + thin resale
+reinvest_surplus_to: brokerage
+purchase:
+  price: 672000                # 4 units, all cash (UAE/NL banks won't lend on AM property)
+  date: 2030-01-01
+  acquisition_costs: 20160     # ~3% transaction costs
+mortgage:
+  principal: 0                 # all cash
+  first_payment_date: 2030-01-04
+  last_payment_date: 2030-02-04
+  rate_periods:
+    - rate: 0.0
+self_use_saving:
+  per_year: 3000               # accommodation saved during your own stays (you use ~1 unit)
+  currency: USD
+rental:                        # short-let; ~9-month let window already baked into the gross
+  active_from: 2030-01-01
+  gross_per_month: 5100        # 4 × $1,275 ≈ $61k/yr gross (top-quartile central 2BR Airbnb)
+  rent_growth_rate: 0.03
+  average_tenancy_years: 1
+  vacancy_months_per_turnover: 0
+  find_new_tenant_fee_rate: 0
+  management_fee_rate: 0.25    # cleaning / management / platform / utilities
+  tax:
+    rate: 0.10                 # Armenia: 10% flat on rental income
+    basis: gross
+holding_costs:
+  local_property_tax: 200      # immovable property tax (negligible)
+  building_maintenance: 2400   # 4 × $600
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.03
+  cgt:
+    rate: 0.0                  # individual-to-individual resale: exempt in Armenia
+    annual_exemption_per_owner: 0
+    owners: 1

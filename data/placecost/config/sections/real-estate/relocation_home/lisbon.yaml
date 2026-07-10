@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · lisbon — Lisbon — Alvalade, the COMFORTABLE size.
+# ~230 m² 4–5 bed family home (large duplex/townhouse in the classic "bairro das avenidas" grid; good schools,
+# incl. nearby international options). Bought AT the (dynamic) move; OFF by default, a relocation scenario turns
+# it on and the "Home size" toggle picks the tier. Price fact-checked 2026: idealista Alvalade avg €6,085/m²
+# (May 2026, +3.9% y/y); good renovated family product runs €6,500–7,500/m² → ~230 m² ≈ €6,950/m². The engine
+# projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the
+# appreciated price, not today's. EUR 1.60M.
+id: relocation_home
+variant_label: Lisbon - Alvalade
+name: "Lisbon - Alvalade home"
+enabled: false
+country: PT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1600000
+appreciation_rate: 0.03
+purchase:
+  price: 1600000
+  date: 2033-09-01
+  acquisition_costs: 135000     # ~8.4%: IMT 7.5% flat above ~€1.10M bracket (€120k) + stamp duty 0.8% (€12.8k) + notary/registration (~€2k)
+mortgage:
+  principal: 1280000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.032               # PT 2026 fixed/mixed-rate mortgages ~3.0–3.4%
+holding_costs:
+  local_property_tax: 3000      # IMI: Lisbon 0.3% on VPT (taxable value, typically well below market; ~€900k here → ~€2.7k) + margin. AIMI (0.7% on VPT above €600k/person; €1.2M for a couple) not material at this VPT, but would add ~0.7–1% on any excess.
+  building_maintenance: 5000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real PT agency fees run ~5%+VAT — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence: PT CGT exempt when proceeds are reinvested in the next main home
+    annual_exemption_per_owner: 0
+    owners: 2

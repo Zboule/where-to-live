@@ -1,0 +1,20 @@
+districts:
+  - id: budapest-hegyvidek-12th
+    city: Budapest
+    country: Hungary
+    country_code: HU
+    district: Hegyvidék (12th)
+    blurb: Green hills, excellent schools, safe streets, and easy access to nature make Hegyvidék ideal for families.
+    price_per_sqm: { lower: 2500, upper: 4500, average: 3500 }
+    travel: { paris_hours: 7.5, paris_mode: train, yerevan_hours: 3.5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4.5 }
+    notes:
+      education: "Hegyvidék houses Hungary's #1-ranked secondary school (Fazekas Mihály Gimnázium) and two internationally accredited schools in-district — Britannica (IGCSE/AICE, ages 6–18) and BBIS (IB MYP, the only one in Hungary) — giving families an unusually broad choice of elite public, British, and IB path…"
+      safe_independence: The 12th is consistently ranked among Budapest's safest districts, with free public transport for under-14s, a well-lit night-bus network, and a proactive pedestrian-safety campaign (Zizi the Zebra) that refreshes crossings and installs speed displays near schools each year. However, Budapest has…
+      mental_health: Hungary scores surprisingly well on some broad benchmarks — UNICEF Innocenti ranks it high for youth mental health among 43 OECD countries, PISA 2022 finds only 13% of students dissatisfied with life (vs. 18% OECD), and the SEYLE study recorded the lowest self-harm prevalence across 11 European n…
+      peer_environment: With 55.6% of adults holding a university degree and the highest average income in Budapest, Hegyvidék is the city's most education-oriented district, complemented by rich municipal children's programming at MOMkult (puppetry, crafts, family concerts, a dedicated playroom) and a cosmopolitan mix …
+      family_practicality: Bus 105 reaches central Buda in 6 minutes, Tram 59 connects to the M2 metro hub in ~15 minutes, and MOM Park anchors daily shopping and services on the lower slopes, while 10 pediatric GP catchment areas and multiple nursery/kindergarten options cover childcare and basic medical access across the…
+      health: Szent János Hospital sits directly in the district with 24-hour pediatric emergency care, ten pediatric GP zones ensure geographic coverage, and a 2024 national study of 1,155 drinking-water sources found no parameter posing a public health risk, with 93% of supply drawn from naturally protected …
+      nature: Hegyvidék delivers ~170 m² of green space per capita — the highest in Budapest by a wide margin — anchored by Normafa Park, a sprawling forested parkland open 24/7 with free access, a 4.5 km family-friendly Blue Circuit Trail, and direct trailheads into the Buda Hills hiking network right from th…
+    sources:
+      - DeepSeek estimate — refine

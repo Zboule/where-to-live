@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · lausanne — Lausanne (Pully / Lutry / Chailly), the COMFORTABLE size.
+# ~230 m² 4–5 bed family house. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and
+# the "Home size" toggle picks the tier. Price fact-checked 2025-26 (deep multi-source market
+# analysis). The engine projects this price (and the LTV-scaled mortgage) to the actual purchase
+# year, so a later move buys at the appreciated price, not today's. CHF 2.99M.
+id: relocation_home
+variant_label: Lausanne
+name: "Lausanne home"
+enabled: false
+country: CH
+currency: CHF
+owned_from: 2033-09-01
+current_value: 2990000
+appreciation_rate: 0.025
+purchase:
+  price: 2990000
+  date: 2033-09-01
+  acquisition_costs: 149500
+mortgage:
+  principal: 2392000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2099-09-04
+  rate_periods:
+    - rate: 0.02
+  interest_only:               # Swiss two-tier: amortize to ~66% LTV, then interest-only
+    floor: 1973000
+    amortize_months: 180
+holding_costs:
+  local_property_tax: 3000
+  building_maintenance: 12000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.025
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 2

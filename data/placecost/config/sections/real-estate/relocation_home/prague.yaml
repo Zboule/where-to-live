@@ -1,0 +1,38 @@
+# REAL ESTATE · relocation_home · prague — Prague — Vinohrady (Praha 2), the COMFORTABLE size.
+# ~230 m² 4–5 bed family flat / townhouse-maisonette. Vinohrady is Prague's elegant residential quarter — parks
+# (Riegrovy sady, Grébovka), the city's best schools incl. internationals. Bought AT the (dynamic) move; OFF by
+# default, a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2026:
+# Deloitte Real Index has Praha 2 realised sales ~CZK 177,000/m² (late 2024, rising 20%+/yr since); 2026 asking
+# prices for quality Praha 2/Vinohrady flats CZK 170,000–250,000/m². A large ~230 m² family unit trades nearer the
+# district mean ≈ CZK 165,000/m². The engine projects this price (and the LTV-scaled mortgage) to the actual
+# purchase year, so a later move buys at the appreciated price, not today's. CZK 38.0M (~EUR 1.54M).
+# Acquisition ~2.5%: Czechia abolished the 4% transfer tax in 2020 — only legal/notary + buyer-side agent ~2–3%.
+id: relocation_home
+variant_label: Prague - Vinohrady
+name: "Prague - Vinohrady home"
+enabled: false
+country: CZ
+currency: CZK
+owned_from: 2033-09-01
+current_value: 38000000
+appreciation_rate: 0.03
+purchase:
+  price: 38000000
+  date: 2033-09-01
+  acquisition_costs: 950000
+mortgage:
+  principal: 30400000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.0475               # Czech mortgage rates ~4.5–5.0% (2026)
+holding_costs:
+  local_property_tax: 12000      # daň z nemovitosti — tiny in Czechia even after the 2024 hike
+  building_maintenance: 140000   # SVJ building/repair fund (~CZK 50/m²/mo) + upkeep
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                    # exempt after 2 years of owner-occupation (Czech residence exemption)
+    annual_exemption_per_owner: 0
+    owners: 2

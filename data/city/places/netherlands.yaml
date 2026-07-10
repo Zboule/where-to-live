@@ -1,0 +1,228 @@
+districts:
+  - id: aerdenhout-bloemendaal
+    city: Haarlem
+    country: Netherlands
+    country_code: NL
+    district: Aerdenhout (Bloemendaal)
+    blurb: "Ultra-affluent dune-side enclave west of Haarlem (in Bloemendaal); national park adjacent, top hockey town."
+    price_per_sqm: { lower: 6000, upper: 9500, average: 7600 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4.5, mental_health: 4, peer_environment: 3.5, family_practicality: 3.5, health: 3.5, nature: 4.5 }
+    notes:
+      education: Aerdenhout has three well-enrolled primary schools with diverse pedagogical affiliations and quick train access to Haarlem's secondary offerings, which span a categoraal gymnasium, Waldorf/Steiner college, and the full IB continuum at International School Haarlem. However, there is no secondary s…
+      safe_independence: Aerdenhout has its own train station, world-class separated cycling infrastructure, and exceptionally low street crime (0% drug dealing, 2% street harassment), making it one of the safest places in Europe for children to move independently. The main blemish is property crime—Bloemendaal's 13% vic…
+      mental_health: "The Netherlands ranks #1 in UNICEF's child well-being index, and Aerdenhout benefits from a multi-tier mental health system with school-based youth health teams, GP-level mental health practitioners, and free anonymous helplines, alongside a national school smartphone ban and the lowest problemat…"
+      peer_environment: Aerdenhout is the wealthiest town in the Netherlands, with average household income exceeding €80,000 and municipal household wealth of €381,000—the highest in Noord-Holland—supporting a strong culture of organized youth activities and stable households. However, the Netherlands Institute for Soc…
+      family_practicality: Aerdenhout station offers frequent trains to Haarlem (5 min) and Amsterdam (25 min), and the Netherlands' universal childcare subsidy system and DigiD digital identity platform provide solid administrative infrastructure. In practice, DigiD requires a BSN and a physical activation letter sent by …
+      health: Aerdenhout benefits from coastal air with PM₂.₅ at 7–9 µg/m³—the Netherlands' best in 19 years—and Spaarne Gasthuis in nearby Haarlem provides a dedicated pediatric ward with 24/7 parental presence and free parking. Gaps include PM₂.₅ and NO₂ levels that still exceed WHO guidelines, a regional ra…
+      nature: Aerdenhout sits directly adjacent to Zuid-Kennemerland National Park and the Amsterdamse Waterleidingduinen, with Zandvoort beach and North Sea dunes reachable by a 10–15 minute bike ride, and Bloemendaal municipality boasts 63% green space and 53% tree canopy—ranking higher than 83.5% of Europea…
+    sources: [ "Funda/Huispedia neighbourhood avg", "NVM region Q1-2025", "gemeente Bloemendaal livability", "ISH Haarlem", "UNICEF RC19 2025" ]
+
+  - id: amstelveen
+    city: Amsterdam
+    country: Netherlands
+    country_code: NL
+    district: Amstelveen
+    blurb: "Leafy international suburb home to ISA; more space per euro than Amsterdam, Schiphol and Amsterdamse Bos adjacent."
+    price_per_sqm: { lower: 4800, upper: 7350, average: 6100 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4, mental_health: 3.5, peer_environment: 4, family_practicality: 3, health: 2.5, nature: 4.5 }
+    notes:
+      education: Amstelveen has solid public schooling with 20 primary schools and 4 secondary schools covering all Dutch academic pathways, including bilingual education and the IB Diploma at Hermann Wesselink College, backed by two private international schools (ISA, Amity) offering full IB — though at €18,000–…
+      safe_independence: Amstelveen benefits from the Netherlands' world-leading cycling infrastructure and traffic-calming culture, with very low violent crime (Numbeo 13.73/100) and high perceived safety walking alone both day and night (86.46 and 78.88/100 respectively). However, street robberies and bike theft rose i…
+      mental_health: "The Netherlands ranks #1 in UNICEF's child well-being index and has the lowest youth loneliness and problematic social media use among 44 countries, supported by a multi-tier mental health system with school-based youth doctors, free anonymous helplines, and a national classroom smartphone ban si…"
+      peer_environment: Amstelveen's peer landscape is exceptionally diverse (144 nationalities, 24% non-Dutch) and well-educated (47% tertiary, average household income €58,900 vs. €49,500 nationally), with rich organised activities through AmstelveenSport, multiple football, hockey, and tennis clubs, and Platform C fo…
+      family_practicality: Amstelveen provides substantial childcare infrastructure with 97 centres offering ~4,300 places across daycare, after-school care, and preschool, plus DigiD-enabled digital access to government services — though the number of childcare centres has nearly halved since 2018 (from 174 to 97) and nat…
+      health: Amstelveen's air quality meets EU 2030 limits (PM2.5 8.4 µg/m³) but PM2.5 runs ~1.7× the WHO guideline and NO₂ at 2–4× it, with added aircraft noise from Schiphol flight paths. Amstelland Hospital offers outpatient care and a GP out-of-hours clinic in-district, but lacks a full ER or paediatric e…
+      nature: Amstelveen is the Netherlands' second-greenest city with 43% green space and 27% tree canopy, anchored by the 1,000-hectare Amsterdamse Bos (three times the size of Central Park) with 200 km of trails, lakes for swimming and sailing, and De Poel lake at its heart — all walkable or bikeable from m…
+    sources: [ "makelaaramstelveen / Walter Living 2025", "gemeente Amstelveen Q1-2025", "ISA results 2025", "UNICEF RC19 2025", "OECD PISA 2022" ]
+
+  - id: amsterdam-oud-zuid
+    city: Amsterdam
+    country: Netherlands
+    country_code: NL
+    district: Oud-Zuid
+    blurb: "Amsterdam's most prestigious quarter: elite Dutch schools, BSA/AICS backups, Vondelpark adjacent, but priciest per sqm."
+    price_per_sqm: { lower: 7500, upper: 12000, average: 9800 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4, mental_health: 4, peer_environment: 4, family_practicality: 3.5, health: 3.5, nature: 3.5 }
+    notes:
+      education: Oud-Zuid sits in Amsterdam's highest-income, highest-education corridor and hosts several well-regarded secondary schools — Vossius Gymnasium, Montessori Lyceum Amsterdam, and nearby Barlaeus Gymnasium — plus a Russian Saturday school elsewhere in the city, while the national VWO diploma gives di…
+      safe_independence: Oud-Zuid is consistently ranked among Amsterdam's safest neighbourhoods — residents rate evening safety at 8/10, the highest of any district — and its wide, tree-lined avenues have dedicated bike lanes feeding into Amsterdam's world-famous segregated cycleway network, with trams and buses that te…
+      mental_health: "The Netherlands ranked #1 overall in UNICEF's 2025 child well-being report and #1 in mental well-being, backed by the lowest problematic social-media use among 44 countries, a national classroom smartphone ban since 2024, low loneliness scores, and a multi-tier mental-health system that puts a yo…"
+      peer_environment: Oud-Zuid families have the highest average income in Amsterdam (Willemspark ~€97,000/year vs. a €41,000 city average) and the highest educational attainment — 77% HBO/WO in Prinses Irenebuurt — creating a peer group where education is strongly valued and organised activities around Vondelpark are…
+      family_practicality: Oud-Zuid's central location puts most of Amsterdam and the Zuidas business district within a 20–30 minute tram or bike commute, local shopping streets like Beethovenstraat and Cornelis Schuytstraat cover daily needs on foot, and DigiD plus English-language municipal portals streamline admin once …
+      health: PM2.5 and NO₂ across Oud-Zuid sit well below EU legal limits — 6.8–9.3 µg/m³ and 16.5–21.8 µg/m³ respectively — and the Emma Children's Hospital, the Netherlands' largest academic paediatric centre with 164 beds and national referral status for oncology and immunology, is a short trip south in Bu…
+      nature: Vondelpark — 47 hectares of lawns, ponds, and wooded paths with entrances on virtually every block — is Oud-Zuid's defining green asset, complemented by Museumplein's playgrounds and sports courts and the vast Amsterdamse Bos a short cycle south. Against that, Amsterdam scored near 0% on the 30% …
+    sources: [ "maps.amsterdam.nl/woningwaarde", "Funda/NVM Q1-2025", "scholenopdekaart.nl", "OECD PISA 2022", "UNICEF Innocenti RC19 2025", "Eurostar/FlyOne schedules" ]
+
+  - id: den-haag-benoordenhout
+    city: The Hague
+    country: Netherlands
+    country_code: NL
+    district: Benoordenhout
+    blurb: "Green diplomatic quarter with NL's densest international-school cluster; spacious 1930s houses, beach and forest nearby."
+    price_per_sqm: { lower: 4600, upper: 6800, average: 5700 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 3.5, peer_environment: 3, family_practicality: 2.5, health: 3, nature: 4 }
+    notes:
+      education: Benoordenhout sits in the catchment of Gymnasium Haganum, one of the Netherlands' top categoraal gymnasia, and hosts two international schools within its boundaries — ESH (European Baccalaureate, publicly funded for EU staff) and HSV (UK curriculum, 50+ nationalities) — giving families a rare con…
+      safe_independence: "The Hague ranks #12 globally for cycling with ~60% of streets at ≤30 km/h and a formal School Street program that closes roads during drop-off/pick-up, and Benoordenhout itself has very low perceived unsafety, placing in the top 10 least vulnerable areas for organized crime city-wide. The picture…"
+      mental_health: "The Netherlands ranks #1 in UNICEF's child well-being index across 43 OECD/EU countries with the lowest rate of problematic social media use and a national classroom smartphone ban in effect since 2024, backed by a multi-tier mental health system that puts a youth doctor and nurse in every school…"
+      peer_environment: Benoordenhout is a highly educated, genuinely international enclave — 74% of residents hold higher education degrees, 47% have a foreign background split evenly between European and non-European origins, and the district hosts two historic multi-sport clubs (De Diepput since 1878 and HBS Craeyenh…
+      family_practicality: Van Hoytemastraat delivers an exceptional high-street experience with 50+ shops including an artisan baker, butcher, fishmonger, greengrocer, and a world-renowned patisserie, and the district is well-served by The Hague's tram and bus network close to Den Haag Centraal. Critically, only two child…
+      health: HagaZiekenhuis's Juliana Kinderziekenhuis provides a dedicated 24/7 paediatric ER with Qualicor Europe accreditation a short drive away, Dutch tap water ranks among the world's best with 99.84% regulatory compliance and no chlorine disinfection needed, and Benoordenhout sits on elevated dune sand…
+      nature: Benoordenhout is bookended by two of The Hague's finest green assets — the 100-hectare protected Haagse Bos forest along its southern boundary and the historic Landgoed Clingendael estate with its renowned Japanese Garden, both free and open year-round, with the North Sea beach and dune reserves …
+    sources: [ "Funda/Huispedia Benoordenhout", "Den Haag city avg", "ASH/ISH/BSN school data", "The Hague Int'l Centre", "UNICEF RC19 2025", "Eurostar via Rotterdam" ]
+
+  - id: haarlem-zuid
+    city: Haarlem
+    country: Netherlands
+    country_code: NL
+    district: Haarlem-Zuid
+    blurb: "Affluent commuter city minutes from Amsterdam; selective gymnasiums, ISH campuses, Haarlemmerhout park, good value."
+    price_per_sqm: { lower: 5800, upper: 7500, average: 6400 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 4, peer_environment: 2.5, family_practicality: 3, health: 2.5, nature: 3.5 }
+    notes:
+      education: "Haarlem-Zuid sits on a sharp divide: Zuid-West offers well-regarded primary schools like OBS De Peppelaer with enriched programmes, 90–92% first-choice placement rates, and Mendelcollege's bilingual TTO secondary track across HAVO/atheneum/gymnasium, while the International School Haarlem provide…"
+      safe_independence: Haarlem-Zuid benefits from the world-class Dutch segregated cycle network and strong national independent-mobility culture (73% of 10-year-olds and 91% of 12-year-olds commute to school solo), reflected in a 75.63/100 Numbeo safety index and very low worry about mugging. However, the Bosch en Vaa…
+      mental_health: "The Netherlands ranks #1 in child well-being and #1 in mental well-being across 43 OECD/EU countries (UNICEF 2025), and Haarlem benefits from a multi-tier stepped-care model with youth mental health practitioners in GP practices, free anonymous helplines (Kindertelefoon, @ease), and the lowest ra…"
+      peer_environment: "Haarlem-Zuid is two sharply different worlds: the Zuid-West neighbourhoods (Haarlemmerhoutkwartier, Duinwijk) post average incomes of €52,400, 61% higher-educated households, low residential churn, and Haarlem's highest social cohesion scores, while Schalkwijk — the southern half — records income…"
+      family_practicality: Daycare and after-school care exist inside Haarlem-Zuid — CompaNanny De Wadden is co-located in a primary school and open until 18:30, and Hero Kindercentra runs multiple locations — but waiting lists are severe enough that providers recommend registering during the first trimester of pregnancy, …
+      health: Spaarne Gasthuis Haarlem Zuid — a full general hospital with a 24/7 emergency department and paediatric ward — sits physically inside the district at Boerhaavelaan 22, and Dutch tap water is among the world's best (99.84% of 682,474 measurements compliant, no chlorine disinfection needed). Howeve…
+      nature: Haarlem-Zuid borders the Haarlemmerhout — the oldest city park in the Netherlands at 60–100+ hectares with playgrounds and a city farm — and sits within a 20–30 minute bike ride of Nationaal Park Zuid-Kennemerland (3,800 hectares of coastal dunes with marked trails) and the Amsterdamse Waterleidi…
+    sources: [ "NVM region Q1-2025", "Funda/Huizenprijzen Haarlem-Zuid", "Scholen op de Kaart", "ISH Haarlem", "UNICEF RC19 2025" ]
+
+  - id: utrecht-oost-wittevrouwen
+    city: Utrecht
+    country: Netherlands
+    country_code: NL
+    district: Oost / Wittevrouwen
+    blurb: "Utrecht's most desirable family quarter by Wilhelminapark; elite gymnasiums, top university and hospital, premium price."
+    price_per_sqm: { lower: 5800, upper: 8000, average: 6400 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4, mental_health: 4, peer_environment: 2.5, family_practicality: 3.5, health: 3.5, nature: 4 }
+    notes:
+      education: Oost/Wittevrouwen sits in an educationally strong city with elite VWO gymnasia (Stedelijk, Christelijk, Utrechts Lyceum) accessible by bike and the full-IB International School Utrecht moving to a new €40M campus ~3–4 km away in 2027, but the district's own primary options are thin — a single Jen…
+      safe_independence: Dutch children cycle to school solo from ~8, and Oost backs that norm with segregated paths (Oosterspoorbaan park route), fietsstraten handling thousands of cyclists daily, and low violent crime at 2.5 assaults per 1,000 residents. The catch is that school-zone signage barely slows cars — 38% sti…
+      mental_health: "The Netherlands ranks #1 globally for child well-being and mental well-being (UNICEF 2025), with the lowest problematic social-media use among 44 countries, a national classroom smartphone ban since 2024, and low-threshold psych support via school JGZ teams, POH-GGZ Jeugd, Kindertelefoon, and @ea…"
+      peer_environment: The parents around you will be highly educated (64% theoretically opgeleid, incomes ~€47k) and the district is safe and orderly, with only 24 vandalism incidents and virtually no drug or alcohol nuisance registered. But only 13% of the 22,425 Oost households actually contain children — the other …
+      family_practicality: "Daily life is logistically easy: a GP and supermarket are 600 m away on average, the hospital is 1.1 km, and Utrecht Centraal is a short cycle at 2.1 km, all backed by the DigiD digital-identity system that unlocks everything from tax to healthcare online. The friction for an arriving expat famil…"
+      health: The Wilhelmina Kinderziekenhuis at UMC Utrecht is one of the Netherlands' seven flagship children's hospitals — handling 15,000+ paediatric admissions and 3,000 surgeries a year — and Dutch tap water is world-class, meeting 99.84% of quality measurements without chlorine. Offsetting this are a fe…
+      nature: Inside the district, Griftpark (12 ha) delivers a free petting zoo, one of the Netherlands' largest skateparks, a 220 m living wall, and a wild natural core, while elegant Wilhelminapark sits right next door; a 15-minute bike ride east opens into 200+ hectares of forest, orchards, and river walks…
+    sources: [ "Walter Living / Huispedia 2026 (back-adjusted)", "DUIC listings", "ISUtrecht.nl", "gemeente Utrecht", "OECD PISA 2022", "UNICEF RC19 2025" ]
+
+  - id: utrecht-tuindorp
+    city: Utrecht
+    country: Netherlands
+    country_code: NL
+    district: Tuindorp
+    blurb: "North Utrecht garden village: calm, family-oriented, more house and garden per euro than Oost, with a 30 km/h core."
+    price_per_sqm: { lower: 5000, upper: 6500, average: 5700 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 3.5, peer_environment: 3, family_practicality: 2.5, health: 3.5, nature: 3.5 }
+    notes:
+      education: OBS Tuindorp primary delivers outstanding eindtoets results (98.7% 1F, 77.7% 1S/2F) and Gerrit Rietveld College sits literally within the neighborhood offering the full VWO–HAVO–VMBO spectrum including gymnasium, but secondary-school quality is unverified by any public exam pass rates or inspecti…
+      safe_independence: Tuindorp benefits from Utrecht's world-class cycling network, a 30 km/h speed limit on ~70% of streets, and a school-street pilot that closes roads outside three local primaries each morning, yet cyclists are now the largest group of traffic fatalities in the city (45% of deaths), bicycle theft i…
+      mental_health: "The Netherlands ranks #1 in UNICEF child well-being and mental well-being among 43 OECD/EU countries, Utrecht offers a strong stepped-care model with school-based youth health teams and low-threshold services like Kindertelefoon and @ease, but the share of youth reporting high school pressure has…"
+      peer_environment: Tuindorp posts Utrecht's highest social-cohesion score (6.5/10) and second-highest neighbourhood rating (8.0/10), with low poverty (1.2% low-income households vs. ~6% nationally) and youth nuisance down 27% year-on-year, but the district is dominated by single-person households (48%) and apartmen…
+      family_practicality: OBS Tuindorp has formal BSO partnerships with three providers and Bus 28 reaches Utrecht Centraal in ~8–10 minutes and Science Park in ~12 minutes, but the bus is a packed student corridor during morning lectures, the Uithoflijn tram bypasses Tuindorp entirely, childcare data at neighbourhood lev…
+      health: Diakonessenhuis hospital sits within ~10 minutes with a Level 2 trauma centre, a full paediatric department, and a co-located GP out-of-hours post, Dutch tap water is chlorine-free and meets legal standards in 99.84% of measurements, and Tuindorp's sandy soil gives it better drainage and lower fl…
+      nature: Griftpark sits directly adjacent with a large playground, skatepark, city farm, and café, Voorveldse Polder's meadow landscape is an 8-minute bike ride, and the 230 km² Utrechtse Heuvelrug National Park offers forests, heathland, and castles only ~15–25 minutes by bike, but city-wide green space …
+    sources: [ "Walter Living 2026 (back-adjusted)", "Scholen op de Kaart (OBS Tuindorp)", "gemeente Utrecht 30km/h", "ISUtrecht.nl", "UNICEF RC19 2025" ]
+
+  - id: wageningen
+    city: Wageningen
+    country: Netherlands
+    country_code: NL
+    district: "Wageningen (town)"
+    blurb: "Green Veluwe university town: world #1 agri-science campus, classic Dutch bike town, great value, no train station."
+    price_per_sqm: { lower: 4000, upper: 4700, average: 4500 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 2.5, safe_independence: 4, mental_health: 3.5, peer_environment: 2.5, family_practicality: 3, health: 3, nature: 4.5 }
+    notes:
+      education: Multiple solid primary schools serve the town's neighborhoods, and Pantarijn ISK provides a structured Dutch-language bridge for international newcomer teens aged 12–18. However, Wageningen has no in-town HAVO or VWO secondary school — academic-track students must commute to Ede, Rhenen, or Arnhe…
+      safe_independence: Wageningen is compact, near-fully bikeable, and built around 30 km/h residential zones with physically separated cycle paths on faster roads; violent crime is extremely low (2.64 incidents per 1,000 residents, zero robberies in 2024) and the Ede-Wageningen fast cycle route (8.4 km, €21M) gives cy…
+      mental_health: "The Netherlands ranks #1 in child well-being globally (UNICEF 2025), has the lowest rate of problematic social-media use among 44 HBSC countries, and enforces a national classroom smartphone ban; a multi-tier mental-health system with school-based youth teams, Kindertelefoon, and @ease peer suppo…"
+      peer_environment: Wageningen is a university town where 48% of residents hold higher-education degrees (third nationally) and WUR draws students from 109 countries, creating an intellectually rich, internationally diverse atmosphere. But only 18% of households are families with children (versus 32% nationally), se…
+      family_practicality: Kinderopvang Wageningen runs six-plus BSO (after-school care) locations linked to specific primary schools for seamless end-of-day transitions, and bus 303 runs every 10 minutes at peak to Ede-Wageningen station where four intercity trains per hour reach Utrecht in ~25 minutes and Arnhem in ~15. …
+      health: Air quality is generally good (PM2.5 ~4–5 µg/m³ on clean days, meeting the WHO guideline), Dutch tap water is among the world's best (99.84% of measurements compliant), and Ziekenhuis Gelderse Vallei in neighbouring Ede has a dedicated paediatric department with emergency admissions and neonatolo…
+      nature: Two free-entry arboretums — Belmonte (largest rhododendron collection in the Benelux, 1,500+ species, open daily 7:00–22:00) and De Dreijen (21 hectares of botanical gardens) — sit within town, the Blauwe Kamer wetland reserve with its beavers and wild-grazing horses lies directly adjacent, and b…
+    sources: [ "HuisVerkopen/Huispedia Wageningen 2025", "QS by subject (WUR)", "OECD PISA 2022 NL", "UNICEF Innocenti RC19 2025", "NS.nl Ede-Wageningen" ]
+
+  - id: wassenaar
+    city: The Hague
+    country: Netherlands
+    country_code: NL
+    district: Wassenaar
+    blurb: "Elite green coastal suburb of The Hague: ASH on-site, dunes and beaches, bike-everywhere kids, but expensive."
+    price_per_sqm: { lower: 5000, upper: 13000, average: 6800 }
+    travel: { paris_hours: 4, paris_mode: train, yerevan_hours: 7.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 4, peer_environment: 3.5, family_practicality: 3, health: 3, nature: 4.5 }
+    notes:
+      education: Rijnlands Lyceum Wassenaar offers a full Dutch track (MAVO/HAVO/VWO) plus an IB stream, and the municipality is funding renovations of both the lyceum and local primary schools in its 2026 budget — but no school inspection ratings or exam results could be found for any Wassenaar school, early tra…
+      safe_independence: Wassenaar adopted 30 km/h on 98.5% of its built-up roads as of February 2026, the Dutch cycling network is world-class, and Bus 43 runs to Den Haag Centraal every 15–20 minutes — but physical traffic-calming is mostly not yet built (phased through 2032), the town has no train station, and the las…
+      mental_health: "The Netherlands ranked #1 in UNICEF child well-being and mental well-being among 43 OECD/EU countries, with the lowest rate of problematic social media use and a national school smartphone ban already in place, and every school has embedded youth health teams (JGZ) with low-threshold services lik…"
+      peer_environment: Wassenaar is one of the Netherlands' wealthiest municipalities (mean income €69,100 per earner, 65% highly educated in the southwest) with 15+ organised sports clubs, an international population (~1 in 5 residents) that supplies 74 nationalities at the American School, and low vandalism — but the…
+      family_practicality: Bus 43 connects the town to Den Haag Centraal in 14–18 minutes every 15–20 minutes, the A44/N44 motorway puts Leiden and Amsterdam within ~30 minutes by car, and the town centre has supermarkets (Albert Heijn, ALDI), HEMA, and multiple childcare/BSO options — but Wassenaar has no train station (a…
+      health: PM2.5 and NO₂ are well below EU legal limits (9.6 and 18.2 µg/m³ respectively) and Dutch tap water meets standards in 99.84% of measurements without chlorine, with multiple GP practices and an out-of-hours GP post inside the town — but both pollutants are nearly double the WHO 2021 guideline valu…
+      nature: De Horsten Royal Estates cover 886 hectares of landscaped parkland on Wassenaar's edge, the Meijendel and Berkheide dune reserves with 8+ marked hiking trails and the Monkeybos children's natural play forest border the town directly, Clingendael estate's Japanese Garden sits minutes away, and Nor…
+    sources: [ "funda.nl Wassenaar 2025", "Investropa/NVM", "American School of The Hague", "OECD PISA 2022 NL", "UNICEF Innocenti RC19 2025" ]
+  - id: eindhoven-gestel
+    city: Eindhoven
+    country: Netherlands
+    country_code: NL
+    district: Gestel
+    blurb: Green, quiet, and family-friendly with parks, schools, and a strong community vibe.
+    price_per_sqm: { lower: 3500, upper: 5000, average: 4200 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 4, peer_environment: 2.5, family_practicality: 3.5, health: 3, nature: 4 }
+    notes:
+      education: Gestel has several well-integrated primary schools (Hanevoet, De Trinoom) co-located with childcare in SPIL centres, and the Buratino Russian-language Sunday school runs at De Trinoom with ~250 students, but there are no secondary schools within the district itself, no published Cito scores or in…
+      safe_independence: "Eindhoven's cycling network is world-class (~270–400 km of paths, ~70% separated from traffic, ranked #11 globally) and the city has adopted a 30 km/h default speed limit, but the Bennekel neighbourhood within Gestel has persistent vandalism of playground equipment, drug-dealing reports, and inci…"
+      mental_health: "The Netherlands ranks #1 in UNICEF child well-being and mental well-being among 43 OECD/EU countries, backed by a strong preventative infrastructure: every school has a Youth Health Care team, Kindertelefoon and @ease offer free anonymous support, and a national classroom smartphone ban took effe…"
+      peer_environment: Gestel is described as a quiet, small-scale residential district with a diverse population, and Eindhoven is the least ethnically segregated of the four major Dutch cities (dissimilarity index of 0.25 for non-western migrants, far below Rotterdam's 0.55), but the Bennekel pocket has documented pe…
+      family_practicality: The SPIL centre Oldengaarde co-locates basisschool Hanevoet with Mamma Zebra daycare and after-school care in a single integrated campus, and the Kastelenplein shopping centre covers daily needs well with a Jumbo supermarket, Aldi, HEMA, pharmacy, and bakery open seven days a week. On the frictio…
+      health: Dutch tap water is among the world's best (99.84% regulatory compliance, no chlorine disinfection needed), and Gestel has real-time air-quality sensors with good snapshot readings (PM2.5 2.7 µg/m³ on a recent measurement), though the city-wide annual PM2.5 average of 6.3 µg/m³ exceeds the stricte…
+      nature: "Gestel is unusually green for a city district: Severijnpark offers waterside paths, birdwatching, and two playgrounds; Genderpark stretches along the Gender stream with a mini-forest of 600+ trees planted by schoolchildren; and the vast Genneper Parken — one of the largest parks in the Netherland…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: groningen-helpman
+    city: Groningen
+    country: Netherlands
+    country_code: NL
+    district: Helpman
+    blurb: Family-friendly suburb with parks, schools, and quiet streets near Groningen city center.
+    price_per_sqm: { lower: 2500, upper: 3500, average: 3000 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 6.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 4, peer_environment: 3, family_practicality: 3, health: 3.5, nature: 3 }
+    notes:
+      education: The Dutch VWO diploma offers a strong, nationally standardized university-entry pathway with four specialization streams and a cross-curricular research project, but early tracking at age 12 locks students into pathways and a structural shortage of 13,500–15,000 teachers nationwide means 1 in 9 p…
+      safe_independence: Dutch children famously walk and bike independently from age ~8–9 as a cultural norm, supported by world-class segregated cycleways and widespread 30km/h residential zones nationally, and Groningen's compact layout with good late transit makes solo teen mobility plausible. Helpman-specific traffi…
+      mental_health: "The Netherlands ranks #1 in UNICEF's 2025 child well-being index with the lowest problematic social media use among 44 HBSC countries (4–7% of teens) and a national school smartphone ban since 2024, backed by a multi-tier stepped-care model with JGZ youth health teams in every school and free ano…"
+      peer_environment: Helpman is described as a desirable, green, middle-to-upper residential area with stable housing stock and the Netherlands has strong youth sport and club infrastructure nationally, though the district's relative affluence may limit socioeconomic mix. Local data on organized activities, antisocia…
+      family_practicality: DigiD provides centralized digital access to tax, health, municipal, and immigration services across the Netherlands, and Groningen is compact with Helpman ~10–15 minutes from the center and main station by bus or bike. The BSN→DigiD activation chain requires a fixed address for the physical lett…
+      health: UMCG, a major teaching hospital with pediatric and ER services, is within city reach, and Dutch tap water ranks among the world's highest quality with 99.84% of measurements meeting legal standards and no chlorine disinfection needed. Groningen province carries induced-earthquake risk from gas ex…
+      nature: Helpman is reputed as one of Groningen's greener neighborhoods with tree-lined streets, and both Paterswoldsemeer lake and Stadspark are within reach to the south/southwest. The Waddenzee coast sits ~35km away and there are no forests or mountains nearby, meaning big-nature access is limited to o…
+    sources:
+      - DeepSeek estimate — refine
+  - id: nijmegen-oud-west
+    city: Nijmegen
+    country: Netherlands
+    country_code: NL
+    district: Oud-West
+    blurb: Historic green neighbourhood with parks, schools, and family-friendly amenities near city centre.
+    price_per_sqm: { lower: 3500, upper: 5000, average: 4200 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 4, peer_environment: 2, family_practicality: 3, health: 2.5, nature: 4 }
+    notes:
+      education: Oud-West offers solid Dutch public schooling with a genuine Montessori primary option (Lorentz Montessorischool) and city-wide access to Nijmegen's full range of secondary pathways including the selective Stedelijk Gymnasium, but the neighbourhood's lower-income profile (57% of households in the …
+      safe_independence: Dutch cycling infrastructure is the world's best and Nijmegen is expanding 30 km/h zones across half its streets, giving Oud-West children access to separated bike paths and a bus network (Breng, every 15 min at peak) rated safe at all hours; however, traffic injuries in the city have doubled in …
+      mental_health: "The Netherlands ranks #1 in UNICEF's child well-being index, Dutch teens report the lowest loneliness and easiest parent communication among 44 countries, and a strong stepped-care system (JGZ teams in every school, free anonymous helplines, POH-GGZ Jeugd in GP practices) provides low-threshold s…"
+      peer_environment: Oud-West has measurable ethnic diversity (23–24% migration background, no single group dominates) and some residential stability via married-couple households and 33% home ownership, but 57% of households are in the lowest 40% income bracket, 12% live at the social minimum, social housing is conc…
+      family_practicality: Day-to-day logistics are supported by multiple BSO/crèche providers (KION with 4 locations, Partou) and a walkable shopping centre with Albert Heijn and Aldi, while the 20-minute average bike commute serves local workers well; but childcare waiting lists are explicitly described as 'considerable'…
+      health: Radboudumc academic hospital with a dedicated paediatric ICU and emergency department sits within the city, Dutch tap water meets standards in 99.84% of measurements, and the Room for the River Waal project provides 100-year flood protection; but Oud-West's PM2.5 reading of 14.2 μg/m³ runs nearly…
+      nature: Kronenburgerpark provides a well-loved, renovated pocket park within Oud-West itself, and the 2,000+ hectare Ooijpolder nature reserve — with lakes, wild Galloway cattle, and the Spiegelwaal swimming beach with daily water-quality monitoring — lies immediately adjacent to the city, giving the nei…
+    sources:
+      - DeepSeek estimate — refine

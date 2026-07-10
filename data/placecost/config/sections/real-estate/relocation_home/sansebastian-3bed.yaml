@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · sansebastian-3bed — San Sebastián / Donostia — Antiguo-Ondarreta, the 3-BED size.
+# ~140 m² 3–4 bed flat/townhouse in the Antiguo quarter behind Ondarreta beach. Bought AT the (dynamic) move;
+# OFF by default, a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked
+# 2026: idealista city avg €6,426/m²; a good ~140 m² 3–4 bed in Antiguo (not front-line beach) ≈ €7,100/m².
+# Acquisition ~9%: Gipuzkoa ITP 7% resale (foral regime; 10% IVA if new) + notary/registry/gestoría ~1–2%.
+# The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys
+# at the appreciated price, not today's. EUR 1.00M.
+id: relocation_home
+variant_label: San Sebastián - Antiguo · 3-bed
+name: "San Sebastián - Antiguo home"
+enabled: false
+country: ES
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1000000
+appreciation_rate: 0.03
+purchase:
+  price: 1000000
+  date: 2033-09-01
+  acquisition_costs: 90000      # ~9%: ITP 7% (resale, Gipuzkoa foral rate) + notary/registry/gestoría ~2%
+mortgage:
+  principal: 800000             # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.03                # Spanish 30y fixed, 2026 market ~2.8–3.2%
+holding_costs:
+  local_property_tax: 1400      # IBI (Donostia): % of cadastral value — cadastral well below market
+  building_maintenance: 2800    # comunidad (building) fees + normal flat upkeep
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # primary residence: CGT exempt when reinvested in a new main home (or fully over-65)
+    annual_exemption_per_owner: 0
+    owners: 2

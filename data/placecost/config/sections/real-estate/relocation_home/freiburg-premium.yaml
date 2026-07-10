@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · freiburg-premium — Freiburg im Breisgau — Herdern, the PREMIUM size.
+# ~350 m² large high-spec villa on the Herdern hillside (forest-edge Gründerzeit / architect villa). Bought AT the
+# (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks the tier.
+# Price fact-checked 2026: Herdern house averages €5,900–6,950/m²; prime hillside villas trade well above the
+# district mean — a ~350 m² top villa ≈ €7,700/m². The engine projects this price (and the LTV-scaled mortgage)
+# to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 2.70M.
+# Acquisition ~10.5%: Baden-Württemberg Grunderwerbsteuer 5% + notary & land registry ~2% + buyer's agent share ~3.57%.
+id: relocation_home
+variant_label: Freiburg - Herdern · premium
+name: "Freiburg - Herdern home"
+enabled: false
+country: DE
+currency: EUR
+owned_from: 2033-09-01
+current_value: 2700000
+appreciation_rate: 0.03
+purchase:
+  price: 2700000
+  date: 2033-09-01
+  acquisition_costs: 283500
+mortgage:
+  principal: 2160000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.038               # German 10y+ fixed ~3.6–3.9% (2026)
+holding_costs:
+  local_property_tax: 900       # Grundsteuer — modest in Germany even post-2025 reform
+  building_maintenance: 8500
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # owner-occupied: exempt from German Spekulationssteuer
+    annual_exemption_per_owner: 0
+    owners: 2

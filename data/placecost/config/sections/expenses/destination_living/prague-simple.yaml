@@ -1,0 +1,70 @@
+# EXPENSES · destination_living · prague-simple — the SIMPLE post-move life in
+# Prague — Vinohrady (Praha 2), Czechia. ALL AMOUNTS IN CZK.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car + Prague transit passes, a few hours/week of cleaning help, occasional eating out, one main holiday + a few weekends, mid-tier INTERNATIONAL school (2 kids) + normal kids' activities.
+# Employed family on Czech public health insurance (payroll-funded, kids covered) → cash line is out-of-pocket only. Cleaning ~CZK 250–350/hr.
+# Education: two kids at a mid-tier international (e.g. Park Lane ~CZK 425k/child/yr, NOT the CZK 0.9–1.3M ISP flagship) ≈ CZK 850k/yr total.
+# ~1568000 CZK/yr (~130,700 CZK/mo, ≈ EUR 64k) excl. housing.
+# Fact-checked 2026: Numbeo Prague, Czech Statistical Office, ERU energy tariffs, DPP transit fares.
+id: destination_living
+variant_label: Prague - Vinohrady (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: CZK
+    growth: [{ year: 2026, per_year: 210000, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: CZK
+    growth: [{ year: 2026, per_year: 85000, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: CZK
+    growth: [{ year: 2026, per_year: 18000, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car + public transport"
+    category: Transport
+    currency: CZK
+    growth: [{ year: 2026, per_year: 90000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (a few hours/week)"
+    category: Staff
+    currency: CZK
+    growth: [{ year: 2026, per_year: 40000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (public insurance out-of-pocket)"
+    category: Lifestyle
+    currency: CZK
+    growth: [{ year: 2026, per_year: 25000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: CZK
+    growth: [{ year: 2026, per_year: 55000, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: CZK
+    growth: [{ year: 2026, per_year: 110000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: CZK
+    growth: [{ year: 2026, per_year: 30000, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: CZK
+    growth: [{ year: 2026, per_year: 55000, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: CZK
+    growth: [{ year: 2026, per_year: 850000, growth_rate: 0.03 }]

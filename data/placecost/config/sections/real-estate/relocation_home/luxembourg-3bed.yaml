@@ -1,0 +1,40 @@
+# REAL ESTATE · relocation_home · luxembourg-3bed — Luxembourg City — Belair, the 3-BED size.
+# ~140 m² 3–4 bed family home (townhouse or large apartment) in the leafy embassy quarter, walk to the parks
+# + European School. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the
+# "Home size" toggle picks the tier. Price fact-checked 2026: Belair asking ~€12,500/m² avg (Immotop/atHome
+# May-2026: €12,516/m²; quality stock ~€11,000–13,500/m², Observatoire de l'Habitat/LISER agrees); a ~140 m²
+# 3–4 bed in decent (not top-spec) condition ≈ €11,500/m². The engine projects this price (and the LTV-scaled
+# mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 1.60M.
+# Acquisition: 7% reg+transcription (€112,000) MINUS Bëllegen Akt €80,000 (couple, primary residence) + notary
+# ~€16,000 → net ≈ €48,000 ≈ 3.0% — the flat €80k credit bites hardest at this price point.
+# Holding: impôt foncier negligible (~€200–600/yr even post-2026-reform noises) + maintenance.
+# Sale: primary residence fully CGT-exempt; agency ~3% + VAT (seller-side custom).
+id: relocation_home
+variant_label: Luxembourg - Belair · 3-bed
+name: "Luxembourg - Belair home"
+enabled: false
+country: LU
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1600000
+appreciation_rate: 0.03
+purchase:
+  price: 1600000
+  date: 2033-09-01
+  acquisition_costs: 50000      # 7% reg+transcription (112k) − 80k Bëllegen Akt (couple) + ~16k notary ≈ 3.0%
+mortgage:
+  principal: 1280000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 300       # impôt foncier is negligible in LU (~€200–600/yr even post-reform)
+  building_maintenance: 4000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence exempt
+    annual_exemption_per_owner: 0
+    owners: 2

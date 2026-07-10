@@ -1,0 +1,69 @@
+# EXPENSES · destination_living · woluwe-simple — the SIMPLE post-move life in
+# Woluwe-Saint-Pierre (Brussels, Belgium).
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car, a few hours/week of cleaning help, occasional eating out, one main holiday + a few weekends, international/bilingual school (2 kids) + normal kids' activities.
+# Belgian mutualité is funded via payroll; the cash line is co-pays + a private hospitalisation top-up (DKV). Help via titres-services ≈ €11.40/hr net (the federal tax break ends in 2026).
+# ~69000 EUR/yr (~5750 EUR/mo) excl. housing.
+# Fact-checked 2026: Numbeo Brussels, CREG, DKV/Bobex, Brussels titres-services 2026, Touring car costs.
+id: destination_living
+variant_label: Woluwe-Saint-Pierre (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 9600, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 5000, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1200, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car + public transport"
+    category: Transport
+    currency: EUR
+    growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (titres-services, a few hrs/week)"
+    category: Staff
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (co-pays + hospitalisation top-up)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1500, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3000, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1200, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3500, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: EUR
+    growth: [{ year: 2026, per_year: 32000, growth_rate: 0.03 }]

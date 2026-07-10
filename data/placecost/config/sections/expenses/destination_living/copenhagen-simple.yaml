@@ -1,0 +1,72 @@
+# EXPENSES · destination_living · copenhagen-simple — the SIMPLE post-move life in
+# Copenhagen — Frederiksberg (green enclave, best schools), Denmark.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one small/older car
+# (Danish registreringsafgift makes cars brutal — bikes/cargo-bike + metro carry most trips), essentially no
+# domestic help (cleaning ~DKK 250/hr — Danes do it themselves), occasional eating out, one main holiday + a few
+# weekends, mid-tier international school (2 kids) + normal kids' activities.
+# Healthcare is essentially free (tax-funded) → the cash line is dental/glasses out-of-pocket only.
+# ~564200 DKK/yr (~47000 DKK/mo) excl. housing.
+# Fact-checked 2026: Numbeo Copenhagen, Danmarks Statistik, FDM (car costs), Forbrugerrådet Tænk.
+id: destination_living
+variant_label: Copenhagen - Frederiksberg (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: DKK
+    growth: [{ year: 2026, per_year: 78000, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: DKK
+    growth: [{ year: 2026, per_year: 30000, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: DKK
+    growth: [{ year: 2026, per_year: 7200, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "One modest car + bikes + public transport"
+    category: Transport
+    currency: DKK
+    growth: [{ year: 2026, per_year: 42000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (rare, ~DKK 250/hr)"
+    category: Staff
+    currency: DKK
+    growth: [{ year: 2026, per_year: 8000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (tax-funded; dental/glasses out-of-pocket)"
+    category: Lifestyle
+    currency: DKK
+    growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: DKK
+    growth: [{ year: 2026, per_year: 21600, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: DKK
+    growth: [{ year: 2026, per_year: 40000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: DKK
+    growth: [{ year: 2026, per_year: 15000, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: DKK
+    growth: [{ year: 2026, per_year: 26400, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: DKK
+    growth: [{ year: 2026, per_year: 290000, growth_rate: 0.03 }]

@@ -1,0 +1,41 @@
+# REAL ESTATE · relocation_home · luxembourg-premium — Luxembourg City — Belair, the PREMIUM size.
+# ~350 m² large high-spec house in the best streets of the embassy quarter (walk to the parks + European School).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks
+# the tier. Price fact-checked 2026: Belair is the capital's price ceiling — avg asking ~€12,500/m² (Immotop/atHome
+# May-2026), quality stock ~€11,000–13,500/m² and well-positioned/modern properties €14,000–17,000/m²
+# (atHome district data, Observatoire de l'Habitat/LISER); a ~350 m² top house ≈ €13,000/m². The engine projects
+# this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated
+# price, not today's. EUR 4.55M.
+# Acquisition: 7% reg+transcription (€318,500) MINUS Bëllegen Akt €80,000 (couple, primary residence) + notary
+# ~€40,000 → net ≈ €278,500 ≈ 6.1% — the flat credit barely dents it at this price.
+# Holding: impôt foncier negligible (~€200–600/yr even post-2026-reform noises) + maintenance.
+# Sale: primary residence fully CGT-exempt; agency ~3% + VAT (seller-side custom).
+id: relocation_home
+variant_label: Luxembourg - Belair · premium
+name: "Luxembourg - Belair home"
+enabled: false
+country: LU
+currency: EUR
+owned_from: 2033-09-01
+current_value: 4550000
+appreciation_rate: 0.03
+purchase:
+  price: 4550000
+  date: 2033-09-01
+  acquisition_costs: 280000     # 7% reg+transcription (318.5k) − 80k Bëllegen Akt (couple) + ~40k notary ≈ 6.1%
+mortgage:
+  principal: 3640000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 600       # impôt foncier is negligible in LU (~€200–600/yr even post-reform)
+  building_maintenance: 12000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence exempt
+    annual_exemption_per_owner: 0
+    owners: 2

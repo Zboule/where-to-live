@@ -1,0 +1,35 @@
+# REAL ESTATE · relocation_home · lisbon-premium — Lisbon — Alvalade, the PREMIUM size.
+# ~350 m² large high-spec house — Restelo-level product (top Alvalade townhouse or an equivalent Restelo villa).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks
+# the tier. Price fact-checked 2026: idealista Alvalade avg €6,085/m² (May 2026); prime renovated houses in
+# Alvalade/Restelo run €7,500–10,000/m² → ~350 m² top house ≈ €8,550/m². The engine projects this price (and the
+# LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 3.00M.
+id: relocation_home
+variant_label: Lisbon - Alvalade · premium
+name: "Lisbon - Alvalade home"
+enabled: false
+country: PT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 3000000
+appreciation_rate: 0.03
+purchase:
+  price: 3000000
+  date: 2033-09-01
+  acquisition_costs: 250000     # ~8.3%: IMT 7.5% flat above ~€1.10M bracket (€225k) + stamp duty 0.8% (€24k) + notary/registration (~€2k)
+mortgage:
+  principal: 2400000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.032               # PT 2026 fixed/mixed-rate mortgages ~3.0–3.4%
+holding_costs:
+  local_property_tax: 8600      # IMI: Lisbon 0.3% on VPT (~€1.7M here → ~€5.1k) + AIMI: 0.7% on VPT above €600k/person (€1.2M/couple) → ~€0.5M excess ≈ €3.5k/yr
+  building_maintenance: 9000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real PT agency fees run ~5%+VAT — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence: PT CGT exempt when proceeds are reinvested in the next main home
+    annual_exemption_per_owner: 0
+    owners: 2

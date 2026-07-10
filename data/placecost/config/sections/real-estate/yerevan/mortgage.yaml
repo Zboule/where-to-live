@@ -1,0 +1,47 @@
+# REAL ESTATE · yerevan · mortgage — Yerevan 2BR, local USD mortgage (70% LTV).
+# Same property as the cash variant; financed locally (UAE/GCC banks won't lend on
+# Armenian collateral). Local USD mortgages are pricey (~8.5%). See default.yaml.
+id: yerevan
+variant_label: Local mortgage (70% LTV)
+name: "Yerevan apartment"
+enabled: false
+country: AM
+currency: USD
+owned_from: 2027-07-01
+current_value: 168000
+appreciation_rate: 0.03
+reinvest_surplus_to: brokerage
+purchase:
+  price: 168000
+  date: 2027-07-01
+  acquisition_costs: 5040
+mortgage:
+  principal: 117600            # 70% LTV; 30% + fees in cash
+  first_payment_date: 2027-08-04
+  last_payment_date: 2042-07-04   # 15 years
+  rate_periods:
+    - rate: 0.085              # local USD mortgage ~8.5%
+self_use_saving:
+  per_year: 3000
+  currency: USD
+rental:
+  active_from: 2027-07-01
+  gross_per_month: 1275
+  rent_growth_rate: 0.03
+  average_tenancy_years: 1
+  vacancy_months_per_turnover: 0
+  find_new_tenant_fee_rate: 0
+  management_fee_rate: 0.25
+  tax:
+    rate: 0.10
+    basis: gross
+holding_costs:
+  local_property_tax: 50
+  building_maintenance: 600
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.03
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 1

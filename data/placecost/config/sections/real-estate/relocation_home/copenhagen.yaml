@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · copenhagen — Copenhagen — Frederiksberg (green enclave, best schools), the COMFORTABLE size.
+# ~230 m² 4–5 bed family villa/large apartment. Bought AT the (dynamic) move; OFF by default, a relocation scenario
+# turns it on and the "Home size" toggle picks the tier. Price fact-checked 2026 (Boliga/Boligsiden/Finans Danmark):
+# Frederiksberg is Denmark's most expensive municipality — realized apartment prices ~DKK 80,479/m² (Q1 2026),
+# villas/rækkehuse ~DKK 85,967/m² (asking spread ~59k–131k/m²). A ~230 m² quality family home ≈ DKK 80,000/m².
+# NOTE: this is ABOVE the older DKK 55–75k/m² band — 2025-26 prices set new records. The engine projects this price
+# (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. DKK 18.4M.
+id: relocation_home
+variant_label: Copenhagen - Frederiksberg
+name: "Copenhagen - Frederiksberg home"
+enabled: false
+country: DK
+currency: DKK
+owned_from: 2033-09-01
+current_value: 18400000
+appreciation_rate: 0.03
+purchase:
+  price: 18400000
+  date: 2033-09-01
+  acquisition_costs: 275000     # cheap by EU standards ~1.5%: tinglysningsafgift (deed) 0.6% + DKK 1,850 fixed + lawyer/berigtigelse ~DKK 20–30k (mortgage registration extra, folded into the loan)
+mortgage:
+  principal: 14720000           # 80% LTV realkredit (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.038               # Danish realkredit 30y fixed callable ~3.5–4% (2026); incl. bidragssats (admin margin)
+holding_costs:
+  local_property_tax: 145000    # ejendomsværdiskat 0.51% of taxable value (80% of assessment) up to DKK 9.4M + 1.4% above ≈ DKK 122k, plus grundskyld (land tax, Frederiksberg low ~0.51% of land value) ≈ DKK 23k
+  building_maintenance: 55000   # ~0.3%/yr of value — older Frederiksberg villa stock needs steady upkeep
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # parcelhusreglen — gains on the owner-occupied home are tax-exempt in Denmark
+    annual_exemption_per_owner: 0
+    owners: 2

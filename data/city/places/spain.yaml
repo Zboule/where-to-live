@@ -1,0 +1,124 @@
+districts:
+  - id: barcelona-sarria-sant-gervasi
+    city: Barcelona
+    country: Spain
+    country_code: ES
+    district: "Sarrià-Sant Gervasi"
+    blurb: "Barcelona's leafy uptown: biggest intl-school cluster, ESADE/IESE next door, but hot summers and city petty crime."
+    price_per_sqm: { lower: 5400, upper: 8900, average: 6300 }
+    travel: { paris_hours: 2.5, paris_mode: flight, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3, family_practicality: 3, health: 3, nature: 4.5 }
+    notes:
+      education: Sarrià-Sant Gervasi hosts genuinely elite international schools — British School Barcelona (Top 10 European IB School 2026) and Benjamin Franklin International School (American + IB, 50+ nationalities) — but the public system is the most under-enrolled in Barcelona at just 12% of 3–16-year-olds v…
+      safe_independence: Barcelona's Ciutat 30 policy keeps 75% of streets at 30 km/h with pedestrian fatality risk dropping from 45% to 5%, and 70% of children citywide use active commuting to school, but major arteries — Via Augusta, Ronda General Mitre, Carrer Balmes — cut through the district at over 80 dB peak noise…
+      mental_health: Spain's school-psychologist coverage is among Europe's best (77% of schools) and cannabis use among teens shows a long-term decline, but only 27% of Spanish adolescents rate their health as excellent or very good — down sharply from 36% in 2018 — and alcohol prevalence remains strikingly high at …
+      peer_environment: "Sarrià-Sant Gervasi is Barcelona's wealthiest and safest district — average per-capita income €35,062 (84% above city average) with good sports amenities like Can Caralleu and FESS La Salle bouldering — but it is also the city's least diverse: only 4% foreign-origin students, 0% high-complexity p…"
+      family_practicality: The FGC L6 train gives a 12-minute direct commute to Plaça Catalunya every ~10 minutes and Spain ranks top-10 in the EU for digital public services, but the district's 12% public-school enrollment rate leaves public childcare and after-school options sparse, and all government forms, platforms, a…
+      health: Sant Joan de Déu — Catalonia's top paediatric hospital with a dedicated A&E — is a 10–15 minute drive away, and Barcelona's NO₂ pollution dropped 14% in 2025 to decade-best levels, but all seven city monitoring stations still exceed the WHO PM₂.₅ guideline of 5 µg/m³ with levels stable since 2013…
+      nature: At 68% vegetated surface — the highest of any Barcelona district — Sarrià-Sant Gervasi has Collserola Natural Park (8,000+ hectares) directly on its doorstep with well-maintained trails for hiking and biking, Mediterranean beaches reachable in 20–30 minutes, and the Pyrenees roughly two hours awa…
+    sources: [ "idealista Sarria-Sant Gervasi 2024-25", "Engel & Völkers Barcelona", "catalannews/OECD PISA 2022 Catalonia", "Numbeo Barcelona", "ASPB air 2024" ]
+
+  - id: san-sebastian-centro-gros
+    city: San Sebastián
+    country: Spain
+    country_code: ES
+    district: "Centro / Gros"
+    blurb: "Spain's safest, most walkable city: lush, civic, Basque-immersion schools; superb for kids, pricey and rainy."
+    price_per_sqm: { lower: 6300, upper: 8700, average: 8000 }
+    travel: { paris_hours: 5.5, paris_mode: flight, yerevan_hours: 13.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 4, mental_health: 3, peer_environment: 3, family_practicality: 2.5, health: 3.5, nature: 3.5 }
+    notes:
+      education: Centro/Gros sits in a region with strong public education—Basque Country PISA maths (482) beats the OECD average, Gipuzkoa public primaries average just 16.6 pupils per class with an 8.3 pupil-teacher ratio, and trilingual Model D programs (Basque/Spanish/English) are well-established in local se…
+      safe_independence: San Sebastián is Spain's second-safest city (23 crimes per 1,000 inhabitants, half the national average), and Centro/Gros benefits from one of Spain's pioneering Safe Routes to School programs—54% of Donostia students already walk or cycle to school, supported by 65–80 km of segregated bidegorri …
+      mental_health: Spain ranks a strong 7th out of 43 OECD/EU countries on UNICEF's child well-being index, and 77% of Spanish schools have a psychologist on staff—among the highest rates in Europe—backed by integrated Psychopedagogical Teams. The concerning side is a sharp post-pandemic decline in adolescent self-…
+      peer_environment: Centro and Gros have the city's highest university-education rates (36% and 32%), strong average incomes, very low unemployment, and a rich youth sports ecosystem anchored by the Real Sociedad cantera and Gipuzkoa Basket's Harrobia program—all set in Spain's second-safest city with low antisocial…
+      family_practicality: A new public haurreskola in Gros adds 34 places to a publicly funded Basque Government childcare system, and Spain's e-government services rank among the EU's top 10 for digital access—but the citywide total of 670 public 0–2 places for 186,000 residents remains sparse, and every administrative p…
+      health: The Hospital Universitario Donostia includes a dedicated Materno-Infantil wing with a 24-hour paediatric emergency department about 15–20 minutes from the district, and the city has achieved a dramatic noise-exposure reduction (from 43% of the population above 55 dB(A) in 2003 to just 8% in 2017)…
+      nature: "Monte Ulia natural park (32 ha) rises directly from Gros's edge, Cristina Enea Park (9.5 ha) sits at the Centro/Gros boundary, and the calm, sheltered waters of La Concha Beach make it one of Spain's best family swimming beaches—all EMAS and ISO 14001 certified. The trade-offs are immediate: Cent…"
+    sources: [ "Idealista Donostia/Centro/Gros 2024-25", "Eustat/Irekia PISA 2022 Euskadi", "micole.net schools", "Numbeo crime", "Climates to Travel", "DBus/Euskotren" ]
+
+  - id: sant-cugat-del-valles
+    city: Barcelona
+    country: Spain
+    country_code: ES
+    district: "Sant Cugat del Vallès"
+    blurb: "Green family suburb over the hill from Barcelona: villas, big intl-school belt, cooler than the city, FGC to centre."
+    price_per_sqm: { lower: 4200, upper: 6500, average: 4900 }
+    travel: { paris_hours: 2.5, paris_mode: flight, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3.5, health: 3.5, nature: 4.5 }
+    notes:
+      education: Sant Cugat benefits from affluent-area public schools and access to established international options like the European International School of Barcelona and Agora International School offering IB and bilingual pathways. However, the standard Spanish Bachillerato is taught in Spanish/Catalan—a ba…
+      safe_independence: Sant Cugat consistently ranks among Spain's safest municipalities with an affluent, family-oriented suburban character, and the FGC train provides a reliable ~30-minute link to Barcelona for teen autonomy. Specific data on traffic calming, segregated cycle infrastructure, and child modal-share pa…
+      mental_health: "Spain's UNICEF child well-being rank of 7th out of 43 OECD/EU countries and the presence of school psychologists in 77% of Spanish schools provide strong structural backing, but the on-the-ground picture is strained: Spanish teens do 6.5 hours of homework per week (5th highest in the OECD), 65% o…"
+      peer_environment: As one of Spain's wealthiest municipalities, Sant Cugat offers residential stability, high educational attainment among families, and the organised activities that come with well-funded municipal programmes. The trade-off is a risk of socioeconomic monoculture compared to more diverse Barcelona p…
+      family_practicality: "Spain's digital public services rank in the EU top 10 with standout user-centricity, and the FGC S1/S2 lines offer frequent ~30-minute service to Barcelona, making commutes manageable. The friction point is language: all official forms, digital certificates, and platforms operate in Spanish or Ca…"
+      health: The Hospital Universitari General de Catalunya sits within Sant Cugat and Barcelona's broader healthcare system is excellent for paediatric and emergency care, while tap water meets 99.5% of EU/WHO safety standards—though it has the poor taste typical of Barcelona's hard-water area. The chief con…
+      nature: Sant Cugat borders the Serra de Collserola—one of Europe's largest metropolitan natural parks at ~8,000 hectares, with extensive marked trails reachable on foot from much of town—and Mediterranean beaches are accessible within 30–40 minutes by train. The combination of abundant in-district green …
+    sources: [ "idealista Sant Cugat 2024-25", "micole.net schools", "OECD PISA 2022 Catalonia", "Numbeo Barcelona" ]
+
+  - id: vitoria-gasteiz-centro
+    city: Vitoria-Gasteiz
+    country: Spain
+    country_code: ES
+    district: "Centro / Ensanche"
+    blurb: "European Green Capital: ringed by a green belt, very safe, trilingual schools, best value of the Basque cities."
+    price_per_sqm: { lower: 2650, upper: 3650, average: 3050 }
+    travel: { paris_hours: 5.5, paris_mode: flight, yerevan_hours: 13, yerevan_mode: flight }
+    scores: { education: 2.5, safe_independence: 4, mental_health: 2, peer_environment: 2.5, family_practicality: 2.5, health: 3, nature: 4 }
+    notes:
+      education: Basque Country PISA results are solid (maths 482, science 480) and the Spanish ESO+Bachillerato+FP system offers reasonable breadth, but Vitoria-Gasteiz has the second-highest school segregation rate in Spain with 95% of foreign-origin students concentrated in public schools, ZERO IB World School…
+      safe_independence: Vitoria-Gasteiz's superblock system has pedestrianised over 50 streets and eliminated through-traffic from the centre, 171 km of bike lanes put 70% of residents within 250 m of a protected cycle route, and the city logs near-zero violent crime (zero homicides across recent reporting periods); how…
+      mental_health: Spain ranks 7th overall on UNICEF's child well-being index (2025) and school psychologists are present in 77% of schools — structural supports are genuinely strong — but only 27% of Spanish adolescents rate their health as excellent or very good (down from 36% in 2018), 65% of 15-year-olds feel s…
+      peer_environment: Ensanche is a traditionally well-off professional neighbourhood with low unemployment and above-average education levels, and the city runs structured youth clubs from ages 1 through 18 plus an annual street games festival, but the district's population is conspicuously aging (more residents over…
+      family_practicality: Vitoria-Gasteiz has a compact tram-and-bus network and Spain's digital public services rank among the EU's top 10 (97% online), but NONE of the five municipal nursery schools are in Ensanche — total capacity is roughly 28 classrooms for a city of 253,000 — all government forms and digital certifi…
+      health: PM2.5 typically hovers at 6–9 µg/m³ (modestly above the WHO 2021 guideline of 5 µg/m³, though well within US AQI Good), noise exposure has been cut dramatically city-wide (only 6.2% of the population now exposed to night noise above 55 dB, down from 39% in 2003), Osakidetza's Hospital Universitar…
+      nature: Vitoria-Gasteiz packs 50 m² of green space per inhabitant — nearly triple London and Barcelona — anchored by the 30 km Anillo Verde (Green Ring) of interconnected parks encircling the entire city with the Ramsar-listed Salburua wetlands just 3 km from the centre and the Ullíbarri-Gamboa reservoir…
+    sources: [ "idealista Vitoria 2025", "educavis schools", "Irekia PISA 2022 Euskadi", "Numbeo Vitoria", "European Commission Green Capital 2012" ]
+  - id: girona-eixample
+    city: Girona
+    country: Spain
+    country_code: ES
+    district: Eixample
+    blurb: Historic center with tree-lined streets, parks, and excellent schools, ideal for families.
+    price_per_sqm: { lower: 2500, upper: 4000, average: 3200 }
+    travel: { paris_hours: 6.5, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3.5, health: 3, nature: 4 }
+    notes:
+      education: Eixample has one solid public primary (Escola Verd) and a semi-private alternative (Dr. Masmitjà) within the barrio, plus nearby public instituts with PAU scores of 9.1–9.5 in adjacent 17007, but no public secondary school inside Eixample proper and two high-quality international schools (Montjuï…
+      safe_independence: Girona offers 13 local bus routes with dedicated youth passes (T-12, T-16, T-Jove) and a Clic.cat on-demand night bus for teens, and the Comerç Amic programme makes 88.7% of surveyed pupils feel safer walking unaccompanied, but the bike network relies heavily on painted lanes with no physical seg…
+      mental_health: "Spain's structural framework is strong — 77% of schools have psychologists, LOMLOE has de-emphasised high-stakes grade repetition, and a national expert committee recommends no digital devices for under-12s — but the on-the-ground picture is worrying: only 27% of Spanish adolescents rate their he…"
+      peer_environment: Eixample is Girona's most affluent, professional, family-oriented barrio with the city's highest price per m² (~€3,800) and 5 active scout groups plus a Girona FC academy and 6+ local football clubs, but it sits on the low-diversity end of a sharply segregated city — foreign-born population range…
+      family_practicality: "Daily life in Eixample is genuinely convenient: the Mercat del Lleó fresh-food market is in the barrio, AMPAs at most schools organise after-school activities and holiday camps, and the AVE whisks commuters to Barcelona Sants in 38 minutes with 20–36 daily trains, but almost everything closes on …"
+      health: Hospital Universitari Dr. Josep Trueta provides a 24/7 paediatric emergency department and serves 740,000 people as the regional paediatric reference centre, annual PM2.5 at 9.6 µg/m³ and NO₂ at 10–27 µg/m³ sit within EU legal limits, and 99.5% of tap water meets safety standards, but PM2.5 is 1.…
+      nature: Parc de la Devesa is a genuine standout — 40 hectares of 55–60m plane trees forming a cathedral-like canopy, open 24/7 with playgrounds, sports courts, and a swimming pool, right at Eixample's edge — and Girona sits at the foothills of the Pyrenees ~35 km from Costa Brava beaches with the 12,000 …
+    sources:
+      - DeepSeek estimate — refine
+  - id: madrid-pozuelo
+    city: Madrid
+    country: Spain
+    country_code: ES
+    district: Pozuelo de Alarcón
+    blurb: "Spain's richest suburb: chalets, top schools, very safe, 25min to Madrid; car-dependent and 40C summers."
+    price_per_sqm:
+      lower: 3900
+      upper: 6200
+      average: 4950
+    travel:
+      paris_hours: 4.5
+      paris_mode: flight
+      yerevan_hours: 11
+      yerevan_mode: flight
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Pozuelo's standout is IES Gerardo Diego, a rare PUBLIC IB World School (MYP + DP) with the prestigious Bachillerato de Excelencia programme — yet 77% of families opt out of the public system entirely, and zero standardized test results or EVAU outcomes are publicly available for any Pozuelo schoo…
+      safe_independence: Pozuelo is Spain's statistically safest city (18.97 crimes/1,000 — less than half the national average), and the Walk to School programme engages 32 schools, but the district is profoundly car-dependent with 738 vehicles per 1,000 inhabitants, a 60/100 bikeability score, and a midnight Cercanías …
+      mental_health: Spain ranks 7th of 43 OECD/EU countries on UNICEF's child well-being index and 77% of schools have psychologists, but only 27% of Spanish adolescents rate their health as excellent (down sharply from 36% in 2018), fewer than one-third report high life satisfaction, and Madrid's counsellor-to-stud…
+      peer_environment: Pozuelo is Spain's wealthiest municipality by every official metric (€88,011/year mean income, 2× national average; 62% higher education), with ~20 sports clubs fielding 400+ youth teams and five international schools bringing some diversity — but it is also a paradigmatic case of elite residenti…
+      family_practicality: Cercanías trains run every 15 minutes to central Madrid (Atocha in ~22 min, Chamartín in ~35 min) and Pozuelo Centro earns a 75/100 walkability score with abundant amenities, but the Cercanías network is in a government-acknowledged reliability crisis (1,000+ incidents in 2024, only 80.7% regular…
+      health: Hospital Universitario Puerta de Hierro is 7 km away with a 24/7 paediatric ER, Level III-A NICU, and 20 neonatal beds, air quality is reasonable for a major metro area (NO₂ ~17 µg/m³, PM2.5 ~9–10 µg/m³), and the municipality has zero registered industrial polluters — but PM2.5 sits at roughly 2×…
+      nature: Casa de Campo — Spain's largest urban park at 1,700+ hectares (5× Central Park) — directly borders Pozuelo with multiple pedestrian entrances, and the district itself maintains 53 formal parks, 225,000+ trees, and the free public Parque Forestal Adolfo Suárez, while Sierra de Guadarrama National …
+    sources:
+      - Idealista/RealAdvisor 2025
+      - INE Atlas de Renta 2022 + AEAT
+      - PISA 2022 Comunidad de Madrid
+      - AEMET/Climate Central

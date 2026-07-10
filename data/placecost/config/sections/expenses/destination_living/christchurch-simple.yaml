@@ -1,0 +1,70 @@
+# EXPENSES · destination_living · christchurch-simple — the SIMPLE post-move life in
+# Christchurch — Fendalton, New Zealand. ALL amounts in NZD.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# rates or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car (still needed — NZ is car country), the odd cleaning visit (~NZD 35–40/hr), occasional eating out, one main holiday (even a single Europe trip dominates the travel line) + Kiwi weekends away, mid-tier private school (2 kids) + normal kids' activities.
+# Health: public system + basic Southern Cross cover + GP co-pays.
+# Education: mid-tier private day school (e.g. St Margaret's / Christ's College ~NZD 27.5k/child/yr) for TWO kids ≈ NZD 55k/yr.
+# ~112000 NZD/yr (~9330 NZD/mo) excl. housing.
+# Fact-checked 2026: Numbeo Christchurch, Stats NZ HES, MBIE (power), AA NZ (cars), Southern Cross.
+id: destination_living
+variant_label: Christchurch - Fendalton (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: NZD
+    growth: [{ year: 2026, per_year: 16800, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Power / water / heating"
+    category: Home
+    currency: NZD
+    growth: [{ year: 2026, per_year: 4800, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: NZD
+    growth: [{ year: 2026, per_year: 1800, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car + public transport"
+    category: Transport
+    currency: NZD
+    growth: [{ year: 2026, per_year: 9000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (odd visit, ~NZD 35–40/hr)"
+    category: Staff
+    currency: NZD
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (public + basic Southern Cross + GP co-pays)"
+    category: Lifestyle
+    currency: NZD
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants & cafés"
+    category: Lifestyle
+    currency: NZD
+    growth: [{ year: 2026, per_year: 4200, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel (one main holiday — Europe from NZ is expensive)"
+    category: Lifestyle
+    currency: NZD
+    growth: [{ year: 2026, per_year: 8400, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: NZD
+    growth: [{ year: 2026, per_year: 3000, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: NZD
+    growth: [{ year: 2026, per_year: 4200, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: NZD
+    growth: [{ year: 2026, per_year: 55000, growth_rate: 0.03 }]

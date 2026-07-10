@@ -1,0 +1,131 @@
+# EXPENSES · household · great-life — "Abu Dhabi · part 2", the PREMIUM version.
+# A forward-looking re-think of the UAE budget if the family STAYS in Abu Dhabi and
+# levels UP: a Saadiyat villa, two premium cars, full household staff (live-in maid +
+# full-time governess), fine dining, and frequent business-class travel. Same line-item
+# structure as `default` so the breakdown chart and the engine's UAE-vs-destination
+# split (non-`dl_` ids = UAE budget) keep working unchanged.
+#
+# Anchored at 2026 and grown with inflation. ~134k AED/mo (~2.2× the current budget).
+# School fees are NOT included here (kept off-budget, as in `default`) — add an
+# Education line if you want Cranleigh/ACS modelled in. AED/month unless per_year.
+id: household
+variant_label: Gorgeous
+order: 3
+name: "Living expenses"
+items:
+  # ---- Home ----  (Saadiyat villa, premium running costs)
+  - id: rent
+    name: "Rent"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 225000, growth_rate: 0.03 }   # villa / prime beachfront
+      - { year: 2027, per_year: 320000, growth_rate: 0.03 }   # villa / prime beachfront
+  - id: utilities
+    name: "Electricity / Water / Taxes"
+    category: Home
+    currency: AED
+    # Villa with pool + heavy AC load.
+    growth:
+      - { year: 2026, per_month: 1645, growth_rate: 0.02 }
+  - id: internet_phone
+    name: "Internet / phone"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 950, growth_rate: 0.02 }
+  - id: groceries
+    name: "Groceries"
+    category: Home
+    currency: AED
+    # Premium / organic, regular entertaining at home.
+    growth:
+      - { year: 2026, per_month: 6000, growth_rate: 0.02 }
+  - id: home_equipment
+    name: "Home equipment"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 5000, growth_rate: 0.02 }
+
+  # ---- Transport ----  (two premium cars, run as a steady replacement fund)
+  - id: car_payment
+    name: "Cars"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 8000, growth_rate: 0.02 }
+  - id: car_insurance
+    name: "Car insurance"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 6510, growth_rate: 0.02 }
+  - id: fuel
+    name: "Fuel"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 200, growth_rate: 0.02 }
+  - id: misc
+    name: "Taxi, transfers & fines"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 3500, growth_rate: 0.02 }
+
+  # ---- Household staff ----  (live-in maid + full-time governess)
+  - id: maid
+    name: "Maid"
+    category: Staff
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 5000, growth_rate: 0.03 }
+  - id: governess
+    name: "Governess"
+    category: Staff
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 4000, growth_rate: 0.03 }
+      - { year: 2027, per_month: 15000, growth_rate: 0.03 }
+
+  # ---- Lifestyle ----  (discretionary, elevated)
+  - id: restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 12000, growth_rate: 0.02 }
+  - id: activities
+    name: "Activities"
+    category: Lifestyle
+    currency: AED
+    # Clubs, premium kids' programmes, sports.
+    growth:
+      - { year: 2026, per_month: 4000, growth_rate: 0.02 }
+  - id: travel
+    name: "Travel"
+    category: Lifestyle
+    currency: AED
+    # Several premium / business-class trips a year.
+    growth:
+      - { year: 2026, per_month: 16000, growth_rate: 0.02 }
+  - id: health
+    name: "Health"
+    category: Lifestyle
+    currency: AED
+    # Premium care + top-up cover.
+    growth:
+      - { year: 2026, per_month: 800, growth_rate: 0.03 }
+  - id: subscriptions
+    name: "Subscriptions"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 2500, growth_rate: 0.02 }
+  - id: shopping
+    name: "Shopping"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 5000, growth_rate: 0.02 }

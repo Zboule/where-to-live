@@ -1,0 +1,58 @@
+# REAL ESTATE · dun_laoghaire · sold-2027 — sell the Dublin flat in Jan 2027.
+# Identical to the default, plus `sold_on`: on that date the net proceeds (value −
+# mortgage − selling costs − Irish CGT) are realized into cash and the property
+# leaves the books — e.g. to help fund an Abu Dhabi / Paris / Yerevan purchase.
+id: dun_laoghaire
+variant_label: Sell in 2027
+name: "36 Harbour Court"
+country: IE
+currency: EUR
+sold_on: 2027-07-01
+
+reinvest_surplus_to: brokerage
+
+current_value: 744000
+appreciation_rate: 0.04
+
+purchase:
+  price: 635000
+  date: 2022-10-01
+  acquisition_costs: 8350
+
+mortgage:
+  principal: 460000
+  first_payment_date: 2022-12-04
+  last_payment_date: 2037-10-04
+  rate_periods:
+    - rate: 0.0215
+      months: 60
+    - rate: 0.035
+
+holding_costs:
+  local_property_tax: 1000
+  building_maintenance: 4000
+  unit_maintenance: 2000
+  grows_with: inflation
+
+sale:
+  selling_costs_rate: 0.015
+  cgt:
+    rate: 0.33
+    annual_exemption_per_owner: 1270
+    owners: 2
+    ppr:
+      occupied_from: 2022-10-01
+      occupied_until: 2025-11-01
+      final_period_deemed_months: 12
+
+rental:
+  active_from: 2025-11-01
+  gross_per_month: 3800
+  rent_growth_rate: 0.02
+  average_tenancy_years: 2
+  vacancy_months_per_turnover: 1
+  find_new_tenant_fee_rate: 0.05
+  management_fee_rate: 0.05
+  tax:
+    rate: 0.20
+    basis: net_profit

@@ -1,0 +1,43 @@
+# REAL ESTATE · ad_btl · all cash — Abu Dhabi buy-to-let, bought outright.
+# Same property; ~AED 1.87M cash up front, no mortgage. Higher net rental cash flow
+# (no interest) but ties up more capital.
+id: ad_btl
+variant_label: All cash
+name: "Abu Dhabi buy-to-let"
+enabled: false
+country: AE
+currency: AED
+owned_from: 2027-07-01
+current_value: 1800000
+appreciation_rate: 0.06
+reinvest_surplus_to: brokerage
+purchase:
+  price: 1800000
+  date: 2027-07-01
+  acquisition_costs: 74000
+mortgage:
+  principal: 0
+  first_payment_date: 2027-07-04
+  last_payment_date: 2027-08-04
+  rate_periods:
+    - rate: 0.0
+rental:
+  active_from: 2027-07-01
+  gross_per_month: 10500
+  rent_growth_rate: 0.03
+  average_tenancy_years: 2
+  vacancy_months_per_turnover: 1
+  find_new_tenant_fee_rate: 0.05
+  management_fee_rate: 0.05
+  tax:
+    rate: 0.0
+    basis: gross
+holding_costs:
+  building_maintenance: 17600
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 1

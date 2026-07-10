@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · helsinki — Helsinki — Munkkiniemi (leafy, sea, good schools), the COMFORTABLE size.
+# ~230 m² 4–5 bed family home (large asunto-osakeyhtiö apartment/townhouse). Bought AT the (dynamic) move; OFF by
+# default, a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2025-26
+# (asuntojenhinnat.fi / Kiinteistömaailma): Munkkiniemi realized old-apartment prices ~€6,200/m² (Q4 2025), area
+# average ~€7,400/m² (72% above Helsinki's ~€4,300); quality renovated/sea-side family stock ≈ €7,800/m².
+# The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys
+# at the appreciated price, not today's. EUR 1.79M.
+id: relocation_home
+variant_label: Helsinki - Munkkiniemi
+name: "Helsinki - Munkkiniemi home"
+enabled: false
+country: FI
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1790000
+appreciation_rate: 0.03
+purchase:
+  price: 1790000
+  date: 2033-09-01
+  acquisition_costs: 36000      # ~2% total: most Helsinki homes are asunto-osakeyhtiö (housing-company) SHARES → transfer tax 1.5% (vs 3% on direct real estate) + agent/notary/bank fees
+mortgage:
+  principal: 1432000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.034               # Finnish mortgage ~3.2–3.5% (2026): 12-mo Euribor-linked + ~0.4–0.6% bank margin
+holding_costs:
+  local_property_tax: 500       # kiinteistövero is low and, for housing-company shares, mostly paid by the company via the vastike — only a token direct line here
+  building_maintenance: 14000   # hoitovastike (housing-company maintenance charge) ~€5/m²/mo × 230 m² ≈ €13.8k/yr — significant! Covers building upkeep, often heating/water
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # Finland: own-home sale tax-exempt after 2+ years of owner-occupancy
+    annual_exemption_per_owner: 0
+    owners: 2

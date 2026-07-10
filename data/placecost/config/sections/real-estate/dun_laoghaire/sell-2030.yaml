@@ -1,0 +1,84 @@
+# REAL ESTATE · dun_laoghaire · sell-2030 — same property as `default`, but SOLD in 2030.
+# On the sale date the net proceeds (market value − outstanding mortgage − selling costs −
+# CGT) are realized into cash and the property leaves the books; the rent stops. The cash
+# then sweeps into the brokerage (reinvest_surplus_to), so this models cashing Dublin out
+# to bolster the equities book (e.g. to bring a relocation move forward). Identical to the
+# default in every other respect.
+id: dun_laoghaire
+variant_label: Sell 2030
+name: "36 Harbour Court"
+country: IE
+currency: EUR
+
+# Sell mid-2030: realize net proceeds (value − mortgage − selling costs − CGT) into cash.
+sold_on: 2030-06-01
+
+# Where this property's surplus cash flow is reinvested — an investment id from
+# sections/investments/. For us, into the brokerage (AXA). (Also where the sale proceeds land.)
+reinvest_surplus_to: brokerage
+
+# Market value as-of base_date, and how fast we assume it grows.
+current_value: 744000        # as-of base_date 2026-01-01
+appreciation_rate: 0.04      # forward assumption: CSO Dublin RPPI long-run, band 0.03–0.05
+
+# Market-value track (ACTUALS, for the record — the forecast uses current_value +
+# appreciation_rate). CSO Dublin RPPI applied to the purchase price.
+value_history:
+  "2022-10": 635000          # purchase
+  "2022-12": 633000          # Q4-2022 softening (−0.3%, interpolated)
+  "2023-12": 650000          # +2.7% (CSO Dublin 2023)
+  "2024-12": 704000          # +8.3% (CSO Dublin 2024)
+  "2025-12": 744000          # +5.6% (CSO Dublin 2025)
+  "2026-06": 764000          # +2.7% H1-2026 (interpolated) — current estimate
+
+# Original purchase — CGT cost base and loan amortization start.
+purchase:
+  price: 635000              # confirmed purchase price, Oct 2022
+  date: 2022-10-01
+  acquisition_costs: 8350    # stamp duty + legal # TODO confirm exact legal fees
+
+# Mortgage (confirmed terms). Amortized from first_payment_date, so the
+# outstanding balance at base_date is derived, not hard-coded.
+mortgage:
+  principal: 460000
+  first_payment_date: 2022-12-04
+  last_payment_date: 2037-10-04   # ~179 monthly payments
+  rate_periods:
+    - rate: 0.0215            # 2.15% fixed for the first 5 years
+      months: 60
+    - rate: 0.035            # ASSUMPTION: re-fix rate from Dec 2027 (ECB ~2% + Irish spread,
+      # low ~40% LTV). Range 3.0–4.5%; impact on net worth negligible (<0.3% at +20y).
+      # (no `months` -> runs to last payment)
+
+# Recurring ownership costs (per year, in the property's currency).
+holding_costs:
+  local_property_tax: 1000           # Irish LPT / local charges
+  building_maintenance: 4000         # block / management company fees
+  unit_maintenance: 2000             # sinking fund for the apartment itself # TODO
+  grows_with: inflation              # escalate these each year
+
+# ---- Capital Gains Tax on a future sale (Irish rules) ----
+sale:
+  selling_costs_rate: 0.015          # agent + legal on disposal (% of sale price)
+  cgt:
+    rate: 0.33
+    annual_exemption_per_owner: 1270 # €1,270 each, per year of disposal
+    owners: 2                        # jointly owned with spouse -> 2x exemption
+    ppr:
+      occupied_from: 2022-10-01
+      occupied_until: 2025-11-01     # not main residence since Nov 2025
+      final_period_deemed_months: 12 # last 12 months always deemed occupied (Irish law)
+
+# ---- Rental income (this property IS the investment) ----
+rental:
+  active_from: 2025-11-01      # became a rental when it stopped being home
+  gross_per_month: 3800
+  rent_growth_rate: 0.02       # annual rent increase (RPZ-style cap) # TODO
+  average_tenancy_years: 2     # how long the average tenant stays # TODO
+  vacancy_months_per_turnover: 1   # void months to re-let between tenants
+  find_new_tenant_fee_rate: 0.05   # letting fee per new tenancy, % of annual rent
+  management_fee_rate: 0.05    # ongoing management, % of collected rent
+  # Non-resident landlord (Irish rules): ~20% effective on NET profit.
+  tax:
+    rate: 0.20
+    basis: net_profit

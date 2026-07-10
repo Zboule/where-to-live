@@ -1,0 +1,38 @@
+# REAL ESTATE · relocation_home · bologna — Bologna — Santo Stefano / Murri-Colli, the COMFORTABLE size.
+# ~230 m² 4–5 bed family home in the elegant southeast quadrant (near the Giardini Margherita, best licei —
+# Galvani/Fermi catchment). Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and
+# the "Home size" toggle picks the tier. Price fact-checked 2026: Immobiliare.it Santo Stefano asking ~€4,910/m²
+# (Jun 2026), Murri €4,000–5,500/m², Colli Murri/Barbiano ~€4,950/m² (Dec 2025) — the top of the Bologna market
+# (city avg ~€3,800/m²). A quality ~230 m² family home ≈ €5,000/m². The engine projects this price (and the
+# LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 1.15M.
+# Acquisition — the Italian PRIMA CASA quirk: registration tax is 2% of the CADASTRAL value, which sits FAR below
+# market (effective ~0.7–1% of price), + notary/agency ~3% → total ~4% of price. Cheap to buy vs. most of Europe.
+id: relocation_home
+variant_label: Bologna - Santo Stefano
+name: "Bologna - Santo Stefano home"
+enabled: false
+country: IT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1150000
+appreciation_rate: 0.025
+purchase:
+  price: 1150000
+  date: 2033-09-01
+  acquisition_costs: 46000    # ~4%: prima casa 2% registration on the (low) cadastral value ≈ 0.7–1% of price + notary/agency ~3%
+mortgage:
+  principal: 920000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 650     # IMU EXEMPT on a non-luxury prima casa (abitazione principale) — this is just TARI waste tax ~€500–700
+  building_maintenance: 4000  # condo fees / upkeep on a ~230 m² period home
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                 # no CGT: prima casa / any home held >5 years is exempt in Italy
+    annual_exemption_per_owner: 0
+    owners: 2

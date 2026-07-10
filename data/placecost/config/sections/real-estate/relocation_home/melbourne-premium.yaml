@@ -1,0 +1,39 @@
+# REAL ESTATE · relocation_home · melbourne-premium — Melbourne — Camberwell (Boroondara), the PREMIUM size.
+# ~350 m² large renovated period home (Edwardian/Californian bungalow extended, pool, big block) in the best
+# pockets near Camberwell/Canterbury school zones. Bought AT the (dynamic) move; OFF by default, a relocation
+# scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2026: Camberwell median
+# house ~AUD 2.34–2.60M (PropertyValue/CoreLogic, Domain, Aussie); top-quartile ~350 m² homes on 700–900 m²
+# blocks trade ~AUD 3.8–4.5M. The engine projects this price (and the LTV-scaled mortgage) to the actual
+# purchase year, so a later move buys at the appreciated price, not today's. AUD 4.20M.
+# Acquisition ~6.4%: VIC stamp duty >$2M is $110,000 + 6.5% of the excess → ~AUD 253,000 on $4.2M (~6.0%) +
+# conveyancing/inspections/title & registration + buyer's-agent buffer ≈ AUD 270k. ASSUMES PR/citizen buyer —
+# the foreign purchaser additional duty (+8%) does NOT apply.
+id: relocation_home
+variant_label: Melbourne - Camberwell · premium
+name: "Melbourne - Camberwell home"
+enabled: false
+country: AU
+currency: AUD
+owned_from: 2033-09-01
+current_value: 4200000
+appreciation_rate: 0.03
+purchase:
+  price: 4200000
+  date: 2033-09-01
+  acquisition_costs: 270000     # VIC stamp duty ~253k + conveyancing/inspections/registration + buffer (~6.4% all-in)
+mortgage:
+  principal: 3360000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.0595              # Australian owner-occupier P&I variable ~5.7–6.1% at RBA 2025-26 cash-rate levels
+holding_costs:
+  local_property_tax: 5000      # Boroondara council rates scale with valuation; VIC land tax NOT included — principal place of residence is EXEMPT
+  building_maintenance: 15000   # building insurance + upkeep (pool, gardens) on a large ~AUD 4.2M home
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02      # agent commission ~1.6–2.2% + marketing
+  cgt:
+    rate: 0.0                   # main-residence CGT exemption (owner-occupied family home)
+    annual_exemption_per_owner: 0
+    owners: 2

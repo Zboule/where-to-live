@@ -1,0 +1,57 @@
+districts:
+  - id: tallinn-kadriorg
+    city: Tallinn
+    country: Estonia
+    country_code: EE
+    district: Kadriorg
+    blurb: "Elegant parkside district by Europe's top-PISA schools; affordable vs the West, dark winters the trade-off."
+    price_per_sqm: { lower: 4000, upper: 7000, average: 4500 }
+    travel: { paris_hours: 5.5, paris_mode: flight, yerevan_hours: 11.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 4, nature: 4 }
+    notes:
+      education: "Estonia ranks #1 in Europe on PISA 2022 across all subjects, and Kadriorg's own Kadrioru Saksa Gümnaasium (grades 1–12) offers intensive German from grade 1 with DSD certification — a rare and valuable bilingual pathway. The International School of Estonia (full IB continuum PYP–MYP–DP, ~2 km awa…"
+      safe_independence: Kadriorg is one of Tallinn's safest districts (rated 4.7/5 overall, with excellent night walking safety), and trams 1 and 3 connect it to the city centre in ~6 minutes every 6–10 minutes at peak, while Kadriorg Park's ~16 km of paved pathways offer car-free mobility within the neighbourhood. Gaps…
+      mental_health: "Estonian 15-year-olds score above the OECD average on life satisfaction (6.91/10) and sense of belonging, but the flipside is stark: Estonia ranks 41st out of 44 HBSC countries on a depression-risk composite, 29% of pupils feel depressed weekly, 36% of 15-year-old girls report loneliness 'most of…"
+      peer_environment: Kadriorg and neighbouring Pirita post the highest average earnings in Estonia (~€1,933/month gross) with above-average levels of higher education, and the district is notably absent from Tallinn's vandalism and antisocial-behaviour hot-spot reports — the playground in Kadriorg Park is a well-used…
+      family_practicality: "Estonia ranks #2 globally on the UN E-Government Development Index and Tallinn's tram puts Kadriorg ~6 minutes from the city centre, with NOP organic grocery and several supermarkets (Maxima, Prisma, Selver) within walking distance. The friction is real: Tallinn is in a systemic childcare crisis …"
+      health: Tallinn's air ranks among Europe's cleanest 13 cities (Kesklinn NO₂ annual average just 10.62 µg/m³ in 2024, well below the EU limit), Kadriorg's residential streets are consistently described as quiet and leafy, and 99.4% of public drinking water meets all quality standards — the district has be…
+      nature: Kadriorg Park is a 70-hectare baroque park with ~16 km of paved walking and cycling paths directly within the district — one of Tallinn's largest and most beautiful green spaces, with the Baltic Sea coast at the northern edge and Pirita beach a short distance beyond. It is well-maintained, public…
+    sources: [ "Investropa", "Realting", "Global Property Guide", "Numbeo", "OECD PISA 2022", "airBaltic/prokerala" ]
+
+  - id: tallinn-pirita
+    city: Tallinn
+    country: Estonia
+    country_code: EE
+    district: Pirita
+    blurb: "Coastal green family suburb with beach and pine forests; best-in-class nature, dark winters the trade-off."
+    price_per_sqm: { lower: 3500, upper: 5600, average: 4400 }
+    travel: { paris_hours: 5.5, paris_mode: flight, yerevan_hours: 11.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 1.5, peer_environment: 3.5, family_practicality: 3.5, health: 4, nature: 4.5 }
+    notes:
+      education: Estonia's national school system posts top-tier PISA scores and Pirita's own Majandusgümnaasium is well-regarded, giving the district a solid public-school baseline. However, only 5 IB Diploma schools exist in the entire country (2 of them municipal/free), teacher attrition runs ~40–50% within fi…
+      safe_independence: Pirita is a low-density suburb where children can walk and bike along a coastal promenade and pine-forest trails, and multiple bus routes deliver ~14 departures per hour to central Tallinn in 14–23 minutes — free for all registered residents. The gap is that Pirita is entirely bus-dependent with …
+      mental_health: "Estonian teens report above-OECD-average life satisfaction, self-efficacy, and sense of belonging, and Tallinn schools increasingly have psychologists on staff, but the other side of the picture is stark: Estonia ranks 41st out of 44 HBSC countries on a depression-risk composite, 33.6% of 15-year…"
+      peer_environment: Pirita is Tallinn's highest-income district, with above-average incidence of higher education and meaningful ethnic diversity (~28.5% non-Estonian), which creates a stable, aspirational peer pool. The main structural concern is Estonia's deep linguistic segregation — separate Estonian and Russian…
+      family_practicality: "A parent commuting to central Tallinn can reach Viru keskus in 14–23 minutes on high-frequency, free buses, and Estonia's #2 global e-government ranking means almost all administrative tasks are done online. The friction points are that Pirita has no rail link (buses get caught in Pirita tee traf…"
+      health: Tallinn's PM2.5 sits below the WHO guideline of 5 µg/m³, 99.4% of public-water connections meet all quality standards, and Pirita itself is a quiet residential area with no industrial hazards. The practical drawbacks are that no hospital is located within the district (15–20 minutes to an ER), wi…
+      nature: Pirita combines a 2 km Blue Flag beach on the Baltic Sea, extensive pine forests threaded with trails, the Pirita River Valley green corridor, and the 100+ hectare Tallinn Botanic Garden — all inside the district boundary. The trade-offs are that the beach is crowded (up to 30,000 visitors on sum…
+    sources: [ "Investropa", "Baltic Times/Volta Quarter (Pirita 5,599/sqm 2024)", "Realting", "Numbeo", "OECD PISA 2022", "FlightsFrom" ]
+  - id: tartu-karlova
+    city: Tartu
+    country: Estonia
+    country_code: EE
+    district: Karlova
+    blurb: Karlova is a quiet, green neighborhood with excellent schools and playgrounds, ideal for families.
+    price_per_sqm: { lower: 1200, upper: 2000, average: 1600 }
+    travel: { paris_hours: 24, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3, mental_health: 2, peer_environment: 3.5, family_practicality: 4, health: 3.5, nature: 3 }
+    notes:
+      education: "Karlova benefits from Estonia's #1-in-Europe PISA 2022 performance and the historic Tartu Karlova Kool (grades 0–12) right in the neighbourhood, but the school is not among Tartu's elite gymnasiums and no Karlova-specific exam results are publicly available. Tartu International School offers IB P…"
+      safe_independence: Tartu applies 30 km/h on neighbourhood streets, runs a free city-wide bus network with a weekend night bus (Line 22) serving Karlova, and has very low violent crime (Numbeo 16.5/100); 42% of Tartu children travel independently. However, Estonia's urban pedestrian fatality share (71%) is the highe…
+      mental_health: Estonian 15-year-olds report above-OECD-average life satisfaction (6.91/10), self-efficacy, and sense of belonging, and 53% of schools have a psychologist on staff — yet the same HBSC 2022 data shows Estonia ranking 41st out of 44 countries on a depression-risk composite, with 33.6% of 15-year-ol…
+      peer_environment: Karlova draws a mix of artists, students, and young families, with strong community identity expressed through Karlova Days, yard sales, and street festivals; Tartu's Youth Work Centre runs free clubs (hiking, cooking, book, career, gaming) at Lille and Anne centres a short walk or bus ride away.…
+      family_practicality: "Estonia ranks #2 globally in UN e-government (2024) and Tallinn is tied for #1 in local online services, making bureaucracy unusually efficient; Tartu has eliminated general kindergarten waiting lists city-wide, and Karlova is a 10–15 minute walk to the city centre with free buses covering the di…"
+      health: Tartu ranks 17th cleanest city in Europe for fine particulate matter (PM2.5 5.7 µg/m³, barely above the WHO guideline of 5), a new €60M children's hospital with paediatric emergency and single-room ICU opened in 2024, and 99.4% of public water supply meets all quality standards. Nitrogen dioxide …
+      nature: Karlova has a small, well-loved neighbourhood park (4.50 rating) and 'blossoming gardens' on its green streets, with the Ropka-Ihaste Nature Reserve (Natura 2000, Important Bird Area) on the district's edge and the vast Alam-Pedja Nature Reserve (~340 km² of protected wetland) just to the north. …
+    sources:
+      - DeepSeek estimate — refine

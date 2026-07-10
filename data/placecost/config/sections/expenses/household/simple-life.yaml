@@ -1,0 +1,121 @@
+# EXPENSES · household · simple-life — "Abu Dhabi · part 2", the LEAN version.
+# A forward-looking re-think of the UAE budget if the family STAYS in Abu Dhabi but
+# deliberately simplifies: a smaller apartment, one modest car, a part-time maid (no
+# governess), cooking at home, and travel/dining pared back to the essentials. Same
+# line-item structure as `default` so the breakdown chart and the engine's UAE-vs-
+# destination split (non-`dl_` ids = UAE budget) keep working unchanged.
+#
+# Anchored at 2026 and grown with inflation. ~35k AED/mo (~0.6× the current budget).
+# AED/month unless per_year. Tune the line items freely — these are a starting model.
+id: household
+variant_label: Simple life
+order: 1
+name: "Living expenses"
+items:
+  # ---- Home ----  (smaller place, leaner running costs)
+  - id: rent
+    name: "Rent"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 180000, growth_rate: 0.03 }   # smaller / less-prime apartment
+  - id: utilities
+    name: "Electricity / Water / Taxes"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 1645, growth_rate: 0.02 }
+  - id: internet_phone
+    name: "Internet / phone"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 950, growth_rate: 0.02 }
+  - id: groceries
+    name: "Groceries"
+    category: Home
+    currency: AED
+    # Cook at home more; eat out less.
+    growth:
+      - { year: 2026, per_month: 3000, growth_rate: 0.02 }
+  - id: home_equipment
+    name: "Home equipment"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 1500, growth_rate: 0.02 }
+
+  # ---- Transport ----  (one modest car, run as a steady replacement fund)
+  - id: car_payment
+    name: "Car"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 2000, growth_rate: 0.02 }
+      - { year: 2027, per_year: 2000, growth_rate: 0.02 }
+  - id: car_insurance
+    name: "Car insurance"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 6510, growth_rate: 0.02 }
+  - id: fuel
+    name: "Fuel"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 70, growth_rate: 0.02 }
+  - id: misc
+    name: "Taxi, transfers & fines"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 1200, growth_rate: 0.02 }
+
+  # ---- Household staff ----  (part-time maid only; no governess in the simple life)
+  - id: maid
+    name: "Maid"
+    category: Staff
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 3000, growth_rate: 0.03 }
+
+  # ---- Lifestyle ----  (discretionary, deliberately trimmed)
+  - id: restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 2500, growth_rate: 0.02 }
+  - id: activities
+    name: "Activities"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 800, growth_rate: 0.02 }
+  - id: travel
+    name: "Travel"
+    category: Lifestyle
+    currency: AED
+    # One or two trips a year, economy.
+    growth:
+      - { year: 2026, per_month: 3500, growth_rate: 0.02 }
+  - id: health
+    name: "Health"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 300, growth_rate: 0.03 }
+      - { year: 2028, per_month: 400, growth_rate: 0.03 }
+  - id: subscriptions
+    name: "Subscriptions"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 1500, growth_rate: 0.02 }
+  - id: shopping
+    name: "Shopping"
+    category: Lifestyle
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 900, growth_rate: 0.02 }

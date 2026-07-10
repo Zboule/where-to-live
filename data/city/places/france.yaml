@@ -1,0 +1,243 @@
+districts:
+  - id: annecy-le-vieux
+    city: Annecy
+    country: France
+    country_code: FR
+    district: Annecy-le-Vieux
+    blurb: Family-friendly lakeside suburb with excellent schools, parks, and safe streets.
+    price_per_sqm: { lower: 4000, upper: 7000, average: 5500 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 4.5, family_practicality: 3, health: 3.5, nature: 5 }
+    notes:
+      education: Annecy-le-Vieux benefits from Haute-Savoie's strong public schools — well-regarded lycées like Berthollet and Gabriel Fauré are accessible, EBIHS offers on-site bilingual French-English schooling (ages 3–16), and La Maison des Enfants provides bilingual Montessori (2–12) — but no IB-accredited pr…
+      safe_independence: Annecy-le-Vieux is rated the safest neighborhood in Annecy — a city already ranked 14th safest nationally — with a flat, family-friendly 30 km Voie Verte cycling path separated from car traffic and a frequent SIBRA bus network (line 4 to the centre every ~15 min), but the urban cycling network is…
+      mental_health: "France ranks 3rd among 43 OECD/EU countries on child wellbeing (UNICEF), 82% of middle-schoolers are satisfied with life, and substance-use rates at age 16 sit below the European average on every indicator — but the post-pandemic picture is worrying: suicidal thoughts affect 24% of lycéens (31% o…"
+      peer_environment: Annecy-le-Vieux is the wealthiest, highest-income part of Annecy (73% of cells classified as high-income by INSEE) with rich cultural infrastructure — a regional Conservatoire serving 2,100 students across music, dance, and theatre, plus the Bonlieu Scène Nationale hosting 94 shows a year — and A…
+      family_practicality: Annecy-le-Vieux is a complete commune with its own mairie, post office, and local shops, supported by 22 municipal crèches (1,030 places) across Annecy and a reliable SIBRA bus network connecting to the centre in ~15 minutes, but crèche demand far outstrips supply — finding a place is described a…
+      health: Annecy-le-Vieux's air is clean by EU standards (PM2.5 3–12 µg/m³ across monitoring stations), the district sits in a quiet residential zone away from major road arterials with multiple designated quiet areas, the regional CH Annecy Genevois hospital provides paediatric services, and Lake Annecy's…
+      nature: Annecy-le-Vieux sits at the foot of the French Alps beside one of Europe's cleanest lakes, with two major lakeside parks in the district — the 8.5-acre Jardins de l'Europe arboretum with a ship-themed playground and Parc Charles Bosson with century-old plane trees, an aviary, and lake access — pl…
+    sources:
+      - DeepSeek estimate — refine
+  - id: bordeaux-cauderan
+    city: Bordeaux
+    country: France
+    country_code: FR
+    district: Caudéran
+    blurb: Leafy, upscale suburb with grand 19th-century villas, parks, and top schools. Quiet yet close to city center.
+    price_per_sqm: { lower: 4500, upper: 7000, average: 5500 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Caudéran hosts a fully authorised IB World School (International School of Bordeaux 33) and a new bilingual Montessori-inspired primary (Ermitage), making it one of Bordeaux's strongest districts for international education; however, no public secondary school sits within district boundaries—teen…
+      safe_independence: Bordeaux's Ville 30 policy, 60 school streets covering 66% of pupils, and the ReVE 11 segregated cycle path through Caudéran create a strong active-travel framework, and the tram (Lines A/D, ~6 min frequency) gives teens genuine transit autonomy until about midnight; the catch is that actual spee…
+      mental_health: France ranks 3rd on UNICEF's child-wellbeing index, French primary school is deliberately low-pressure with almost no homework, and the country sits below the European average on all adolescent substance-use indicators; the counterweight is severe—24% of French lycéens report suicidal thoughts in…
+      peer_environment: Caudéran is Bordeaux's most consistently affluent, family-dense district—one of only three sectors concentrating 50% of the city's under-threes—with a 6,000-member centennial sports-and-culture association (AGJA) and universally calm streets; but academic researchers explicitly selected it as the…
+      family_practicality: Two providers (AGJA and Maison de Quartier Chantecler) run subsidised after-school and holiday care (ALSH) across ten primary-school sites with 8:00–18:30 coverage, and Tram Lines A/D offer ~6-minute headways into central Bordeaux; the friction points are that no waitlist or capacity data exists …
+      health: Real-time NO₂ measured at just 8 µg/m³ in Caudéran—well below EU and WHO limits—and the CHU Pellegrin university hospital with its paediatric emergency department is 15–20 minutes away by car or tram, while all of Bordeaux's contaminated industrial sites sit on the opposite bank of the Garonne; a…
+      nature: The 28-hectare Parc Bordelais—the largest public park in Bordeaux, labelled a Jardin Remarquable with over 3,000 trees including century-old sequoias and ginkgo biloba—sits entirely within Caudéran and is free and open daily, while the Atlantic beaches of Arcachon and Europe's largest pine forest…
+    sources:
+      - DeepSeek estimate — refine
+  - id: boulogne-billancourt
+    city: Boulogne-Billancourt
+    country: France
+    country_code: FR
+    district: Boulogne-Billancourt
+    blurb: Family-friendly suburb with excellent schools, parks, and easy access to Paris via metro.
+    price_per_sqm: { lower: 6000, upper: 10000, average: 8000 }
+    travel: { paris_hours: 0.5, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 4, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3.5, health: 3, nature: 3 }
+    notes:
+      education: Boulogne-Billancourt offers strong public primary schooling in a well-above-average socio-educational context (IPS 127), backed by one of France's most stable teaching corps, but the main public lycée (Jacques Prévert) posts a negative value-added and only 58% of its élèves make it from seconde t…
+      safe_independence: Ranked the 2nd safest city in France among municipalities over 50,000, Boulogne-Billancourt combines very low violent crime with outstanding pedestrian infrastructure (walkability 95/100, transit 90/100, bikeability 75/100), making solo mobility realistic for kids. Traffic calming is partial rath…
+      mental_health: "France's overall child-wellbeing picture is strong (UNICEF 3rd of 43 OECD/EU countries) and French adolescents report low substance use across the board, but the post-pandemic deterioration is real: suicidal thoughts among lycéens hit 24% in the past 12 months (31% of girls), school-related stres…"
+      peer_environment: This is one of France's wealthiest and most-educated communes (median standard of living €37,960; 64.8% of adults hold a higher-education degree), with a deliberate social mix sustained by a stable 17.5% social-housing share and the mixed-income Trapèze redevelopment. The wrinkle is that local sc…
+      family_practicality: Boulogne-Billancourt is a full-service commune with bilingual private childcare (Les Bons Enfants, La Maison Bleue), dense Metro 9/10 links putting central Paris ~15–20 minutes away, and walkable everyday services, making daily logistics straightforward for working parents. The friction sits in t…
+      health: "The commune hosts Hôpital Ambroise-Paré, an AP-HP university teaching hospital with a full emergency department right in-district, and SEDIF drinking water meets 100% bacteriological compliance with nitrates well below the legal limit. The trade-offs are environmental: 100% of Île-de-France resid…"
+      nature: Thirty-three parks and gardens spread across 41 hectares give Boulogne-Billancourt a well-maintained, tree-lined feel, and the vast Bois de Boulogne sits immediately adjacent while Parc de Saint-Cloud and the Seine riverfront are within walking distance, so big green escapes are never far. The in…
+    sources:
+      - DeepSeek estimate — refine
+  - id: lyon-caluire-et-cuire
+    city: Lyon
+    country: France
+    country_code: FR
+    district: Caluire-et-Cuire
+    blurb: Family-friendly suburb with parks, schools, and easy Lyon access.
+    price_per_sqm: { lower: 3500, upper: 5500, average: 4500 }
+    travel: { paris_hours: 2, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 2.5, mental_health: 2, peer_environment: 3, family_practicality: 2, health: 3, nature: 4 }
+    notes:
+      education: Caluire offers a strong public primary network and a standout collège (André Lassagne, 94% brevet success) alongside the on-site Ombrosa International School (IB, bilingual French-English, ages 3–18, 95% IB pass rate), but stark IPS inequality splits neighbourhood schools (Victor Basch IPS 91.3 v…
+      safe_independence: The commune has invested visibly in cycling and pedestrian safety (widened sidewalks around Collège Lassagne, Plan Vélo II targeting 43 km of paths, and a ~5 km car-free Voie Verte), yet fewer than 1% of Lassagne students actually cycle to school and 42–59% of parents refuse to let their child cy…
+      mental_health: France ranks 3rd globally on child wellbeing (UNICEF) and French teens have among Europe's lowest substance-use rates, but 24% of lycéens report suicidal thoughts in the past 12 months (up sharply from 2018), school psychologists sit at 1 per ~1,500 students against a European recommendation of 1…
+      peer_environment: The commune is broadly middle-class (median income €26,440, 10% poverty rate) with active municipal youth programming (monthly Rythmes magazine, Caluire Juniors holiday centre), but three Quartiers Prioritaires (Montessuy, Saint-Clair, Cuire-le-Bas) concentrate real disadvantage — Montessuy media…
+      family_practicality: Childcare is under-supplied (261 crèche places for ~43,000 residents, with a points-based admissions commission rather than straightforward enrolment), France's ANEF digital residency-permit platform is widely described as a bureaucratic nightmare that issues no acknowledgement of receipt, and no…
+      health: The Infirmerie Protestante clinic on Chemin du Penthod provides 24/7 cardiac/thoracic emergency care and trauma services for all ages, and air quality reads 'Good' (AQI 34), but the clinic explicitly excludes paediatric medical cases (fevers, infections, respiratory illness), road-traffic noise f…
+      nature: Caluire is unusually green for an urban commune — 55% of its territory is green space or market gardens with 40% tree cover, the car-free Voie Verte greenway runs ~5 km through the commune, and the 105-hectare Parc de la Tête d'Or sits just across the Saône within minutes by foot or bike.
+    sources:
+      - DeepSeek estimate — refine
+  - id: maisons-laffitte
+    city: Maisons-Laffitte
+    country: France
+    country_code: FR
+    district: Maisons-Laffitte
+    blurb: Historic town with parks, top schools, and direct train to Paris in 20 min.
+    price_per_sqm: { lower: 4500, upper: 7000, average: 5500 }
+    travel: { paris_hours: 0.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 4, family_practicality: 3, health: 2.5, nature: 4 }
+    notes:
+      education: Maisons-Laffitte pairs four solid public primary schools with the standout Ermitage International School (IB Continuum, bilingual French/English, 80+ nationalities) and an AMI-certified bilingual Montessori for ages 3–11, giving families strong curricular choice at both stages. The gaps are at se…
+      safe_independence: "A compact, walkable town (6.75 km²) with a central RER A station delivering trains every 10–15 min and a ~24-minute direct ride to central Paris, which gives teens real transit autonomy — and a Noctilien night bus extends that into the evening. The trade-off is on the bike: residents describe cyc…"
+      mental_health: France's strong UNICEF child-wellbeing ranking (3rd of 43 OECD/EU countries) and a deliberately low-pressure primary-school culture provide a humane baseline, reinforced by the 'Devoirs Faits' free homework-support programme and a 'digital pause' trial that removes phones from ~200 collèges. The …
+      peer_environment: An affluent, cadre-heavy town (average hourly wage €31.80, nearly double the national figure) with rich organised sport — a tennis school enrolling 550 children, a municipal aquatic centre serving 246 children/week across age-graded programmes — and a genuinely international subset around the Erm…
+      family_practicality: "The RER A delivers a reliable 24-minute commute to Châtelet-les-Halles with trains every 10–15 minutes, and the town offers a central market square, an aquatic centre with baby-swim programmes, and at least one identified daycare. Less reassuring: comprehensive crèche listings and waitlist data a…"
+      health: Air quality is generally good (PM2.5 often meets the WHO annual guideline of 5 µg/m³), drinking water posts 100% bacteriological compliance, and the town has a local hospital plus three private clinics, though serious paediatric emergencies likely route to Necker–Enfants Malades in Paris (~30–40 …
+      nature: The Parc de Maisons-Laffitte covers roughly 300–400 hectares — about 60% of the town's footprint — earning it the description 'noyé dans les arbres' (drowned in trees), and the 3,500-hectare Forêt de Saint-Germain-en-Laye begins at the commune boundary with a network of marked trails from 2 to 14…
+    sources:
+      - DeepSeek estimate — refine
+  - id: neuilly-sur-seine
+    city: Neuilly-sur-Seine
+    country: France
+    country_code: FR
+    district: Neuilly-sur-Seine
+    blurb: Upscale family suburb with excellent schools, parks, and safety.
+    price_per_sqm: { lower: 10000, upper: 20000, average: 15000 }
+    travel: { paris_hours: 0.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 4, health: 2.5, nature: 4 }
+    notes:
+      education: "Neuilly offers an exceptional concentration of elite schools — Lycée Pasteur (97–99% bac rate, #11 in Île-de-France) and the private Lycée Sainte-Marie (100% bac rate, #4 nationally) — plus the English-medium Marymount International School and a Spanish international school within the commune, bu…"
+      safe_independence: Metro Line 1 gives Neuilly teens a fast, automated, platform-screen-door-protected transit spine to central Paris in ~10 minutes, and the Pont de Neuilly protected cycle path plus the tree-lined Allées de Neuilly boulevard project (due 2027) promise a step-change in active travel, but most of the…
+      mental_health: "France ranks #3 globally on UNICEF's child-wellbeing index, with 82% of middle-schoolers satisfied with life and substance-use rates at 16 among Europe's lowest, supported by a low-pressure primary culture, a national phone-ban in schools, and government-subsidised homework supervision, but wellb…"
+      peer_environment: Neuilly's peer landscape is defined by extreme affluence — median per-capita income of €52,570 (4th highest in France) and 49% of residents at ≥2× the national median — which funds an unusually rich ecosystem of tennis, swimming, judo, boxing, fencing, and three scout organisations, but this same…
+      family_practicality: The fully automated Metro Line 1 delivers a 3–4 minute commute to La Défense and ~10 minutes to central Paris, backed by municipal crèches and a comprehensive périscolaire system covering evening care, supervised homework, and sports workshops, but income-based fees can bite middle-income familie…
+      health: The American Hospital of Paris sits inside Neuilly with a 24/7 ER and 500+ physicians across 100+ specialties, drinking water meets 100% bacteriological compliance, and the absence of industrial sites keeps pollution road-traffic-sourced and dispersible, yet PM2.5 runs at 14 µg/m³ (2.8× the WHO g…
+      nature: The 845-hectare Bois de Boulogne sits directly adjacent — a semi-natural forest-park with 15 km of cycle routes, bridle paths, lakes, and the year-round Jardin d'Acclimatation family attraction — while 13,740 street trees line Neuilly's own avenues for strong urban canopy, but no large-scale park…
+    sources:
+      - DeepSeek estimate — refine
+  - id: saint-germain-en-laye
+    city: Saint-Germain-en-Laye
+    country: France
+    country_code: FR
+    district: Saint-Germain-en-Laye
+    blurb: Historic royal town with excellent schools, parks, and a safe, family-friendly atmosphere.
+    price_per_sqm: { lower: 6000, upper: 9000, average: 7500 }
+    travel: { paris_hours: 0.75, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 3, nature: 4.5 }
+    notes:
+      education: Saint-Germain-en-Laye's Lycée International is genuinely exceptional — 99–100% baccalaureate success, 14 international sections including a Russian section, and a direct pipeline from strong local primaries through well-regarded collèges like Marcel Roby. The catch is that the Lycée International…
+      safe_independence: The RER A terminus gives teens a direct, no-transfer rail link to La Défense (~15 min) and central Paris (~25 min), but branch frequency drops to ~20 minutes and the last return train at ~00:15 cuts off late-night independence. On the ground, the town has 30 km/h zones and pedestrian cut-throughs…
+      mental_health: France's structural child-wellbeing baseline is strong — ranked 3rd among 43 OECD countries by UNICEF, with 82% of middle-schoolers satisfied with life and substance-use rates at 16 among the lowest in Europe — and the 'digital pause' trial in ~200 collèges signals active policy attention. But th…
+      peer_environment: The peer landscape is dominated by highly educated, high-income families — 27.3% of the population are managers or higher intellectual professionals, creating an education-valuing milieu with strong organized activities through La CLEF (2,500+ members, programs from age 4) and multiple martial-ar…
+      family_practicality: The RER A terminus provides a reliable, high-frequency commute corridor to La Défense and central Paris, and France's centralized digital platforms (Ameli, CAF, service-public.fr) streamline some administrative tasks. On the other hand, the ANEF residence-permit platform is widely described as a …
+      health: Air quality is generally good (PM2.5 typically ~4.5–6.3 µg/m³, near WHO guidelines) and the CHI Poissy-Saint-Germain hospital offers a Level III+ maternity and 1,209 beds, but all paediatric emergency and maternity services are at the Poissy site — not in Saint-Germain itself — requiring inter-ci…
+      nature: The Forêt Domaniale de Saint-Germain-en-Laye is a genuine standout — 3,500 hectares of public forest covering ~75% of the commune's territory, with well-maintained ONF trails and the 40–70 ha Domaine National park in the urban core, putting extensive woodland on the doorstep. The trade-off is tha…
+    sources:
+      - DeepSeek estimate — refine
+  - id: sceaux
+    city: Sceaux
+    country: France
+    country_code: FR
+    district: Sceaux
+    blurb: Family-friendly suburb with excellent schools, parks, and a calm atmosphere near Paris.
+    price_per_sqm: { lower: 6000, upper: 9000, average: 7500 }
+    travel: { paris_hours: 0.5, paris_mode: train, yerevan_hours: 5.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2.5, peer_environment: 4, family_practicality: 2.5, health: 3, nature: 5 }
+    notes:
+      education: Lycée Lakanal is one of Île-de-France's most prestigious public secondary schools with a 97% bac success rate and a very advantaged student body (IPS 151.2/180), though its results exactly match—rather than exceed—expectations given that profile, and one in six students leaves or repeats before t…
+      safe_independence: Sceaux is a national pioneer in traffic calming with 100% of municipal roads at 30 km/h, complemented by the traffic-free Coulée Verte cycle path and a school street program (Mobili'Kids) targeting bike independence by age 11. However, the town deliberately avoids segregated cycle lanes in favor …
+      mental_health: France ranks 3rd in UNICEF's child wellbeing index, French teens have among Europe's lowest substance-use rates, and primary school is deliberately low-pressure with free supervised homework support (Devoirs Faits). Troublingly, suicidal thoughts among high-school students have surged to 24% (31%…
+      peer_environment: One of France's most affluent communes (average net wage €31.80/hr, €40.80/hr for managers), Sceaux offers an exceptionally education-oriented peer environment anchored by Lycée Lakanal's very advantaged profile, with no evidence of vandalism or antisocial behaviour surfacing in any search. The t…
+      family_practicality: Sceaux is a compact, walkable 3.60 km² town with three RER B stations offering ~19-minute direct access to central Paris and trains every ~15 minutes, making it theoretically an excellent commuter base. In practice, the RER B's chronic unreliability (17 delays recorded in 19 one-month trips) and …
+      health: Air quality is generally acceptable for greater Paris with PM2.5 mostly below WHO guidelines and NO2 rated very good to moderate, while drinking water achieves 100% bacteriological compliance and nitrates are well under the 50 mg/L legal limit. Gaps include the absence of commune-specific noise m…
+      nature: "Parc départemental de Sceaux is an extraordinary asset: 180 hectares of Le Nôtre-designed formal gardens, woodlands, a Grand Canal, and a cherry blossom grove occupying roughly half the commune's land area, with free daily access (7:00 AM–8:30/10:00 PM) and four dedicated playgrounds for ages 3–1…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: strasbourg-robertsau
+    city: Strasbourg
+    country: France
+    country_code: FR
+    district: Robertsau
+    blurb: Green, quiet, with top schools and parks, ideal for families.
+    price_per_sqm: { lower: 3500, upper: 5500, average: 4500 }
+    travel: { paris_hours: 2.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 2.5, nature: 5 }
+    notes:
+      education: Robertsau sits in an affluent, education-oriented quartier served by multiple public primaries and a local collège, with genuinely strong international options — an IB World School (ISS), the European School of Strasbourg, a Russian Consulate School in the district, and the selective Lycée Intern…
+      safe_independence: Robertsau is a compact, walkable, low-crime neighbourhood with free under-18 tram access (Tram E every 10–15 min, 15 min to the centre) and Strasbourg's 650 km cycle network earning it the 'French cycling capital' label, yet residents describe main roads like Route de la Wantzenau and Rue Kempf a…
+      mental_health: France structurally rates 3rd among OECD/EU countries on child wellbeing, with a deliberately low-pressure primary culture, a government homework-support programme, and substance-use rates among the lowest in Europe, but adolescent mental-health indicators are alarming — 24% of lycéens report sui…
+      peer_environment: Robertsau is universally described as très calme and familial, anchored by the CSC Escale youth hub offering after-school care, holiday programmes, and a professional recording studio, with outreach to the neighbouring Cité de l'Ill social-housing area for mixité — but the quartier is a wealthy m…
+      family_practicality: "Daily life is convenient: Tram E gives a 15-minute centre connection, Rue Boecklin's independent shops (supermarket, bakery, butcher, pharmacy) are walkable, and CSC Escale provides after-school and holiday care for maternelle through élémentaire, but childcare availability is unquantified (no wa…"
+      health: Air quality at the Strasbourg Nord (Robertsau) station meets EU NO₂ and PM₁₀ limits and the neighbourhood is genuinely quiet away from main roads, with the CHU Strasbourg teaching hospital providing high-level paediatric and emergency care in the centre, but WHO air-quality guidelines are exceede…
+      nature: "Robertsau offers exceptional nature access for an urban district: the 493-hectare Forêt de la Robertsau — one of Europe's last Rhine alluvial forests, with 'virgin forest' character in places — and the 710-hectare National Nature Reserve sit literally within the neighbourhood, laced with marked t…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: versailles
+    city: Versailles
+    country: France
+    country_code: FR
+    district: Versailles
+    blurb: Historic charm, green spaces, and top-rated schools make it ideal for families.
+    price_per_sqm: { lower: 4000, upper: 8000, average: 6000 }
+    travel: { paris_hours: 0.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3.5, health: 3, nature: 4.5 }
+    notes:
+      education: Versailles offers two top-20 Île-de-France public lycées (Hoche, 98% bac pass rate; La Bruyère, 97%) and a British international section pathway from collège through lycée via Montaigne, set among one of France's highest-performing académies where nearly half of adults hold a higher-education deg…
+      safe_independence: Versailles is one of France's safest cities (5th nationally among cities >50,000, Numbeo violent-crime index 0.00), compact and walkable, with ~20 km of bike lanes, three rail lines giving teens Paris access, and RER C running until roughly midnight. However, cycling infrastructure is still large…
+      mental_health: France ranks 3rd on UNICEF's child-wellbeing index and Versailles benefits from low youth substance use (daily smoking at 3.1%, well below European averages), a deliberately low-pressure primary-school culture, and a national 'digital pause' trial removing phones from collèges. Troublingly, 24% o…
+      peer_environment: "The city's median household income (~€44,324) is nearly double the French national average and 45% of residents hold a higher-education degree, creating a stable, education-valuing peer pool supported by a Conservatoire, 90 playgrounds, and extremely low vandalism. The real fracture is spatial: s…"
+      family_practicality: Three rail lines connect Versailles to Paris — the fastest (Line N, 12–20 min to Montparnasse) suits commuters, while the slower RER C (35–45 min) offers broader reach — and the city itself is a self-contained full-service town with a historic market, after-school Montessori care until 6:30 PM, a…
+      health: Air quality is decent by EU regulatory standards (NO₂ ~11–16 µg/m³, PM2.5 ~7.5–8 µg/m³) though both exceed the stricter WHO guidelines, the Centre Hospitalier de Versailles has paediatric emergency services on-site, and drinking water posts 100% bacteriological compliance with the city pesticide-…
+      nature: Versailles delivers extraordinary green-space access — 167 m² per inhabitant across a city that is roughly 50% green/natural land, anchored by the 800-hectare Château grounds (free daily access to the park and Grand Canal) and the 1,047-hectare Forêt Domaniale de Versailles directly to the west w…
+    sources:
+      - DeepSeek estimate — refine
+  - id: paris-16th-arrondissement-passy
+    city: Paris
+    country: France
+    country_code: FR
+    district: 16th arrondissement (Passy)
+    blurb: Upscale, leafy residential area with excellent schools, parks, and family-friendly amenities.
+    price_per_sqm:
+      lower: 10000
+      upper: 18000
+      average: 14000
+    travel:
+      paris_hours: 0.5
+      paris_mode: train
+      yerevan_hours: 5
+      yerevan_mode: flight
+    scores: { education: 5, safe_independence: 3.5, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 3.5 }
+    notes:
+      education: "The 16e offers an exceptional concentration of elite public lycées — Janson de Sailly (98% bac, IPS 138.8) and Jean de La Fontaine (98–99% bac, IPS 140.3, ranked #9 in Paris) — both sectorised, giving catchment families a direct pipeline to top-tier state secondary education. Full IB continuum is…"
+      safe_independence: "Paris-wide child-friendly mobility policies (89% of roads at 30 km/h, ranked #1 in Europe for child-friendly mobility in 2025) benefit the 16e, and four metro lines plus RER C give teens strong transit autonomy, while violent crime is among the lowest in Paris. However, the arrondissement undermi…"
+      mental_health: France's strong baseline on substance use (daily smoking down to 3.1%, below European average on all indicators at age 16) and early-stage digital-protection policies (phone ban on school premises since 2018, 'digital pause' trial in ~200 collèges from 2024) are genuine protective factors. These …
+      peer_environment: Residential stability is extraordinarily high (88.5% of residents in the same dwelling a year prior) and the 2,600-member La Nicolaïte de Chaillot association offers a deep bench of organised sports, music, and after-school activities, anchored by the 845-hectare Bois de Boulogne as a shared outd…
+      family_practicality: Commuting is a clear strength — Metro 9 and RER C deliver fast, frequent access to La Défense and central Paris business districts — and the Rue de Passy / Avenue Victor Hugo corridor provides dense everyday services (boulangeries, pharmacies, supermarkets) within walking distance. Childcare is t…
+      health: Air quality is generally good (PM2.5 ~5.1 µg/m³, NO₂ within EU limits away from the Périphérique), drinking water meets 100% bacteriological compliance, and world-class paediatric care is reachable at Hôpital Necker-Enfants Malades (15e) and Hôpital Ambroise-Paré (24/7 paediatric ER in adjacent B…
+      nature: The Bois de Boulogne is a genuinely exceptional urban asset — 845 hectares of forest, lakes, and trails directly within the arrondissement, 2.5 times the size of Central Park, open 24/7 and free, with boating, the Jardin d'Acclimatation family amusement park, and over 20 km of walking and cycling…
+    sources:
+      - DeepSeek estimate — refine
+  - id: vincennes
+    city: Vincennes
+    country: France
+    country_code: FR
+    district: Vincennes
+    blurb: Historic charm with good schools, parks, and a strong community feel, ideal for families.
+    price_per_sqm:
+      lower: 2500
+      upper: 4000
+      average: 3200
+    travel:
+      paris_hours: 0.5
+      paris_mode: train
+      yerevan_hours: 5.5
+      yerevan_mode: flight
+    scores: { education: 3.5, safe_independence: 3, mental_health: 3, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Vincennes's public collèges are uniformly very-advantaged (SPI 137–157/180) with Hector Berlioz hitting 99% DNB success and a rare positive value-added score of +2, though the top lycée's value-added is only +1 — strong intake, not transformative teaching, drives results. Bilingual/IB schooling e…
+      safe_independence: The 2022–2028 Plan Vélo has brought 68% of communal roads down to 30 km/h and plans segregated cycleways on Avenue de Paris, but no dedicated school street (rue scolaire) programme exists yet, and inner-suburb data suggests under 10% of children's trips are made alone — far below Paris intra-muro…
+      mental_health: "France's 3rd-place UNICEF child-wellbeing ranking and 82% middle-school life satisfaction sit against a backdrop of clear post-pandemic deterioration: suicidal thoughts among lycéens hit 24% in the past 12 months (31% of girls), and the ratio of one school psychologist per ~1,500 secondary studen…"
+      peer_environment: Median income hovers near €39,000 with all schools scoring Very Advantaged on socioeconomic indices, and the city funds ~400 associations and 850+ events a year — from Carnaval to an America Festival — which together create an unmistakably education-valuing, activity-rich community. The flip side…
+      family_practicality: RER A delivers an 8–9 minute commute to Châtelet and ~12 minutes to La Défense, and the centre is a dense, walkable fabric of shops and markets, but Europe's busiest transit line means peak-hour boarding at Vincennes can be a crush, and strikes or incidents routinely blow up a 9-minute trip. Crèc…
+      health: Air quality reads consistently 'Good' on real-time indices — better than central Paris thanks to the adjacent Bois — and Hôpital Armand-Trousseau, a major AP-HP paediatric university hospital with a 24/7 paediatric ER, is roughly 3–4 km away in Paris 12e, though the closer Saint-Mandé hospital ha…
+      nature: The 995-hectare Bois de Vincennes — one of Europe's largest urban forests with 450 ha of woodland, four lakes, and 500+ wild plant species — sits directly on Vincennes's western edge, reachable on foot from anywhere in the commune in under 15 minutes, with the 35 ha Parc Floral adding botanical g…
+    sources:
+      - DeepSeek estimate — refine

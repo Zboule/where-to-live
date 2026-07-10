@@ -1,0 +1,57 @@
+districts:
+  - id: prague-6-dejvice
+    city: Prague
+    country: Czechia
+    country_code: CZ
+    district: "Praha 6 – Dejvice/Bubeneč"
+    blurb: "Prague's diplomatic quarter: embassies, international schools, tree-lined streets and big parks."
+    price_per_sqm: { lower: 5200, upper: 10100, average: 5850 }
+    travel: { paris_hours: 4.5, paris_mode: flight, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3.5, mental_health: 1.5, peer_environment: 4, family_practicality: 2.5, health: 3, nature: 4.5 }
+    notes:
+      education: "Dejvice/Bubeneč offers an exceptional concentration of elite schooling: the International School of Prague and Riverside School both deliver the full IB continuum with diploma averages of 34–36 (well above the global ~30), while Gymnázium Jana Keplera is one of Czechia's most prestigious academic…"
+      safe_independence: Crime is very low (Numbeo Safety Index 75.31, 'Very Low' worry about mugging) and Prague's public transport is among Europe's best, with Dejvická metro (Line A) and multiple tram lines giving teens easy solo mobility across the city, supported by three school streets in P6 with strong resident ap…
+      mental_health: The Czech school system places heavy academic pressure on children — perceived school pressure hit its highest level ever recorded in 2022, three in ten Czech children dislike school due to excessive exams and grading, and school satisfaction has declined over three decades — while the profession…
+      peer_environment: Dejvice has been Prague's most educationally elite cadastral area since at least 1980 — it is a villa and embassy district catering to the educated upper-middle class, with rich organised activities including SK Aritma Praha (~1,100 youth members across six sports) and ZUŠ Jana Hanuše (870 arts p…
+      family_practicality: Dejvická metro and multiple tram lines give fast, reliable commutes across Prague, the Vítězné náměstí area has everyday shops and services in walking distance, and recent legal changes (August 2024 digitisation law, July 2024 labour-market opening for nine countries) are improving the administra…
+      health: Tap water is among the best in the world, FN Motol University Hospital (the largest medical facility in Czechia, ~5–6 km away) provides comprehensive care including paediatrics, and ÚVN military hospital in neighbouring Střešovice (~2 km) offers an after-hours paediatric clinic on weeknights and …
+      nature: Divoká Šárka, a 253-hectare nature reserve with dramatic silica cliffs, deep forested valley, and natural swimming (U Veselíků spring-fed pool, Džbán reservoir), sits entirely within Praha 6's boundaries, while Stromovka — a ~95-hectare former royal hunting park with renewed paths, water features…
+    sources: [ "Investropa Prague 2025", "Svoboda & Williams P6", "Wikipedia Prague 6", "ECB CZK/EUR 2025 (~0.0405)", "OECD PISA 2022", "FlightsFrom PRG-EVN" ]
+  - id: brno-cerna-pole
+    city: Brno
+    country: Czechia
+    country_code: CZ
+    district: Černá Pole
+    blurb: Quiet, leafy streets with parks and schools, ideal for families near city center.
+    price_per_sqm: { lower: 2500, upper: 4000, average: 3200 }
+    travel: { paris_hours: 8.5, paris_mode: train, yerevan_hours: 4.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 1.5, peer_environment: 3.5, family_practicality: 3.5, health: 3.5, nature: 4 }
+    notes:
+      education: Černá Pole has a solid integrated primary school and kindergarten (ZŠ Merhautova, grades 1–9) on its own doorstep, and the International School of Brno (full IB Diploma, Cambridge IGCSE) plus a K–12 Waldorf school are available elsewhere in the city — but no secondary school or gymnasium sits wit…
+      safe_independence: "The district scores well on the basics that let children move independently: Lužánky Park (22.3 ha) offers a large car-free play space, Brno's trams are rated safe for unaccompanied minors, a 2024 citywide 30 km/h policy and a specific school-zone redesign for Jugoslávská (raised crosswalks, wide…"
+      mental_health: "The picture is weighted down by systemic gaps: only 31% of Czech primary schools have a psychologist, the entire country has just ~180 child psychiatrists with half near retirement, UNICEF data show 3 in 10 Czech children dislike school (too many exams, excessive grading), and HBSC longitudinal d…"
+      peer_environment: Černá Pole is Brno's historic premier residential district — quiet, affluent, and stable, anchored by UNESCO-listed Villa Tugendhat and luxury apartments trading at ~29.5M CZK — with strong organised-activity infrastructure (Helceletka runs ~400 clubs citywide, and Brno family vouchers provide up…
+      family_practicality: "Day-to-day logistics are genuinely strong: the integrated ZŠ+MŠ Merhautova covers childcare and primary school on one campus, four tram lines (3, 5, 9, 11) provide redundant high-frequency transit, the city's main Children's Hospital sits on Černopolní Street inside the district, and Mendel Unive…"
+      health: The standout asset is that University Hospital Brno's Children's Hospital — the city's sole paediatric emergency department, operating 24/7 on weekends — is physically in Černá Pole on Černopolní Street; air quality is typical urban-European (PM2.5 ~12.3 µg/m³, within the EU limit but ~2.5× the W…
+      nature: Lužánky Park — Brno's largest at 22.3 hectares, established in 1786 — sits entirely within Černá Pole with playgrounds, sports courts, a historic pavilion, free public toilets, and year-round cultural events, while the 92 km² Moravian Karst protected landscape (Macocha Abyss, 1,100+ caves) and th…
+    sources:
+      - DeepSeek estimate — refine
+  - id: prague-dejvice
+    city: Prague
+    country: Czechia
+    country_code: CZ
+    district: Dejvice
+    blurb: Historic villas, parks, and top schools near Prague Castle. Quiet, green, family-friendly.
+    price_per_sqm: { lower: 4500, upper: 7500, average: 6000 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 4.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3, mental_health: 1.5, peer_environment: 4, family_practicality: 2.5, health: 3, nature: 4.5 }
+    notes:
+      education: Dejvice has solid local public primary schools (ZŠ Emy Destinnové, ZŠ Hanspaulka, ZŠ Bílá 1) and two gymnasia within reach — Arabská with native-speaker English instruction and Nad Štolou as a Charles University faculty school — while the International School of Prague in adjacent Nebušice offers…
+      safe_independence: Dejvice is one of Prague's safest residential districts — a diplomatic quarter with elevated police presence, served by Metro Line A (Dejvická, Hradčanská) and an extensive tram network that gives teens genuine transit autonomy, complemented by a comprehensive night tram/bus system when the metro…
+      mental_health: "Czech adolescents face a difficult mental-health landscape: perceived school pressure is at its highest level ever recorded (HBSC 2022), 3 out of 10 children dislike school citing excessive exams and homework (UNICEF/STEM/MARK), and the entire country has only ~180 child psychiatrists for 10.7 mi…"
+      peer_environment: Dejvice is a quiet, orderly, upper-middle-class district with some of Prague's highest tertiary-education rates (Hanspaulka 74%, Baba 79%) and a diverse international mix of Russian, Ukrainian, Slovak, and EU-national families centred around Vítězné náměstí, while Stromovka park directly adjacent…
+      family_practicality: Dejvická metro hub and multiple tram lines put the city centre ~10 minutes away, Prague 6 runs a transparent centralized kindergarten enrollment system (jakdoskolky.cz) with MŠ Čínská offering French and English instruction locally, and a new August 2024 digitisation law provides online identity …
+      health: Air quality is mixed — NO₂ (~16–24 μg/m³) sits comfortably below EU limits and PM10 readings are in the Good AQI range, but winter PM2.5 reaches 24–36 μg/m³ near main roads (well above the WHO annual guideline of 15 μg/m³), and Dejvice lies under Václav Havel Airport's approach/departure flight p…
+      nature: Dejvice sits adjacent to Stromovka (Královská obora), Prague's largest park at 90–104 hectares with 350+ tree species, heritage oaks, exotic beeches, and 6+ playgrounds, while Divoká Šárka nature reserve — 2.4 km² of cliffs, forests, streams, and a swimming lake (Džbán) — is a 15-minute tram ride…
+    sources:
+      - DeepSeek estimate — refine

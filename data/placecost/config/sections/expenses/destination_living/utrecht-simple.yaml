@@ -1,0 +1,72 @@
+# EXPENSES · destination_living · utrecht-simple — the SIMPLE post-move life in
+# Utrecht — Oost / Wittevrouwen, Netherlands.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car, a few hours/week of cleaning help, occasional eating out, one main holiday + a few weekends, mid-tier international school (2 kids) + normal kids' activities.
+# Utrecht ≈ Amsterdam — a touch cheaper on groceries/cleaning/eating out, same national lines (health, education/BSO,
+# telecoms). NL cleaning ~€16–20/hr (often informal). Children under 18 are free on the basic health insurance;
+# the 2 adults' mandatory premiums + own-risk dominate the health line.
+# Education: mid-tier international/bilingual school (Utrecht ≈ Amsterdam, ~€22k/child/yr private tier, NOT the subsidised ISU) for TWO kids ≈ €44k/yr.
+# ~82600 EUR/yr (~6880 EUR/mo) excl. housing.
+# Fact-checked 2026: Numbeo Utrecht, Nibud, Milieu Centraal, ANWB autokosten, Zorgwijzer 2026, Belastingdienst (BSO/kinderopvangtoeslag).
+id: destination_living
+variant_label: Utrecht (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 8300, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4300, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1100, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car + public transport"
+    category: Transport
+    currency: EUR
+    growth: [{ year: 2026, per_year: 7300, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (a few hours/week)"
+    category: Staff
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (basisverzekering + own-risk + supplementary, family)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2700, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1200, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3300, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: EUR
+    growth: [{ year: 2026, per_year: 44000, growth_rate: 0.03 }]

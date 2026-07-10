@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · bologna-3bed — Bologna — Santo Stefano / Murri-Colli, the 3-BED size.
+# ~140 m² 3–4 bed apartment/small house near the Giardini Margherita and the best licei (Galvani/Fermi catchment).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks
+# the tier. Price fact-checked 2026: Immobiliare.it Santo Stefano asking ~€4,910/m² (Jun 2026), Murri
+# €4,000–5,500/m²; a good ~140 m² 3–4 bed ≈ €4,650/m². The engine projects this price (and the LTV-scaled
+# mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 0.65M.
+# Acquisition — PRIMA CASA quirk: registration tax is 2% of the CADASTRAL value (far below market → effective
+# ~0.7–1% of price) + notary/agency ~3% → total ~4% of price.
+id: relocation_home
+variant_label: Bologna - Santo Stefano · 3-bed
+name: "Bologna - Santo Stefano home"
+enabled: false
+country: IT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 650000
+appreciation_rate: 0.025
+purchase:
+  price: 650000
+  date: 2033-09-01
+  acquisition_costs: 26000    # ~4%: prima casa 2% registration on the (low) cadastral value ≈ 0.7–1% of price + notary/agency ~3%
+mortgage:
+  principal: 520000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 500     # IMU EXEMPT on a non-luxury prima casa (abitazione principale) — this is just TARI waste tax ~€500–700
+  building_maintenance: 2500  # condo fees / upkeep on a ~140 m² apartment
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                 # no CGT: prima casa / any home held >5 years is exempt in Italy
+    annual_exemption_per_owner: 0
+    owners: 2

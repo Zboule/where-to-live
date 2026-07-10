@@ -1,0 +1,11 @@
+# INCOME · relocation_income · average — a fixed AVERAGE software-engineer salary for the
+# destination (sized from the country + your experience-by-year; see src/finance/swe.ts),
+# taxed progressively there. Unlike "Auto" it's a real wage, so any surplus over living +
+# housing grows the portfolio (or any shortfall draws it down). Currency from the home.
+id: relocation_income
+variant_label: "Average SWE"
+name: "Local income (avg software engineer)"
+type: swe
+tier: average
+currency: EUR
+enabled: false

@@ -1,0 +1,14 @@
+# INVESTMENT · brokerage · sp500 — a 100% S&P 500 portfolio at its long-run historical return.
+# The S&P 500's nominal total return (dividends reinvested) has averaged ≈10%/yr since 1957,
+# which is ~7% REAL. Set to 9.5% here: a touch below the headline 10% for forward realism (high
+# valuations → Vanguard/GMO etc. project ~5–7% nominal), and because this model runs on 2%
+# inflation (9.5% nominal ≈ 7.5% real ≈ the S&P's historical real return). Higher reward than the
+# diversified base, but a single-country, all-equity bet — expect bigger drawdowns along the way.
+id: brokerage
+variant_label: S&P 500 — long-run average (~9.5%)
+name: "Equities"
+currency: EUR
+opening_balance: 0           # invested balance as-of base_date # TODO set real value
+expected_return: 0.095       # ≈ S&P 500 long-run nominal total return, lightly haircut
+gains_tax_rate: 0.0          # residual tax on gains at liquidation # TODO (IE exit tax 41%, or 0 if UAE-resident)
+receives_savings: true       # this portfolio absorbs surplus above the cash buffer

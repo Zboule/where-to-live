@@ -1,0 +1,12 @@
+# INCOME · relocation_income · default — "Auto": the dynamic salary that auto-sizes each
+# month to cover living + top the cash buffer back to target (the home is funded by drawing
+# the portfolio, not the salary). The destination COUNTRY, currency and progressive income
+# tax are taken from the relocation home, so this one variant works for every city.
+# OFF by default; a relocation scenario turns it on. The two SWE variants (average / top)
+# replace it with a real market software-engineer wage instead.
+id: relocation_income
+variant_label: "Auto"
+name: "Local income"
+type: dynamic
+currency: EUR          # overridden by the destination home's currency (CHF for Lausanne)
+enabled: false

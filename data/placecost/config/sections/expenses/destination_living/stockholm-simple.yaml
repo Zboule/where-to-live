@@ -1,0 +1,72 @@
+# EXPENSES · destination_living · stockholm-simple — the SIMPLE post-move life in
+# Stockholm — Bromma (Ålsten/Höglandet), Sweden. ALL amounts in SEK.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal Swedish family of four genuinely spends: one modest car + SL,
+# occasional RUT-deducted cleaning (~SEK 250/hr gross → ~125 net), occasional eating out, one main holiday + a few
+# weekends, mid-tier international school (2 kids), normal kids' activities.
+# Healthcare is region-funded and near-free: patient fees are capped by högkostnadsskydd (~SEK 1,400/yr) — the cash
+# line is dental + glasses.
+# ~675000 SEK/yr (~56250 SEK/mo) excl. housing.
+# Fact-checked 2026: Numbeo Stockholm, Konsumentverket referensvärden, SL (månadskort), Skatteverket (RUT, maxtaxa).
+id: destination_living
+variant_label: Stockholm - Bromma (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: SEK
+    growth: [{ year: 2026, per_year: 95000, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating (villa el + värme)"
+    category: Home
+    currency: SEK
+    growth: [{ year: 2026, per_year: 45000, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: SEK
+    growth: [{ year: 2026, per_year: 9000, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car (modest) + SL cards"
+    category: Transport
+    currency: SEK
+    growth: [{ year: 2026, per_year: 55000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (RUT-deducted, occasional)"
+    category: Staff
+    currency: SEK
+    growth: [{ year: 2026, per_year: 8000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (region care ≈ free; dental/glasses)"
+    category: Lifestyle
+    currency: SEK
+    growth: [{ year: 2026, per_year: 3000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: SEK
+    growth: [{ year: 2026, per_year: 25000, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: SEK
+    growth: [{ year: 2026, per_year: 45000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: SEK
+    growth: [{ year: 2026, per_year: 20000, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: SEK
+    growth: [{ year: 2026, per_year: 30000, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: SEK
+    growth: [{ year: 2026, per_year: 340000, growth_rate: 0.03 }]

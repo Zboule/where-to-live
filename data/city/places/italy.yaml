@@ -1,0 +1,39 @@
+districts:
+
+  - id: bolzano-centro
+    city: Bolzano
+    country: Italy
+    country_code: IT
+    district: "Centre (Bozen)"
+    blurb: "Trilingual alpine city with Italy's cleanest air and best governance; pricey housing and provincial flight links."
+    price_per_sqm: { lower: 4200, upper: 7000, average: 5400 }
+    travel: { paris_hours: 9, paris_mode: flight, yerevan_hours: 15, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 4, mental_health: 2, peer_environment: 3.5, family_practicality: 2.5, health: 2.5, nature: 4 }
+    notes:
+      education: Public secondary outcomes are strong — IC Europa 1's INVALSI results rate 'very high' above provincial and national averages, and the historic Franziskanergymnasium (est. 1780) has sent graduates to Harvard and Cambridge. Primary results at the catchment school are uneven, with 53% of Class 2 at …
+      safe_independence: "Bolzano invented the world's first School Street in 1989 and is Italy's most bicycle-friendly city with over 50 km of dedicated cycle routes and an extensive pedestrianised centro storico. The city is compact and walkable, ranked #2 nationally for overall quality of life (ItaliaOggi 2024), but a …"
+      mental_health: Italy's national smartphone ban now covers all K-12 schools (upper secondary added from Sept 2025) and the AscoltaMI programme provides free counselling vouchers, but Italian teens shoulder some of the heaviest homework loads in the OECD (~11 hrs/week vs OECD ~6.5) and 66% report frequent health …
+      peer_environment: "South Tyrol is Italy's wealthiest province (GRP per capita €54,500, #1 nationally) with the EU's lowest at-risk-of-poverty rate (6.6%) and active scout organisations including the 600-member Südtiroler Pfadfinderschaft. The education system is institutionally segregated, however — German-language…"
+      family_practicality: The centro storico is compact and walkable with 10 municipal crèches managed by ASSB, but total capacity (~150–600 places for a city of 107,000) appears tight and a points-based allocation system implies competition for spots. Obtaining the SPID digital identity needed for school enrolment and pu…
+      health: Ospedale San Maurizio has a dedicated pediatric emergency department with specialised triage nurses and Italian tap water is excellent (99.1% meets health standards), but annual PM2.5 (~16 µg/m³) exceeds the WHO guideline by over 3× and annual NO₂ (~25 µg/m³) exceeds it by 2.5×. An aluminium/magn…
+      nature: Bolzano scored 79% on Legambiente's green performance index — on the podium among Italian cities — and ranked 28th out of 638 small urban areas in Europe on the ISGlobal Healthy Urban Design Index. The Dolomites UNESCO site surrounds the city with forest, mountain, and alpine lake access within 3…
+    sources: [ "Immobiliare.it", "Idealista", "Agenzia delle Entrate OMI", "Il Sole 24 Ore QoL 2024/2025", "IQAir/Copernicus", "ASTAT/Eurostat", "FlightConnections" ]
+
+  - id: trento-centro
+    city: Trento
+    country: Italy
+    country_code: IT
+    district: "Centre"
+    blurb: "Alpine autonomous-province capital, Italy's #1 quality-of-life 2025; cleaner air, best governance, thin intl schooling."
+    price_per_sqm: { lower: 3400, upper: 4800, average: 3700 }
+    travel: { paris_hours: 7, paris_mode: flight, yerevan_hours: 13, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 4, nature: 4 }
+    notes:
+      education: "Trento province ranks 3rd in Italy for education (ItaliaOggi 2024), feeds into a top-ranked medium-sized university (Censis 2024 #1), and offers public Montessori primary in the city — but there is no IB World School within 90 km, no Russian Saturday or community-language school, and Italy's earl…"
+      safe_independence: The centro is a pedestrianized ZTL core with very low crime — robbery at half the national rate and pickpocketing 70% below average — backed by an 80 km cycle network (Fiab 4/5 bike smiles) and the decade-running 'A Piedi Sicuri' program that increased children's independent mobility 8–25%; howev…
+      mental_health: "Italy has strong structural supports — free national psychological counselling for students (AscoltaMI), school listening desks, a full K-12 smartphone ban from September 2025, and 83% of teens say they make friends easily — yet the wellbeing outcomes are among the OECD's worst: 66% of 15-year-ol…"
+      peer_environment: Trento is Europe's 2024 Capital of Volunteering with 116 nonprofits per 10,000 inhabitants — nearly double the national average — and incomes above the Italian norm (€26,117 estimated 2024), fostering a high-trust, civically engaged atmosphere with strong social-integration projects like COMBO co…
+      family_practicality: Living in the compact medieval centro means everything is walkable within a traffic-calmed pedestrian zone, with bus lines 5 and 7 running every 5–10 minutes and a real-time transit app — but municipal nurseries leave 26% of applicants on the waitlist (~300 families unserved), and the SPID digita…
+      health: "Trento is Italy's #1 least-polluted city (Legambiente 2024), with PM2.5 at the WHO guideline of ~5 µg/m³, province-wide healthcare ranked 3rd nationally (LEA 277.9/300) with the country's highest hospital-care score (98.35/100), and tap water that passes 99.1% of health tests — yet two contaminat…"
+      nature: Trento boasts 64% tree canopy cover and the highest public-green ratio of any Italian city (396 m² per inhabitant), sits at the foot of the 1,100-hectare Monte Bondone reserve reachable by cable car, and lies within 30–60 minutes of the Dolomites, Lake Garda, and Italy's cleanest freshwater lake …
+    sources: [ "Immobiliare.it Centro", "Idealista", "UniTrento/QS 2026", "IQAir", "Il Sole 24 Ore QoL 2024/2025", "ASTAT/agenzialavoro.tn.it" ]

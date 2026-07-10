@@ -1,0 +1,38 @@
+# REAL ESTATE · relocation_home · christchurch-3bed — Christchurch — Fendalton, the 3-BED size.
+# ~140 m² 3–4 bed home/townhouse inside the golden school zones (Fendalton Open-Air, Boys'/Girls' High).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks
+# the tier. Price fact-checked 2026: OneRoof/homes.co.nz Fendalton avg house value ~NZD 1.78M; smaller 3-bed
+# townhouses and post-quake rebuilds sit well below the suburb average — a solid ~140 m² 3-bed ≈ NZD 1.10M.
+# The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys
+# at the appreciated price, not today's. NZD 1.10M. ALL amounts in NZD.
+# Acquisition: NZ has NO stamp duty / transfer tax — just conveyancing + LIM report ~NZD 3–5k.
+# (Assumes resident/citizen status — the OIO foreign-buyer ban on existing homes would otherwise block the purchase.)
+id: relocation_home
+variant_label: Christchurch - Fendalton · 3-bed
+name: "Christchurch - Fendalton home"
+enabled: false
+country: NZ
+currency: NZD
+owned_from: 2033-09-01
+current_value: 1100000
+appreciation_rate: 0.03
+purchase:
+  price: 1100000
+  date: 2033-09-01
+  acquisition_costs: 4000     # no stamp duty in NZ — conveyancing + LIM + builder's report ~NZD 3–5k
+mortgage:
+  principal: 880000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.057             # NZ 2-year fixed ~5.5–5.9%
+holding_costs:
+  local_property_tax: 4500    # CCC rates ~NZD 4–5k/yr on a 3-bed Fendalton home
+  building_maintenance: 6000  # insurance ~NZD 3k (post-earthquake Canterbury premiums are REAL) + upkeep ~NZD 3k
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                 # NZ has NO general CGT; the 2-year bright-line only hits investment property, never the family home
+    annual_exemption_per_owner: 0
+    owners: 2

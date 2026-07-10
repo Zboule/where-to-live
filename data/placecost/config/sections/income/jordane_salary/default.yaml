@@ -1,0 +1,14 @@
+# INCOME · jordane_salary · default — the GOOD pre-move UAE trajectory. USD international
+# comp with the 2027 promotion to $500k. The UAE job runs until the DYNAMIC move date (the
+# engine stops it at the move — fixed 2030/2032 preset, or the equity-sustainability
+# trigger); there is NO hard terminal "0", so the salary never gaps before the local
+# income takes over. This is the default; pick "Bad" for the conservative case.
+id: jordane_salary
+variant_label: "Good"
+name: "Jordane — Salary (UAE)"
+type: salary
+currency: USD
+tax_rate: 0.0
+growth:
+  - { year: 2026, gross_per_year: 320000, growth_rate: 0.10 }   # current pay (≈ $320k)
+  - { year: 2027, gross_per_year: 500000, growth_rate: 0.08 }   # promotion to $500k, 8%/yr

@@ -1,0 +1,35 @@
+# REAL ESTATE · relocation_home · vienna — Vienna — Hietzing (13th), the COMFORTABLE size.
+# ~230 m² 4–5 bed family villa. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and
+# the "Home size" toggle picks the tier. Price fact-checked 2025-26: Hietzing house avg ~€7,050–7,350/m²;
+# real 200–280 m² villa listings €1.55M (older) to €2.49M (new high-spec). ~230 m² comfortable family villa
+# ≈ €7,800/m². The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a
+# later move buys at the appreciated price, not today's. EUR 1.80M.
+id: relocation_home
+variant_label: Vienna - Hietzing
+name: "Vienna - Hietzing home"
+enabled: false
+country: AT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1800000
+appreciation_rate: 0.03
+purchase:
+  price: 1800000
+  date: 2033-09-01
+  acquisition_costs: 180000
+mortgage:
+  principal: 1440000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.038
+holding_costs:
+  local_property_tax: 1200
+  building_maintenance: 5500
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 2

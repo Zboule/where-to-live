@@ -1,0 +1,35 @@
+# REAL ESTATE · relocation_home · dinard-premium — Dinard (Côte d'Émeraude, Brittany), the PREMIUM size.
+# ~350 m² front-line Belle-Époque villa on La Malouine — the iconic turreted houses on the rocks
+# with the full panorama over Saint-Malo bay. Rare, tightly-held stock: front-line Malouine villas
+# trade €3–6M (~€9–11k/m²). Bought AT the (dynamic) move; OFF by default, a relocation scenario
+# turns it on and the "Home size" toggle picks the tier. The engine projects this price (and the
+# LTV-scaled mortgage) to the actual purchase year. EUR 3.50M.
+id: relocation_home
+variant_label: Dinard · sea view · premium
+name: "Dinard sea-view home"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2033-09-01
+current_value: 3500000
+appreciation_rate: 0.03
+purchase:
+  price: 3500000
+  date: 2033-09-01
+  acquisition_costs: 259000     # frais de notaire (ancien) ~7.4%
+mortgage:
+  principal: 2800000            # 80% LTV
+  first_payment_date: 2033-10-04
+  last_payment_date: 2058-09-04
+  rate_periods:
+    - rate: 0.034
+holding_costs:
+  local_property_tax: 5500
+  building_maintenance: 20000   # a listed-character seafront villa is expensive to keep: façades, sea-facing joinery, grounds
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 2

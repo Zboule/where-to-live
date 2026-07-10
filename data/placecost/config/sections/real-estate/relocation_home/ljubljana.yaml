@@ -1,0 +1,42 @@
+# REAL ESTATE · relocation_home · ljubljana — Ljubljana — Rožna dolina / Trnovo, the COMFORTABLE size.
+# ~230 m² 4–5 bed villa in the green villa quarter next to the centre (best schools, embassies, Tivoli/Rožnik at
+# the door). Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size"
+# toggle picks the tier. Price fact-checked 2026: GURS transaction data + nepremicnine.net asking prices put
+# quality Rožna dolina / Trnovo houses at ~€4,500–5,800/m² (Trnovo listings ~€5,000–7,000/m², Rožna dolina villa
+# belt €6,000+/m² asking; transactions settle lower). A ~230 m² comfortable villa ≈ €5,400/m². The engine projects
+# this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated
+# price, not today's. EUR 1.25M.
+# Acquisition: 2% real-estate transfer tax (DPN, resale — buyer usually bears it economically) + notary + agent
+# share + admin → ~4% all-in.
+# Holding: no classic recurring property tax yet — the building-land-use fee (nadomestilo za uporabo stavbnega
+# zemljišča, NUSZ) ~€500–1,500/yr for a house like this; the long-announced Slovenian property tax keeps being
+# postponed. Sale: primary residence with 3y occupancy is CGT-exempt.
+id: relocation_home
+variant_label: Ljubljana - Rožna dolina
+name: "Ljubljana - Rožna dolina home"
+enabled: false
+country: SI
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1250000
+appreciation_rate: 0.03
+purchase:
+  price: 1250000
+  date: 2033-09-01
+  acquisition_costs: 50000      # 2% transfer tax (25k) + notary/agent/admin ≈ 4% all-in
+mortgage:
+  principal: 1000000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 900       # NUSZ building-land-use fee ~€500–1,500/yr; real property tax still postponed
+  building_maintenance: 4000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # primary residence with 3y occupancy exempt
+    annual_exemption_per_owner: 0
+    owners: 2

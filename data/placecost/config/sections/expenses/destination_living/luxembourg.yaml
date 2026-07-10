@@ -1,0 +1,72 @@
+# EXPENSES · destination_living · luxembourg — the COMFORTABLE post-move life in
+# Luxembourg City — Belair, Luxembourg.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Comfortable: comfortable but NOT luxurious: two cars, a part-time maid (~1–2 days/week), several holidays a year, one–two casual restaurant meals a week, international/bilingual school (2 kids) + richer kids' activities.
+# Employed family is on CNS statutory health (payroll-funded, ~88–100% reimbursement), kids covered → the cash line is out-of-pocket + a small mutuelle top-up. Luxembourg cleaning is expensive: ~€18–22/hr declared.
+# Groceries are among the priciest in the euro area (~120% of EU avg); fuel is famously cheap and ALL public
+# transport in Luxembourg is FREE (nationwide, since 2020) — so two cars carry the whole transport line.
+# Education: the tuition-free European School (Lux I/II) is access-restricted, so this prices a MID-TIER international/bilingual school (e.g. St George’s / ISL) for TWO children.
+# ~113400 EUR/yr (~9450 EUR/mo) excl. housing.
+# Fact-checked 2026: Numbeo Luxembourg, STATEC, CNS, mobiliteit.lu (free transport), ACL.
+id: destination_living
+variant_label: Luxembourg - Belair
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 14400, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1800, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Cars (two) — public transport is FREE nationwide"
+    category: Transport
+    currency: EUR
+    growth: [{ year: 2026, per_year: 10000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Domestic help (part-time, ~1.5 days/wk @ ~€20/hr)"
+    category: Staff
+    currency: EUR
+    growth: [{ year: 2026, per_year: 12000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (CNS out-of-pocket + small mutuelle top-up)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 7800, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 11000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 4800, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 7200, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: EUR
+    growth: [{ year: 2026, per_year: 36000, growth_rate: 0.03 }]

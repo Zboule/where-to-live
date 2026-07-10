@@ -1,0 +1,75 @@
+# EXPENSES · destination_living · melbourne-simple — the SIMPLE post-move life in
+# Melbourne — Camberwell (Boroondara), Australia.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# council rates or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car + Myki,
+# NO cleaner (DIY), occasional eating out, one long-haul Europe trip every other year + domestic breaks,
+# mid-tier private school (2 kids) + normal kids' activities.
+# Health = Medicare (tax-funded) + a basic private hospital cover kept mainly to avoid the Medicare Levy
+# Surcharge at higher incomes, + modest gap/dental out-of-pocket.
+# Education: mid-tier independent school (e.g. Camberwell Girls / Siena tier ~AUD 31k/child/yr, NOT the
+# AUD 42–55k elite tier) for TWO kids ≈ AUD 62k/yr.
+# ~123800 AUD/yr (~10,320 AUD/mo) excl. housing.
+# Fact-checked 2026: Numbeo Melbourne, ABS Household Expenditure, PHI comparison sites, RACV car running
+# costs, PTV Myki fares.
+id: destination_living
+variant_label: Melbourne - Camberwell (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: AUD
+    growth: [{ year: 2026, per_year: 18000, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / gas / water"
+    category: Home
+    currency: AUD
+    growth: [{ year: 2026, per_year: 4800, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet (NBN) / mobiles"
+    category: Home
+    currency: AUD
+    growth: [{ year: 2026, per_year: 1800, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car (one) + Myki public transport"
+    category: Transport
+    currency: AUD
+    growth: [{ year: 2026, per_year: 9600, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (none — DIY)"
+    category: Staff
+    currency: AUD
+    growth: [{ year: 2026, per_year: 0, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (Medicare + basic hospital cover + gaps)"
+    category: Lifestyle
+    currency: AUD
+    growth: [{ year: 2026, per_year: 5000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants & cafés"
+    category: Lifestyle
+    currency: AUD
+    growth: [{ year: 2026, per_year: 4800, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel (Europe every other year + domestic)"
+    category: Lifestyle
+    currency: AUD
+    growth: [{ year: 2026, per_year: 10000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities & sport"
+    category: Lifestyle
+    currency: AUD
+    growth: [{ year: 2026, per_year: 3600, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: AUD
+    growth: [{ year: 2026, per_year: 4200, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: AUD
+    growth: [{ year: 2026, per_year: 62000, growth_rate: 0.03 }]

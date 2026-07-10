@@ -1,0 +1,65 @@
+# REAL ESTATE · dun_laoghaire · bad — soft market, high rates, churn & voids.
+# Differs from default only in the BAD-tagged lines; the rest mirrors default.
+id: dun_laoghaire
+variant_label: Bad — soft market, high rates
+name: "36 Harbour Court"
+country: IE
+currency: EUR
+
+reinvest_surplus_to: brokerage
+
+current_value: 744000        # as-of base_date 2026-01-01
+appreciation_rate: 0.01      # BAD: housing stagnates near flat (real terms decline vs 5% inflation)
+
+value_history:
+  "2022-10": 635000
+  "2022-12": 633000
+  "2023-12": 650000
+  "2024-12": 704000
+  "2025-12": 744000
+  "2026-06": 764000
+
+purchase:
+  price: 635000
+  date: 2022-10-01
+  acquisition_costs: 8350    # TODO confirm exact legal fees
+
+mortgage:
+  principal: 460000
+  first_payment_date: 2022-12-04
+  last_payment_date: 2037-10-04
+  rate_periods:
+    - rate: 0.0215           # 2.15% fixed for the first 5 years
+      months: 60
+    - rate: 0.055            # BAD: rates stay high — re-fix at 5.5% from Dec 2027
+      # (high-inflation world keeps the ECB tight; Irish spread on top).
+      # (no `months` -> runs to last payment)
+
+holding_costs:
+  local_property_tax: 1000
+  building_maintenance: 9000         # BAD: block special assessments (facade/lift/fire works)
+  unit_maintenance: 6000             # BAD: ageing unit — recurring repairs & remediation
+  grows_with: inflation              # escalate these each year (pair with high inflation)
+
+sale:
+  selling_costs_rate: 0.015
+  cgt:
+    rate: 0.33
+    annual_exemption_per_owner: 1270
+    owners: 2
+    ppr:
+      occupied_from: 2022-10-01
+      occupied_until: 2025-11-01
+      final_period_deemed_months: 12
+
+rental:
+  active_from: 2025-11-01
+  gross_per_month: 3800
+  rent_growth_rate: 0.0        # BAD: soft market — rents flat (falling in real terms)
+  average_tenancy_years: 1.5   # BAD: tenants churn faster
+  vacancy_months_per_turnover: 3   # BAD: ~3 months empty to re-let each time (≈17% vacancy)
+  find_new_tenant_fee_rate: 0.08   # BAD: higher letting fee, paid more often
+  management_fee_rate: 0.06    # BAD: agent takes more
+  tax:
+    rate: 0.20
+    basis: net_profit

@@ -1,0 +1,16 @@
+# INVESTMENT · brokerage · bad — weak returns with crashes.
+id: brokerage
+variant_label: Bad — weak returns & crashes (3.5%)
+name: "Equities"
+currency: EUR
+opening_balance: 0           # invested balance as-of base_date # TODO set real value
+expected_return: 0.035       # BAD: a weak, low-return decade (vs 5% base case)
+# BAD: market drawdowns "here and there" — annual return for these years overrides
+# expected_return (a crash, a bear market, late-cycle slumps).
+return_overrides:
+  2029: -0.28                # recession / crash
+  2030: -0.10                # slow recovery
+  2036: -0.22               # second bear market
+  2042: -0.15               # late-cycle slump
+gains_tax_rate: 0.41         # BAD: Irish exit tax on gains (assumes move back to IE)
+receives_savings: true

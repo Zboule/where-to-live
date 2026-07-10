@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · edinburgh — Edinburgh — Morningside/Bruntsfield, the COMFORTABLE size.
+# ~230 m² Victorian stone family house in the Morningside/Bruntsfield belt (Boroughmuir & James Gillespie's
+# catchments — the best state-school belt in Scotland). Bought AT the (dynamic) move; OFF by default, a relocation
+# scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2025-26: Morningside average
+# house price ~£489k (all types, ESPC/PMI — flats drag that down), EH10 average transaction ~£530k; whole Victorian
+# houses in Morningside/Merchiston run ~£4,200–5,500/m² (ESPC, Savills EH10). A ~230 m² comfortable Victorian
+# semi/terrace ≈ £5,200/m². The engine projects this price (and the LTV-scaled mortgage) to the actual purchase
+# year, so a later move buys at the appreciated price, not today's. GBP 1.20M.
+id: relocation_home
+variant_label: Edinburgh - Morningside
+name: "Edinburgh - Morningside home"
+enabled: false
+country: GB
+currency: GBP
+owned_from: 2033-09-01
+current_value: 1200000
+appreciation_rate: 0.03
+purchase:
+  price: 1200000
+  date: 2033-09-01
+  acquisition_costs: 106000     # Scottish LBTT is steep, ~8.5% effective here (UK resident, main home, no ADS): 0% to £145k, 2% on £145–250k = £2,100, 5% on £250–325k = £3,750, 10% on £325–750k = £42,500, 12% above £750k = £54,000 → LBTT £102,350; + conveyancing/searches/registration ~£3,650.
+mortgage:
+  principal: 960000             # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.043               # UK 5-year fix, ~4.3% at 80% LTV in 2025-26.
+holding_costs:
+  local_property_tax: 4300      # Council Tax — a house this size in Edinburgh is band G/H, ~£3,800–5,000/yr (City of Edinburgh 2026 rates incl. water/sewerage).
+  building_maintenance: 10000   # Victorian stone is lovely but needy: roof/pointing/sash windows/damp, ~£8–12k/yr averaged.
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02      # Agent + solicitor, Scottish selling costs ~1.5–2%.
+  cgt:
+    rate: 0.0                   # Private Residence Relief — no CGT on the main home in the UK.
+    annual_exemption_per_owner: 0
+    owners: 2

@@ -1,0 +1,35 @@
+# REAL ESTATE · relocation_home · porto-premium — Porto — Foz do Douro, the PREMIUM size.
+# ~350 m² large high-spec villa (prime Foz/Nevogilde, sea-side streets; CLIP nearby). Bought AT the (dynamic)
+# move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks the tier.
+# Price fact-checked 2026: idealista Aldoar–Foz do Douro–Nevogilde avg €4,785/m², but prime Foz sea-front/garden
+# villas run €6,000–8,000/m² → ~350 m² top villa ≈ €6,550/m². The engine projects this price (and the LTV-scaled
+# mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 2.30M.
+id: relocation_home
+variant_label: Porto - Foz do Douro · premium
+name: "Porto - Foz do Douro home"
+enabled: false
+country: PT
+currency: EUR
+owned_from: 2033-09-01
+current_value: 2300000
+appreciation_rate: 0.03
+purchase:
+  price: 2300000
+  date: 2033-09-01
+  acquisition_costs: 193000     # ~8.4%: IMT 7.5% flat above ~€1.10M bracket (€172.5k) + stamp duty 0.8% (€18.4k) + notary/registration (~€2k)
+mortgage:
+  principal: 1840000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.032               # PT 2026 fixed/mixed-rate mortgages ~3.0–3.4%
+holding_costs:
+  local_property_tax: 5500      # IMI: Porto ~0.324% on VPT (~€1.35M here → ~€4.4k) + AIMI: 0.7% on VPT above €600k/person (€1.2M/couple) → ~€150k excess ≈ €1.1k/yr
+  building_maintenance: 8400
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real PT agency fees run ~5%+VAT — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence: PT CGT exempt when proceeds are reinvested in the next main home
+    annual_exemption_per_owner: 0
+    owners: 2

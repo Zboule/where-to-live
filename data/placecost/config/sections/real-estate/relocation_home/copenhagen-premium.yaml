@@ -1,0 +1,35 @@
+# REAL ESTATE · relocation_home · copenhagen-premium — Copenhagen — Frederiksberg (green enclave, best schools), the PREMIUM size.
+# ~350 m² large high-spec villa near Frederiksberg Have / Søndermarken. Bought AT the (dynamic) move; OFF by default,
+# a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2026
+# (Boliga/Boligsiden/Finans Danmark): Frederiksberg villas average ~DKK 85,967/m² with prime-street askings up to
+# ~DKK 131,250/m² (avg villa sale ~DKK 18.3M); a ~350 m² top villa ≈ DKK 95,000/m². The engine projects this price
+# (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. DKK 33.25M.
+id: relocation_home
+variant_label: Copenhagen - Frederiksberg · premium
+name: "Copenhagen - Frederiksberg home"
+enabled: false
+country: DK
+currency: DKK
+owned_from: 2033-09-01
+current_value: 33250000
+appreciation_rate: 0.03
+purchase:
+  price: 33250000
+  date: 2033-09-01
+  acquisition_costs: 500000     # cheap by EU standards ~1.5%: tinglysningsafgift (deed) 0.6% + DKK 1,850 fixed + lawyer/berigtigelse ~DKK 30–40k
+mortgage:
+  principal: 26600000           # 80% LTV realkredit (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.038               # Danish realkredit 30y fixed callable ~3.5–4% (2026); incl. bidragssats (admin margin)
+holding_costs:
+  local_property_tax: 330000    # ejendomsværdiskat 0.51% of taxable value (80% of assessment) up to DKK 9.4M + 1.4% above ≈ DKK 289k, plus grundskyld (land tax, Frederiksberg low ~0.51% of a large prime plot's land value) ≈ DKK 40k
+  building_maintenance: 100000  # ~0.3%/yr of value — large heritage villa, garden, roof/facade reserves
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # parcelhusreglen — gains on the owner-occupied home are tax-exempt in Denmark
+    annual_exemption_per_owner: 0
+    owners: 2

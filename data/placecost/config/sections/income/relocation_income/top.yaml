@@ -1,0 +1,10 @@
+# INCOME · relocation_income · top — a fixed TOP-TIER software-engineer salary for the
+# destination (staff/principal at a strong employer; see src/finance/swe.ts), taxed
+# progressively there. The surplus over living + housing compounds in the portfolio.
+id: relocation_income
+variant_label: "Top SWE"
+name: "Local income (top software engineer)"
+type: swe
+tier: top
+currency: EUR
+enabled: false

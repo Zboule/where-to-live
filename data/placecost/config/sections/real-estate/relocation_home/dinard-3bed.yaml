@@ -1,0 +1,34 @@
+# REAL ESTATE · relocation_home · dinard-3bed — Dinard (Côte d'Émeraude, Brittany), SEA-VIEW, the SMALL size.
+# ~140 m² 3-bed house/apartment with a real sea view (Saint-Énogat or above Plage de l'Écluse).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home
+# size" toggle picks the tier. Sea-view smaller stock ~€7.1k/m² (town avg ~€5.5–6.0k; view premium).
+# The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year. EUR 1.00M.
+id: relocation_home
+variant_label: Dinard · sea view · 3-bed
+name: "Dinard sea-view home"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1000000
+appreciation_rate: 0.03
+purchase:
+  price: 1000000
+  date: 2033-09-01
+  acquisition_costs: 74000      # frais de notaire (ancien) ~7.4%
+mortgage:
+  principal: 800000             # 80% LTV
+  first_payment_date: 2033-10-04
+  last_payment_date: 2058-09-04
+  rate_periods:
+    - rate: 0.034
+holding_costs:
+  local_property_tax: 2200
+  building_maintenance: 8000    # salt-air upkeep, smaller envelope
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 2

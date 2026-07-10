@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · stockholm-premium — Stockholm — Bromma (Ålsten/Höglandet villa belt), the PREMIUM size.
+# ~350 m² large architect/waterside-street villa in prime Ålsten/Höglandet. Bought AT the (dynamic) move; OFF by
+# default, a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2025-26:
+# prime Ålsten individual slutpriser run 119,000–147,000 kr/m² (Booli slutpriser Ålsten) vs the broad Bromma villa
+# market at ~SEK 60,000–80,000/m² (Hemnet slutpriser); a ~350 m² top villa ≈ SEK 86,000/m² (big houses trade below
+# the small-prime per-m² peaks). The engine projects this price (and the LTV-scaled mortgage) to the actual purchase
+# year, so a later move buys at the appreciated price, not today's. SEK 30.0M.
+id: relocation_home
+variant_label: Stockholm - Bromma · premium
+name: "Stockholm - Bromma home"
+enabled: false
+country: SE
+currency: SEK
+owned_from: 2033-09-01
+current_value: 30000000
+appreciation_rate: 0.03
+purchase:
+  price: 30000000
+  date: 2033-09-01
+  acquisition_costs: 933000     # ~3.1% of price: lagfart (title) 1.5% of price = 450,000 + pantbrev (mortgage deed) 2% of NEW mortgage bonds = 2% × 24.0M = 480,000 + Lantmäteriet admin fees ~3,000. Assumes no existing pantbrev to reuse.
+mortgage:
+  principal: 24000000           # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value). NOTE amorteringskrav: Swedish rules force 2%/yr mandatory amortization while LTV > 70% (1%/yr at 50–70%), +1%/yr more if debt > 4.5× gross income — the schedule below already amortizes faster than that.
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.0325              # Swedish mortgages are dominantly variable (3-mo); listed rates ~3.0–3.5% in 2025-26.
+holding_costs:
+  local_property_tax: 10000     # Kommunal fastighetsavgift is CAPPED (~SEK 10,000/yr for a småhus in 2026, indexed) — the SAME ceiling as a modest villa; a SEK 30M house pays no more, there is no % wealth-style property tax on homes.
+  building_maintenance: 85000   # Upkeep + villahemförsäkring + garden/pool etc. for a 350 m² house.
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02      # Mäklararvode ~1.5–2% in Stockholm.
+  cgt:
+    rate: 0.22                  # Sweden DOES tax primary-home gains: 22/30 of the gain at 30% capital tax ≈ 22% effective. Payment can be deferred via uppskov (interest-free since 2021) when buying a replacement home, but the liability survives — so model it.
+    annual_exemption_per_owner: 0
+    owners: 2

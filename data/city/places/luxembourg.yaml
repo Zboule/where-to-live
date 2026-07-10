@@ -1,0 +1,39 @@
+districts:
+
+  - id: luxembourg-limpertsberg
+    city: Luxembourg City
+    country: Luxembourg
+    country_code: LU
+    district: Limpertsberg
+    blurb: "Chic expat-family district with the English-stream Lycee Michel Lucius in-district; slightly cheaper than Belair, still very pricey."
+    price_per_sqm: { lower: 10500, upper: 14000, average: 12300 }
+    travel: { paris_hours: 3.7, paris_mode: train, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 2.5, mental_health: 2, peer_environment: 2.5, family_practicality: 3.5, health: 3, nature: 3 }
+    notes:
+      education: Limpertsberg packs two of Luxembourg's strongest public schools—the prestigious Lycée de Garçons (classical baccalaureate) and Lycée Michel Lucius (free Cambridge IGCSE + A-Level track)—plus a Waldorf school with IB, all within its borders, yet sits inside a trilingual national system where 68% o…
+      safe_independence: Limpertsberg is one of the safest central districts in the city (4th of 24 for quality of life, just 5 robberies in six months versus 71 in Gare), and free trams every 3–4 minutes plus a dozen bus lines give teens genuine transit autonomy—but there is zero public transit Sunday through Thursday n…
+      mental_health: "Luxembourg students historically reported below-average study anxiety and strong school belonging, but the trendlines are alarming: suicidal ideation has risen from 15.6% to 23.7% of adolescents since 2006, suicide attempts from 6.7% to 11.7%, academic pressure now affects 44% of students, and ne…"
+      peer_environment: Limpertsberg is Luxembourg City's most educationally concentrated and highest-income district—two-thirds of residents hold a higher-education degree and average salaries approach €9,000/month—making it an elite, safe enclave with low antisocial behaviour, but 71% of residents are foreign-born pro…
+      family_practicality: A free, frequent tram every 3–4 minutes and 12 bus lines make Limpertsberg one of the best-connected districts in the city, and the MyGuichet digital platform handles most admin online, but 673 children sit on the city's childcare waiting list for only 416 public crèche places, buses suffer hundr…
+      health: Limpertsberg's standout asset is the CHL Kannerklinik paediatric hospital with 24/7 emergency department reachable in 10–18 minutes on foot from most of the district, and drinking water ranks third-cleanest in the EU, but the hospital carries a 2.3/5 rating with parents reporting 3–11 hour ER wai…
+      nature: Tony Neuman Park is a genuine gem—a 4.5-hectare arboretum with giant sequoias, rose gardens, a playground, and 4.7★ across 141+ reviews—and the 670-hectare Bambësch forest sits roughly 21 minutes' walk north, but the district's most prominent open space (Glacis) is a vast paved parking lot with t…
+    sources: [ "athome.lu", "STATEC/Observatoire de l'Habitat", "Numbeo", "Lycee Michel Lucius", "guichet.public.lu", "SNCF" ]
+  - id: luxembourg-city-kirchberg
+    city: Luxembourg City
+    country: Luxembourg
+    country_code: LU
+    district: Kirchberg
+    blurb: Safe, green, and family-friendly with top schools and parks.
+    price_per_sqm: { lower: 8000, upper: 12000, average: 10000 }
+    travel: { paris_hours: 2.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3, mental_health: 2, peer_environment: 2.5, family_practicality: 4, health: 3.5, nature: 3.5 }
+    notes:
+      education: Kirchberg hosts the European School Luxembourg I with its multilingual European Baccalaureate and EN/FR/DE sections, alongside multiple Luxembourgish elementary schools on the plateau — a strong institutional offering. However, Luxembourg's trilingual national curriculum (Luxembourgish→German→Fre…
+      safe_independence: Free nationwide public transport and the Luxtram running the full length of Kirchberg with multiple modern stops remove cost and complexity barriers for teen solo mobility, while 30 km/h zones and protected two-way cycle paths on Rue Erasme support younger children's active travel. The counterwei…
+      mental_health: "Luxembourg historically scored well on child well-being (7th of 29 rich countries, UNICEF 2013) with below-average study anxiety and above-average sense of belonging, but multiple indicators are deteriorating: schoolwork pressure rose from 32% to 44% of students (2010→2022), adolescent suicidal i…"
+      peer_environment: "Kirchberg's population of EU-institution and financial-sector professionals creates a highly educated, internationally diverse community anchored by the d'Coque national sports centre and Kinepolis cinema on the plateau. The trade-off is residential instability: 75% foreign population with many o…"
+      family_practicality: Free nationwide public transport, the Luxtram spine along the entire plateau, and the centralised MyGuichet.lu digital admin platform (250+ procedures) make daily logistics unusually frictionless, while multiple crèches operate extended hours (7:00–19:00) and two shopping centres — Auchan (12,500…
+      health: Hôpital Kirchberg sits on the plateau with a paediatric emergency department treating ~20,000 children annually, PM2.5 at ~7–9 µg/m³ is well within EU limits, and Luxembourg's drinking water ranks 3rd in the EU with >99.8% compliance. Gaps include PM2.5 still exceeding the stricter WHO guideline …
+      nature: The Grünewald forest — Luxembourg's largest at 3,734 hectares — directly borders Kirchberg's northeastern edge for doorstep forest access, Parc Central Kirchberg offers 4.5-star-rated green space with playgrounds and a pond, and parks are open 24/7 with active maintenance. The district itself is …
+    sources:
+      - DeepSeek estimate — refine

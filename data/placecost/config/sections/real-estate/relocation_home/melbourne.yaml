@@ -1,0 +1,40 @@
+# REAL ESTATE · relocation_home · melbourne — Melbourne — Camberwell (Boroondara), the COMFORTABLE size.
+# ~230 m² 4–5 bed family house in the leafy inner east, inside the Camberwell/Canterbury girls' & boys' high
+# school zones. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the
+# "Home size" toggle picks the tier. Price fact-checked 2026: Camberwell median house ~AUD 2.34–2.60M
+# (PropertyValue/CoreLogic ~$2.6M, Smart Property Investment ~$2.60M, Aussie ~$2.59M, Woodards ~$2.34M,
+# Domain suburb profile in the same band); a ~230 m² renovated period family home sits at/just above the
+# median ≈ AUD 10,900/m² equivalent. The engine projects this price (and the LTV-scaled mortgage) to the
+# actual purchase year, so a later move buys at the appreciated price, not today's. AUD 2.50M.
+# Acquisition ~6.4%: Victorian stamp duty is BRUTAL at this price — contracts >$2M pay $110,000 + 6.5% of the
+# excess → ~AUD 142,500 on $2.5M (~5.7%) + conveyancing/inspections/title & registration (~AUD 7–8k) +
+# buffer ≈ AUD 160k. ASSUMES PR/citizen buyer — the foreign purchaser additional duty (+8%) does NOT apply.
+id: relocation_home
+variant_label: Melbourne - Camberwell
+name: "Melbourne - Camberwell home"
+enabled: false
+country: AU
+currency: AUD
+owned_from: 2033-09-01
+current_value: 2500000
+appreciation_rate: 0.03
+purchase:
+  price: 2500000
+  date: 2033-09-01
+  acquisition_costs: 160000     # VIC stamp duty ~142.5k + conveyancing/inspections/registration ~7.5k + buffer (~6.4% all-in)
+mortgage:
+  principal: 2000000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.0595              # Australian owner-occupier P&I variable ~5.7–6.1% at RBA 2025-26 cash-rate levels
+holding_costs:
+  local_property_tax: 3600      # Boroondara council rates ~AUD 3–4k/yr on a home like this; VIC land tax NOT included — principal place of residence is EXEMPT
+  building_maintenance: 10000   # building insurance + upkeep on a ~AUD 2.5M period house (~AUD 8–12k/yr)
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02      # agent commission ~1.6–2.2% + marketing
+  cgt:
+    rate: 0.0                   # main-residence CGT exemption (owner-occupied family home)
+    annual_exemption_per_owner: 0
+    owners: 2

@@ -1,0 +1,42 @@
+# REAL ESTATE · relocation_home · luxembourg — Luxembourg City — Belair, the COMFORTABLE size.
+# ~230 m² 4–5 bed family house in the leafy embassy quarter (walk to Parc de Merl / city park + European School).
+# Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the "Home size" toggle picks
+# the tier. Price fact-checked 2026: Belair is Luxembourg City's most expensive district — asking ~€12,500/m²
+# (Immotop/atHome May-2026: €12,516/m² avg, quality stock ~€11,000–13,500/m²; Observatoire de l'Habitat/LISER
+# confirms Belair at the top of the capital). Large houses trade slightly under the small-apartment €/m², so a
+# ~230 m² comfortable house ≈ €12,000/m². The engine projects this price (and the LTV-scaled mortgage) to the
+# actual purchase year, so a later move buys at the appreciated price, not today's. EUR 2.75M.
+# Acquisition: droits d'enregistrement + transcription = 7% (€192,500) MINUS the Bëllegen Akt tax credit
+# (€40,000 per buyer → €80,000 for a couple on a primary residence) + notary ~€25,000 → net ≈ €137,500 ≈ 5.0%.
+# Holding: Luxembourg property tax (impôt foncier) is famously negligible — a few hundred €/yr even after the
+# post-2026 reform noises; maintenance dominates. Sale: primary residence fully CGT-exempt; agency ~3% + VAT
+# customarily paid by the seller.
+id: relocation_home
+variant_label: Luxembourg - Belair
+name: "Luxembourg - Belair home"
+enabled: false
+country: LU
+currency: EUR
+owned_from: 2033-09-01
+current_value: 2750000
+appreciation_rate: 0.03
+purchase:
+  price: 2750000
+  date: 2033-09-01
+  acquisition_costs: 138000     # 7% reg+transcription (192.5k) − 80k Bëllegen Akt (couple) + ~25k notary ≈ 5.0%
+mortgage:
+  principal: 2200000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 500       # impôt foncier is negligible in LU (~€200–600/yr even post-reform)
+  building_maintenance: 6500
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02  # dataset convention; real agency fees here run ~3% — mind this on an actual sale
+  cgt:
+    rate: 0.0                   # primary residence exempt
+    annual_exemption_per_owner: 0
+    owners: 2

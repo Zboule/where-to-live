@@ -1,0 +1,12 @@
+# INCOME · jordane_salary · bad — the conservative pre-move UAE trajectory: only standard
+# ~10% raises, no promotion. Like "Good", it runs until the DYNAMIC move date (the engine
+# stops it at the move) — NO hard terminal "0", so the salary doesn't gap before the local
+# income starts.
+id: jordane_salary
+variant_label: "Bad"
+name: "Jordane — Salary (UAE)"
+type: salary
+currency: AED
+tax_rate: 0.0
+growth:
+  - { year: 2026, gross_per_year: 1173000, growth_rate: 0.10 }  # standard ~10% raises, no promotion

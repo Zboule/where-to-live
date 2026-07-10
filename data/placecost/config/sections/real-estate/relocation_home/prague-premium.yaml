@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · prague-premium — Prague — Vinohrady (Praha 2), the PREMIUM size.
+# ~350 m² top-floor penthouse/duplex or full townhouse floor-through, park-side. Bought AT the (dynamic) move;
+# OFF by default, a relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked
+# 2026: Deloitte Real Index Praha 2 realised sales ~CZK 177,000/m² (late 2024); prime park-side / new-reconstruction
+# Vinohrady stock asks CZK 200,000–250,000/m² — a ~350 m² premium unit ≈ CZK 185,000/m². The engine projects this
+# price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price,
+# not today's. CZK 65.0M (~EUR 2.63M).
+# Acquisition ~2.5%: Czechia abolished the 4% transfer tax in 2020 — only legal/notary + buyer-side agent ~2–3%.
+id: relocation_home
+variant_label: Prague - Vinohrady · premium
+name: "Prague - Vinohrady home"
+enabled: false
+country: CZ
+currency: CZK
+owned_from: 2033-09-01
+current_value: 65000000
+appreciation_rate: 0.03
+purchase:
+  price: 65000000
+  date: 2033-09-01
+  acquisition_costs: 1625000
+mortgage:
+  principal: 52000000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.0475               # Czech mortgage rates ~4.5–5.0% (2026)
+holding_costs:
+  local_property_tax: 18000      # daň z nemovitosti — tiny in Czechia even after the 2024 hike
+  building_maintenance: 230000   # SVJ building/repair fund (~CZK 55/m²/mo) + upkeep
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                    # exempt after 2 years of owner-occupation (Czech residence exemption)
+    annual_exemption_per_owner: 0
+    owners: 2

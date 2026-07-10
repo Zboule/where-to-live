@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · madrid — Madrid — El Viso (Chamartín), the COMFORTABLE size.
+# ~230 m² 4–5 bed family home in the leafy "colonia" villa quarter of Chamartín — low-rise streets, gardens,
+# top schools nearby. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and
+# the "Home size" toggle picks the tier. Price fact-checked 2026: idealista El Viso avg ~€9,700/m²; houses in the
+# colonias trade at/above that. ~230 m² comfortable family home ≈ €9,800/m². Acquisition ~8%: Madrid ITP 6% resale
+# (10% IVA if new build) + notary/registry/gestoría ~1–2%. The engine projects this price (and the LTV-scaled
+# mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 2.25M.
+id: relocation_home
+variant_label: Madrid - El Viso
+name: "Madrid - El Viso home"
+enabled: false
+country: ES
+currency: EUR
+owned_from: 2033-09-01
+current_value: 2250000
+appreciation_rate: 0.03
+purchase:
+  price: 2250000
+  date: 2033-09-01
+  acquisition_costs: 180000     # ~8%: ITP 6% (resale, Comunidad de Madrid) + notary/registry/gestoría ~2%
+mortgage:
+  principal: 1800000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.03                # Spanish 30y fixed, 2026 market ~2.8–3.2%
+holding_costs:
+  local_property_tax: 2500      # IBI: Madrid ~0.456% of cadastral value (cadastral well below market)
+  building_maintenance: 6000    # villa upkeep + garden + colonia/community fees
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # primary residence: CGT exempt when reinvested in a new main home (or fully over-65)
+    annual_exemption_per_owner: 0
+    owners: 2

@@ -1,0 +1,37 @@
+# REAL ESTATE · paris · mortgage — Paris pied-à-terre, 70% LTV (non-resident max).
+# Same property as the cash variant; financed with a French non-resident mortgage
+# (30% down + fees paid from cash/investments). See default.yaml for why there's
+# no rental income.
+id: paris
+variant_label: With mortgage (70% LTV)
+name: "Paris pied-à-terre"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2027-07-01
+current_value: 577000
+appreciation_rate: 0.03
+purchase:
+  price: 577000
+  date: 2027-07-01
+  acquisition_costs: 43000
+mortgage:
+  principal: 403900            # 70% LTV; 30% + fees in cash
+  first_payment_date: 2027-08-04
+  last_payment_date: 2047-07-04   # 20 years (non-resident max)
+  rate_periods:
+    - rate: 0.04               # non-resident French mortgage ~4%
+self_use_saving:
+  per_year: 3000
+  currency: EUR
+holding_costs:
+  local_property_tax: 1200
+  building_maintenance: 2500
+  unit_maintenance: 1000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.06
+  cgt:
+    rate: 0.30
+    annual_exemption_per_owner: 0
+    owners: 1

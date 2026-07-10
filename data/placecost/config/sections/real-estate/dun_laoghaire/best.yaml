@@ -1,0 +1,65 @@
+# REAL ESTATE · dun_laoghaire · best — strong market, low rates, stable tenants.
+# Differs from default only in the BEST-tagged lines; the rest mirrors default.
+id: dun_laoghaire
+variant_label: Best — strong market, low rates
+name: "36 Harbour Court"
+country: IE
+currency: EUR
+
+reinvest_surplus_to: brokerage
+
+current_value: 744000        # as-of base_date 2026-01-01
+appreciation_rate: 0.06      # BEST: strong Dublin housing market (above long-run band)
+
+value_history:
+  "2022-10": 635000
+  "2022-12": 633000
+  "2023-12": 650000
+  "2024-12": 704000
+  "2025-12": 744000
+  "2026-06": 764000
+
+purchase:
+  price: 635000
+  date: 2022-10-01
+  acquisition_costs: 8350    # TODO confirm exact legal fees
+
+mortgage:
+  principal: 460000
+  first_payment_date: 2022-12-04
+  last_payment_date: 2037-10-04
+  rate_periods:
+    - rate: 0.0215           # 2.15% fixed for the first 5 years
+      months: 60
+    - rate: 0.025            # BEST: rates ease — re-fix at 2.5% from Dec 2027
+      # (low ~40% LTV qualifies for the best bands in a soft-rate world).
+      # (no `months` -> runs to last payment)
+
+holding_costs:
+  local_property_tax: 1000
+  building_maintenance: 4000
+  unit_maintenance: 2000             # TODO
+  grows_with: inflation
+
+sale:
+  selling_costs_rate: 0.015
+  cgt:
+    rate: 0.33
+    annual_exemption_per_owner: 1270
+    owners: 2
+    ppr:
+      occupied_from: 2022-10-01
+      occupied_until: 2025-11-01
+      final_period_deemed_months: 12
+
+rental:
+  active_from: 2025-11-01
+  gross_per_month: 3800
+  rent_growth_rate: 0.03       # BEST: rents rise at the top of the RPZ band
+  average_tenancy_years: 4     # BEST: long, stable tenants
+  vacancy_months_per_turnover: 0   # BEST: re-let with no void
+  find_new_tenant_fee_rate: 0.04   # BEST: lower letting fee, rarely paid
+  management_fee_rate: 0.04    # BEST: keener agent rate
+  tax:
+    rate: 0.20
+    basis: net_profit

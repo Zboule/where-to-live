@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · sansebastian-premium — San Sebastián / Donostia — Antiguo-Ondarreta, the PREMIUM size.
+# ~350 m² villa near Ondarreta beach / Miramar — the city's blue-chip addresses (Paseo de Ondarreta, Igeldo
+# lower slopes). Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and the
+# "Home size" toggle picks the tier. Price fact-checked 2026: idealista city avg €6,426/m² (Spain's most
+# expensive city); prime Ondarreta villas/front-line flats run €8,500–10,500/m²; a ~350 m² top villa ≈ €9,000/m².
+# Acquisition ~9%: Gipuzkoa ITP 7% resale (foral regime; 10% IVA if new) + notary/registry/gestoría ~1–2%.
+# The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later move buys
+# at the appreciated price, not today's. EUR 3.15M.
+id: relocation_home
+variant_label: San Sebastián - Antiguo · premium
+name: "San Sebastián - Antiguo home"
+enabled: false
+country: ES
+currency: EUR
+owned_from: 2033-09-01
+current_value: 3150000
+appreciation_rate: 0.03
+purchase:
+  price: 3150000
+  date: 2033-09-01
+  acquisition_costs: 283500     # ~9%: ITP 7% (resale, Gipuzkoa foral rate) + notary/registry/gestoría ~2%
+mortgage:
+  principal: 2520000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.03                # Spanish 30y fixed, 2026 market ~2.8–3.2%
+holding_costs:
+  local_property_tax: 3200      # IBI (Donostia): % of cadastral value (large villa + plot; cadastral well below market)
+  building_maintenance: 10500   # big villa upkeep + garden; Atlantic-coast weathering pushes maintenance up
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # primary residence: CGT exempt when reinvested in a new main home (or fully over-65)
+    annual_exemption_per_owner: 0
+    owners: 2

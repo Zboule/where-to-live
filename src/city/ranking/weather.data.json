@@ -1,0 +1,529 @@
+{
+  "source": "Goldilocks ERA5 0.25° tiles (2013–2023), 36 periods/yr",
+  "definition": "good day = feels-like day temp in [10,25]°C (decaying to 0 at -5/35) AND daytime rain-hour fraction < 0.6",
+  "score_map": "goodFraction 0.25→0, 0.7→5",
+  "byCity": {
+    "Amsterdam": {
+      "score": 3.1,
+      "goodFraction": 0.53,
+      "goodDaysPerYear": 193,
+      "note": "≈193 good days/yr — 12 cold, 4 wet of 36 periods flagged"
+    },
+    "Athens": {
+      "score": 5,
+      "goodFraction": 0.731,
+      "goodDaysPerYear": 267,
+      "note": "≈267 good days/yr — 7 hot of 36 periods flagged"
+    },
+    "Barcelona": {
+      "score": 4.8,
+      "goodFraction": 0.685,
+      "goodDaysPerYear": 250,
+      "note": "≈250 good days/yr — 1 hot, 2 wet of 36 periods flagged"
+    },
+    "Basel": {
+      "score": 2.4,
+      "goodFraction": 0.47,
+      "goodDaysPerYear": 172,
+      "note": "≈172 good days/yr — 11 cold, 18 wet of 36 periods flagged"
+    },
+    "Bergen": {
+      "score": 0,
+      "goodFraction": 0.152,
+      "goodDaysPerYear": 56,
+      "note": "≈56 good days/yr — 20 cold, 36 wet of 36 periods flagged"
+    },
+    "Berlin": {
+      "score": 3.5,
+      "goodFraction": 0.563,
+      "goodDaysPerYear": 206,
+      "note": "≈206 good days/yr — 12 cold of 36 periods flagged"
+    },
+    "Bern": {
+      "score": 2.7,
+      "goodFraction": 0.494,
+      "goodDaysPerYear": 180,
+      "note": "≈180 good days/yr — 11 cold, 12 wet of 36 periods flagged"
+    },
+    "Bilbao": {
+      "score": 3.5,
+      "goodFraction": 0.562,
+      "goodDaysPerYear": 205,
+      "note": "≈205 good days/yr — 17 wet of 36 periods flagged"
+    },
+    "Bologna": {
+      "score": 4,
+      "goodFraction": 0.607,
+      "goodDaysPerYear": 222,
+      "note": "≈222 good days/yr — 6 hot of 36 periods flagged"
+    },
+    "Bolzano": {
+      "score": 3,
+      "goodFraction": 0.522,
+      "goodDaysPerYear": 191,
+      "note": "≈191 good days/yr — 11 cold, 7 wet of 36 periods flagged"
+    },
+    "Bonn": {
+      "score": 3.3,
+      "goodFraction": 0.55,
+      "goodDaysPerYear": 201,
+      "note": "≈201 good days/yr — 11 cold, 2 wet of 36 periods flagged"
+    },
+    "Brussels": {
+      "score": 3.5,
+      "goodFraction": 0.566,
+      "goodDaysPerYear": 207,
+      "note": "≈207 good days/yr — 10 cold, 1 wet of 36 periods flagged"
+    },
+    "Bucharest": {
+      "score": 3.5,
+      "goodFraction": 0.566,
+      "goodDaysPerYear": 207,
+      "note": "≈207 good days/yr — 9 cold, 3 hot, 1 wet of 36 periods flagged"
+    },
+    "Budapest": {
+      "score": 3.7,
+      "goodFraction": 0.582,
+      "goodDaysPerYear": 212,
+      "note": "≈212 good days/yr — 10 cold of 36 periods flagged"
+    },
+    "Cambridge": {
+      "score": 3.9,
+      "goodFraction": 0.599,
+      "goodDaysPerYear": 219,
+      "note": "≈219 good days/yr — 11 cold of 36 periods flagged"
+    },
+    "Cascais": {
+      "score": 5,
+      "goodFraction": 0.805,
+      "goodDaysPerYear": 294,
+      "note": "≈294 good days/yr — mild year-round"
+    },
+    "Cluj-Napoca": {
+      "score": 2.5,
+      "goodFraction": 0.473,
+      "goodDaysPerYear": 173,
+      "note": "≈173 good days/yr — 12 cold, 10 wet of 36 periods flagged"
+    },
+    "Cologne": {
+      "score": 3.1,
+      "goodFraction": 0.532,
+      "goodDaysPerYear": 194,
+      "note": "≈194 good days/yr — 11 cold, 11 wet of 36 periods flagged"
+    },
+    "Copenhagen": {
+      "score": 2.7,
+      "goodFraction": 0.495,
+      "goodDaysPerYear": 181,
+      "note": "≈181 good days/yr — 15 cold of 36 periods flagged"
+    },
+    "Dublin": {
+      "score": 2.8,
+      "goodFraction": 0.501,
+      "goodDaysPerYear": 183,
+      "note": "≈183 good days/yr — 12 cold, 9 wet of 36 periods flagged"
+    },
+    "Düsseldorf": {
+      "score": 3.2,
+      "goodFraction": 0.536,
+      "goodDaysPerYear": 196,
+      "note": "≈196 good days/yr — 10 cold, 7 wet of 36 periods flagged"
+    },
+    "Edinburgh": {
+      "score": 2.6,
+      "goodFraction": 0.485,
+      "goodDaysPerYear": 177,
+      "note": "≈177 good days/yr — 13 cold, 7 wet of 36 periods flagged"
+    },
+    "Florence": {
+      "score": 3.5,
+      "goodFraction": 0.565,
+      "goodDaysPerYear": 206,
+      "note": "≈206 good days/yr — 3 cold, 12 wet of 36 periods flagged"
+    },
+    "Freiburg im Breisgau": {
+      "score": 2.7,
+      "goodFraction": 0.496,
+      "goodDaysPerYear": 181,
+      "note": "≈181 good days/yr — 11 cold, 12 wet of 36 periods flagged"
+    },
+    "Geneva": {
+      "score": 2.6,
+      "goodFraction": 0.487,
+      "goodDaysPerYear": 178,
+      "note": "≈178 good days/yr — 11 cold, 16 wet of 36 periods flagged"
+    },
+    "Ghent": {
+      "score": 3.8,
+      "goodFraction": 0.59,
+      "goodDaysPerYear": 215,
+      "note": "≈215 good days/yr — 9 cold, 1 wet of 36 periods flagged"
+    },
+    "Haarlem": {
+      "score": 3,
+      "goodFraction": 0.524,
+      "goodDaysPerYear": 191,
+      "note": "≈191 good days/yr — 12 cold, 3 wet of 36 periods flagged"
+    },
+    "Hamburg": {
+      "score": 3.1,
+      "goodFraction": 0.527,
+      "goodDaysPerYear": 193,
+      "note": "≈193 good days/yr — 12 cold of 36 periods flagged"
+    },
+    "Heidelberg": {
+      "score": 3.2,
+      "goodFraction": 0.54,
+      "goodDaysPerYear": 197,
+      "note": "≈197 good days/yr — 11 cold, 7 wet of 36 periods flagged"
+    },
+    "Helsinki": {
+      "score": 1.3,
+      "goodFraction": 0.371,
+      "goodDaysPerYear": 136,
+      "note": "≈136 good days/yr — 18 cold, 2 wet of 36 periods flagged"
+    },
+    "Kraków": {
+      "score": 2.7,
+      "goodFraction": 0.491,
+      "goodDaysPerYear": 179,
+      "note": "≈179 good days/yr — 12 cold, 3 wet of 36 periods flagged"
+    },
+    "Lausanne": {
+      "score": 3,
+      "goodFraction": 0.518,
+      "goodDaysPerYear": 189,
+      "note": "≈189 good days/yr — 11 cold, 11 wet of 36 periods flagged"
+    },
+    "Leuven": {
+      "score": 3.6,
+      "goodFraction": 0.577,
+      "goodDaysPerYear": 211,
+      "note": "≈211 good days/yr — 10 cold, 1 wet of 36 periods flagged"
+    },
+    "Limassol": {
+      "score": 5,
+      "goodFraction": 0.797,
+      "goodDaysPerYear": 291,
+      "note": "≈291 good days/yr — 5 hot of 36 periods flagged"
+    },
+    "Lisbon": {
+      "score": 5,
+      "goodFraction": 0.771,
+      "goodDaysPerYear": 281,
+      "note": "≈281 good days/yr — mild year-round"
+    },
+    "Ljubljana": {
+      "score": 3,
+      "goodFraction": 0.521,
+      "goodDaysPerYear": 190,
+      "note": "≈190 good days/yr — 10 cold, 9 wet of 36 periods flagged"
+    },
+    "London": {
+      "score": 3.9,
+      "goodFraction": 0.6,
+      "goodDaysPerYear": 219,
+      "note": "≈219 good days/yr — 9 cold of 36 periods flagged"
+    },
+    "Luxembourg City": {
+      "score": 3.2,
+      "goodFraction": 0.536,
+      "goodDaysPerYear": 196,
+      "note": "≈196 good days/yr — 12 cold, 4 wet of 36 periods flagged"
+    },
+    "Madrid": {
+      "score": 5,
+      "goodFraction": 0.721,
+      "goodDaysPerYear": 263,
+      "note": "≈263 good days/yr — 4 hot of 36 periods flagged"
+    },
+    "Milan": {
+      "score": 3.8,
+      "goodFraction": 0.591,
+      "goodDaysPerYear": 216,
+      "note": "≈216 good days/yr — 4 hot, 3 wet of 36 periods flagged"
+    },
+    "Munich": {
+      "score": 2.8,
+      "goodFraction": 0.5,
+      "goodDaysPerYear": 183,
+      "note": "≈183 good days/yr — 12 cold, 8 wet of 36 periods flagged"
+    },
+    "Nicosia": {
+      "score": 3.8,
+      "goodFraction": 0.595,
+      "goodDaysPerYear": 217,
+      "note": "≈217 good days/yr — 12 hot of 36 periods flagged"
+    },
+    "Oslo": {
+      "score": 1.4,
+      "goodFraction": 0.378,
+      "goodDaysPerYear": 138,
+      "note": "≈138 good days/yr — 16 cold, 8 wet of 36 periods flagged"
+    },
+    "Padua": {
+      "score": 4,
+      "goodFraction": 0.609,
+      "goodDaysPerYear": 222,
+      "note": "≈222 good days/yr — 6 hot, 1 wet of 36 periods flagged"
+    },
+    "Palma de Mallorca": {
+      "score": 5,
+      "goodFraction": 0.769,
+      "goodDaysPerYear": 281,
+      "note": "≈281 good days/yr — 5 hot of 36 periods flagged"
+    },
+    "Porto": {
+      "score": 3,
+      "goodFraction": 0.521,
+      "goodDaysPerYear": 190,
+      "note": "≈190 good days/yr — 2 cold, 19 wet of 36 periods flagged"
+    },
+    "Prague": {
+      "score": 3.2,
+      "goodFraction": 0.542,
+      "goodDaysPerYear": 198,
+      "note": "≈198 good days/yr — 13 cold, 1 wet of 36 periods flagged"
+    },
+    "Riga": {
+      "score": 1.6,
+      "goodFraction": 0.398,
+      "goodDaysPerYear": 145,
+      "note": "≈145 good days/yr — 18 cold, 3 wet of 36 periods flagged"
+    },
+    "Rome": {
+      "score": 4.1,
+      "goodFraction": 0.615,
+      "goodDaysPerYear": 225,
+      "note": "≈225 good days/yr — 7 hot, 4 wet of 36 periods flagged"
+    },
+    "San Sebastián": {
+      "score": 2.8,
+      "goodFraction": 0.501,
+      "goodDaysPerYear": 183,
+      "note": "≈183 good days/yr — 21 wet of 36 periods flagged"
+    },
+    "St Albans": {
+      "score": 3.7,
+      "goodFraction": 0.582,
+      "goodDaysPerYear": 212,
+      "note": "≈212 good days/yr — 11 cold, 1 wet of 36 periods flagged"
+    },
+    "Stockholm": {
+      "score": 2.4,
+      "goodFraction": 0.466,
+      "goodDaysPerYear": 170,
+      "note": "≈170 good days/yr — 16 cold of 36 periods flagged"
+    },
+    "Stuttgart": {
+      "score": 3.2,
+      "goodFraction": 0.541,
+      "goodDaysPerYear": 198,
+      "note": "≈198 good days/yr — 11 cold, 5 wet of 36 periods flagged"
+    },
+    "Tallinn": {
+      "score": 1.3,
+      "goodFraction": 0.366,
+      "goodDaysPerYear": 134,
+      "note": "≈134 good days/yr — 19 cold, 2 wet of 36 periods flagged"
+    },
+    "The Hague": {
+      "score": 3.2,
+      "goodFraction": 0.537,
+      "goodDaysPerYear": 196,
+      "note": "≈196 good days/yr — 12 cold, 4 wet of 36 periods flagged"
+    },
+    "Thessaloniki": {
+      "score": 4.1,
+      "goodFraction": 0.621,
+      "goodDaysPerYear": 227,
+      "note": "≈227 good days/yr — 7 hot, 2 wet of 36 periods flagged"
+    },
+    "Trento": {
+      "score": 2,
+      "goodFraction": 0.431,
+      "goodDaysPerYear": 157,
+      "note": "≈157 good days/yr — 11 cold, 19 wet of 36 periods flagged"
+    },
+    "Turin": {
+      "score": 3.9,
+      "goodFraction": 0.604,
+      "goodDaysPerYear": 220,
+      "note": "≈220 good days/yr — 2 cold, 4 hot, 3 wet of 36 periods flagged"
+    },
+    "Utrecht": {
+      "score": 3.3,
+      "goodFraction": 0.55,
+      "goodDaysPerYear": 201,
+      "note": "≈201 good days/yr — 11 cold, 2 wet of 36 periods flagged"
+    },
+    "Valencia": {
+      "score": 5,
+      "goodFraction": 0.751,
+      "goodDaysPerYear": 274,
+      "note": "≈274 good days/yr — 7 hot of 36 periods flagged"
+    },
+    "Vienna": {
+      "score": 3.5,
+      "goodFraction": 0.561,
+      "goodDaysPerYear": 205,
+      "note": "≈205 good days/yr — 11 cold, 2 wet of 36 periods flagged"
+    },
+    "Vilnius": {
+      "score": 1.8,
+      "goodFraction": 0.41,
+      "goodDaysPerYear": 150,
+      "note": "≈150 good days/yr — 16 cold, 2 wet of 36 periods flagged"
+    },
+    "Vitoria-Gasteiz": {
+      "score": 3.8,
+      "goodFraction": 0.588,
+      "goodDaysPerYear": 214,
+      "note": "≈214 good days/yr — 3 cold, 14 wet of 36 periods flagged"
+    },
+    "Wageningen": {
+      "score": 3.2,
+      "goodFraction": 0.536,
+      "goodDaysPerYear": 196,
+      "note": "≈196 good days/yr — 11 cold, 5 wet of 36 periods flagged"
+    },
+    "Warsaw": {
+      "score": 2.9,
+      "goodFraction": 0.509,
+      "goodDaysPerYear": 186,
+      "note": "≈186 good days/yr — 13 cold of 36 periods flagged"
+    },
+    "Wrocław": {
+      "score": 3.3,
+      "goodFraction": 0.546,
+      "goodDaysPerYear": 199,
+      "note": "≈199 good days/yr — 12 cold, 1 wet of 36 periods flagged"
+    },
+    "Zagreb": {
+      "score": 3.6,
+      "goodFraction": 0.578,
+      "goodDaysPerYear": 211,
+      "note": "≈211 good days/yr — 8 cold, 2 hot of 36 periods flagged"
+    },
+    "Zug": {
+      "score": 2.5,
+      "goodFraction": 0.472,
+      "goodDaysPerYear": 172,
+      "note": "≈172 good days/yr — 11 cold, 17 wet of 36 periods flagged"
+    },
+    "Zurich": {
+      "score": 2.5,
+      "goodFraction": 0.472,
+      "goodDaysPerYear": 172,
+      "note": "≈172 good days/yr — 11 cold, 17 wet of 36 periods flagged"
+    },
+    "Montreal": {
+      "score": 2.6,
+      "goodFraction": 0.52,
+      "goodDaysPerYear": 190,
+      "note": "≈190 good days/yr — harsh -15°C winters, warm humid summers (estimate, not ERA5)"
+    },
+    "Toronto": {
+      "score": 2.8,
+      "goodFraction": 0.56,
+      "goodDaysPerYear": 204,
+      "note": "≈204 good days/yr — cold winters, warm summers (estimate, not ERA5)"
+    },
+    "Vancouver": {
+      "score": 3.1,
+      "goodFraction": 0.62,
+      "goodDaysPerYear": 226,
+      "note": "≈226 good days/yr — mild but very wet (estimate, not ERA5)"
+    },
+    "Ottawa": {
+      "score": 2.5,
+      "goodFraction": 0.5,
+      "goodDaysPerYear": 183,
+      "note": "≈183 good days/yr — very cold, snowy winters (estimate, not ERA5)"
+    },
+    "Dubai": {
+      "score": 2,
+      "goodFraction": 0.4,
+      "goodDaysPerYear": 146,
+      "note": "≈146 good days/yr — brutal 45°C summers, lovely Nov–Mar (estimate, not ERA5)"
+    },
+    "Abu Dhabi": {
+      "score": 2,
+      "goodFraction": 0.4,
+      "goodDaysPerYear": 146,
+      "note": "≈146 good days/yr — brutal summers, fine winters (estimate, not ERA5)"
+    },
+    "Doha": {
+      "score": 1.8,
+      "goodFraction": 0.36,
+      "goodDaysPerYear": 131,
+      "note": "≈131 good days/yr — hot + very humid summers (estimate, not ERA5)"
+    },
+    "Singapore": {
+      "score": 2.2,
+      "goodFraction": 0.44,
+      "goodDaysPerYear": 161,
+      "note": "≈161 good days/yr — hot/humid year-round (estimate, not ERA5)"
+    },
+    "Melbourne": {
+      "score": 3.7,
+      "goodFraction": 0.74,
+      "goodDaysPerYear": 270,
+      "note": "≈270 good days/yr — mild, highly variable (estimate, not ERA5)"
+    },
+    "Sydney": {
+      "score": 4.2,
+      "goodFraction": 0.84,
+      "goodDaysPerYear": 307,
+      "note": "≈307 good days/yr — mild, sunny, humid summers (estimate, not ERA5)"
+    },
+    "Perth": {
+      "score": 4.3,
+      "goodFraction": 0.86,
+      "goodDaysPerYear": 314,
+      "note": "≈314 good days/yr — sunny Mediterranean, hot dry summers (estimate, not ERA5)"
+    },
+    "Adelaide": {
+      "score": 4.2,
+      "goodFraction": 0.84,
+      "goodDaysPerYear": 307,
+      "note": "≈307 good days/yr — Mediterranean, warm dry summers (estimate, not ERA5)"
+    },
+    "Auckland": {
+      "score": 3.6,
+      "goodFraction": 0.72,
+      "goodDaysPerYear": 263,
+      "note": "≈263 good days/yr — mild, humid, rainy (estimate, not ERA5)"
+    },
+    "Wellington": {
+      "score": 3.2,
+      "goodFraction": 0.64,
+      "goodDaysPerYear": 234,
+      "note": "≈234 good days/yr — mild but very windy (estimate, not ERA5)"
+    },
+    "Tokyo": {
+      "score": 3.4,
+      "goodFraction": 0.68,
+      "goodDaysPerYear": 248,
+      "note": "≈248 good days/yr — humid summers, mild dry winters (estimate, not ERA5)"
+    },
+    "Yokohama": {
+      "score": 3.4,
+      "goodFraction": 0.68,
+      "goodDaysPerYear": 248,
+      "note": "≈248 good days/yr — humid summers, mild winters (estimate, not ERA5)"
+    },
+    "Herzliya": {
+      "score": 4,
+      "goodFraction": 0.8,
+      "goodDaysPerYear": 292,
+      "note": "≈292 good days/yr — sunny, hot summers, mild winters (estimate, not ERA5)"
+    },
+    "Palo Alto": {
+      "score": 4.6,
+      "goodFraction": 0.92,
+      "goodDaysPerYear": 336,
+      "note": "≈336 good days/yr — mild Mediterranean, very pleasant (estimate, not ERA5)"
+    }
+  }
+}

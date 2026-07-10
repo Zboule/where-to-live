@@ -1,0 +1,142 @@
+# EXPENSES · household · default — the whole living-cost budget as one entity.
+# Unlike other categories (one object per file), expenses is a BUNDLE: the budget's
+# many line items live under `items:`. A variant swaps the whole budget for a whole
+# lifestyle tier — this is the middle "Good" rung of the Simple life / Good / Gorgeous
+# ladder (see simple-life.yaml / great-life.yaml). (Toggling this entity off drops all
+# living costs.) Every tier ENDS AT THE MOVE — the engine cuts each non-`dl_` line then.
+#
+# Each line is a `growth` schedule: a segment starts at a calendar year, sets the
+# amount, then grows at its rate until the next segment. Before the first segment
+# the line is 0 (not yet active). Figures are AED/month unless per_year. # TODO refine
+id: household
+variant_label: Good
+order: 2
+name: "Living expenses"
+items:
+  # ---- Home ----  (rent, utilities, comms, groceries, equipment)
+  - id: rent
+    name: "Rent"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 225000, growth_rate: 0.03 }
+  - id: utilities
+    name: "Electricity / Water / Taxes"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 1645, growth_rate: 0.02 }
+  - id: internet_phone
+    name: "Internet / phone"
+    category: Home
+    currency: AED
+    # Card actuals Jan–May 2026 ≈ 948/mo (Etisalat / e&).
+    growth:
+      - { year: 2026, per_month: 950, growth_rate: 0.02 }
+  - id: groceries
+    name: "Groceries"
+    category: Home
+    currency: AED
+    # Split out of the old "Food & restaurants" (groceries vs dining).
+    growth:
+      - { year: 2026, per_month: 4000, growth_rate: 0.02 }
+  - id: home_equipment
+    name: "Home equipment"
+    category: Home
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 3000, growth_rate: 0.02 }
+
+  # ---- Transport ----
+  - id: car_payment
+    name: "Car"
+    category: Transport
+    currency: AED
+    # Current loan (~140k AED car) finishes in 2026, so 2026 keeps the full payment.
+    # From 2027 we model the steady "cost of always running a car of this class" as a
+    # replacement sinking fund — ~3,000 AED/mo funds a ~140k replacement every ~6 yrs,
+    # trade-in recycled. Grows with inflation.
+    growth:
+      - { year: 2026, per_year: 58668, growth_rate: 0.0 }   # final year of current loan
+      - { year: 2027, per_month: 3000, growth_rate: 0.02 }  # ownership/replacement cost onward
+  - id: car_insurance
+    name: "Car insurance"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_year: 6510, growth_rate: 0.02 }   # Shory actual annual premium (2026 statements)
+  - id: fuel
+    name: "Fuel"
+    category: Transport
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 70, growth_rate: 0.02 }
+  - id: misc
+    name: "Taxi, transfers & fines"
+    category: Transport
+    currency: AED
+    # Ride-hailing (Careem / Yango ≈ 650) + money transfers (Paysend ≈ 1,000)
+    # + gov / traffic fines (≈ 500). Card actuals Jan–May 2026.
+    growth:
+      - { year: 2026, per_month: 2150, growth_rate: 0.02 }
+
+  # ---- Household staff ----
+  - id: maid
+    name: "Maid"
+    category: Staff
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 4000, growth_rate: 0.03 }
+  - id: governess
+    name: "Governess"
+    category: Staff
+    currency: AED
+    growth:
+      - { year: 2026, per_month: 4000, growth_rate: 0.03 }
+
+  # ---- Lifestyle ----  (discretionary: dining out, activities, travel)
+  - id: restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: AED
+    # Dining-out portion. Jan–May 2026 card avg ≈ 7,167/mo (dining + delivery + cafes).
+    growth:
+      - { year: 2026, per_month: 6000, growth_rate: 0.02 }
+  - id: activities
+    name: "Activities"
+    category: Lifestyle
+    currency: AED
+    # Card actuals Jan–May 2026 ≈ 872/mo; buffer kept for theme parks / camps.
+    growth:
+      - { year: 2026, per_month: 1200, growth_rate: 0.02 }
+  - id: travel
+    name: "Travel"
+    category: Lifestyle
+    currency: AED
+    # Card actuals Jan–May 2026 ≈ 10,341/mo, but that window had 4 international
+    # trips. 6,000 (~72k/yr) is a conservative middle — raise if the pace holds.
+    growth:
+      - { year: 2026, per_month: 6000, growth_rate: 0.02 }
+  - id: health
+    name: "Health"
+    category: Lifestyle
+    currency: AED
+    # Card = pharmacy / copays only (major medical is insured / off-card).
+    growth:
+      - { year: 2026, per_month: 300, growth_rate: 0.03 }
+      - { year: 2028, per_month: 400, growth_rate: 0.03 }
+  - id: subscriptions
+    name: "Subscriptions"
+    category: Lifestyle
+    currency: AED
+    # Digital: Apple / iTunes, Netflix, Claude.ai, Cursor, Patreon… Card avg ≈ 1,480/mo.
+    growth:
+      - { year: 2026, per_month: 1500, growth_rate: 0.02 }
+  - id: shopping
+    name: "Shopping"
+    category: Lifestyle
+    currency: AED
+    # General retail outside home_equipment: clothing, kids, electronics
+    # (Amazon.ae, noon, Lululemon…). Card avg ≈ 1,587/mo.
+    growth:
+      - { year: 2026, per_month: 1600, growth_rate: 0.02 }

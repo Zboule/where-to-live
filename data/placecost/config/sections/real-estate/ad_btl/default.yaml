@@ -1,0 +1,44 @@
+# REAL ESTATE · ad_btl · default (60% mortgage) — Abu Dhabi buy-to-let.
+# OFF by default — a what-if option. A ~110 m² apartment let long-term (you keep
+# renting your own home). Investment/2nd-property LTV caps at 60% (40% down). No
+# UAE tax on the rent or the eventual gain. Surplus is reinvested into the brokerage.
+id: ad_btl
+variant_label: 60% mortgage
+name: "Abu Dhabi buy-to-let"
+enabled: false
+country: AE
+currency: AED
+owned_from: 2027-07-01
+current_value: 1800000
+appreciation_rate: 0.06
+reinvest_surplus_to: brokerage
+purchase:
+  price: 1800000               # ~110 m² (e.g. Al Reem)
+  date: 2027-07-01
+  acquisition_costs: 74000     # ~2% registration + ~2.1% agency
+mortgage:
+  principal: 1080000           # 60% LTV (investment); 40% + fees in cash
+  first_payment_date: 2027-08-04
+  last_payment_date: 2052-07-04   # 25 years
+  rate_periods:
+    - rate: 0.055
+rental:
+  active_from: 2027-07-01
+  gross_per_month: 10500       # 7% gross yield on AED 1.8M (= AED 126k/yr)
+  rent_growth_rate: 0.03
+  average_tenancy_years: 2
+  vacancy_months_per_turnover: 1
+  find_new_tenant_fee_rate: 0.05
+  management_fee_rate: 0.05
+  tax:
+    rate: 0.0                  # UAE: no rental income tax
+    basis: gross
+holding_costs:
+  building_maintenance: 17600  # service charges ~AED 160/m² × 110 m²
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 1

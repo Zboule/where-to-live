@@ -1,0 +1,206 @@
+# =============================================================================
+#  FAMILY FINANCE FORECAST — INVARIANTS
+# =============================================================================
+#  This file holds ONLY the things that don't vary between scenarios: the base
+#  date/currency, the reporting horizons, FX rates, and the cash buffer.
+#
+#  Everything that CAN vary lives in `sections/`, with ONE uniform layout:
+#
+#       sections/{category}/{id}/{variant}.yaml
+#
+#  A category is a kind of thing (income, expenses, real-estate, investments); an
+#  id is one entity within it (a salary, a property, a portfolio); a variant is a
+#  scenario for that entity. Each variant file carries a `variant_label:` for the
+#  picker. Examples:
+#
+#     sections/income/jordane_salary/{default,best,bad}.yaml
+#     sections/expenses/household/{default}.yaml
+#     sections/real-estate/dun_laoghaire/{default,best,bad}.yaml
+#     sections/investments/brokerage/{default,best,bad}.yaml
+#
+#  The loader assembles each category's list from its entities, picking each
+#  entity's `default` variant unless the UI selects another, and skipping entities
+#  toggled off. Add an entity by creating a new id folder (e.g. a second property
+#  `real-estate/dubai_villa/`); add a scenario by dropping a variant file in an
+#  existing id folder. Both are discovered automatically.
+#
+#  Conventions
+#  -----------
+#  * Money is stored in its NATIVE currency (see `currency:` on each item) and
+#    converted to `meta.base_currency` for the charts using `fx_rates`.
+#  * Dates are ISO `YYYY-MM-DD`. Rates are decimals: 0.035 = 3.5 %.
+# =============================================================================
+
+meta:
+  # The base year the forecast starts from (Jan 1). Forecast year 1 IS this year,
+  # at base-year values (no growth yet); later years grow from here. Opening
+  # balances (cash, etc.) are as-of this date.
+  base_date: 2026-01-01
+  # Everything is reported / summed in this currency.
+  base_currency: EUR
+  # Net-worth snapshots are produced at each of these horizons (years from base_date).
+  horizons_years: [1, 2, 3, 5, 10, 15, 20]
+  # General price inflation. Grows expenses and anything tagged `grows_with:
+  # inflation`. A fixed macro assumption — tune to taste.
+  inflation_rate: 0.02
+  # Your age at base_date (2026) — only used to label the retirement age in the UI.
+  base_age: 37
+
+# ---------------------------------------------------------------------------
+#  FX — units of base_currency per 1 unit of the listed currency.
+#  e.g. AED: 0.235  ->  1 AED = 0.235 EUR. Edit when rates move materially.
+#  AED is pegged to USD at 3.6725; this assumes EUR/USD ~ 1.16.
+# ---------------------------------------------------------------------------
+fx_rates:
+  EUR: 1.0
+  AED: 0.235
+  USD: 0.862   # EUR/USD ~1.16, consistent with the AED peg above (= 0.235 * 3.6725)
+  CHF: 1.06    # 1 CHF ≈ 1.06 EUR (EUR/CHF ~0.94) — for the Lausanne relocation option
+  DKK: 0.134   # EUR/DKK ~7.46 (ERM II peg) — Copenhagen relocation option
+  CZK: 0.0405  # EUR/CZK ~24.7 — Prague relocation option
+  AUD: 0.60    # AUD/EUR ~0.60 — Melbourne relocation option
+  SEK: 0.091   # EUR/SEK ~11.0 — Stockholm relocation option
+  GBP: 1.17    # GBP/EUR ~1.17 — Edinburgh relocation option
+  NZD: 0.51    # NZD/EUR ~0.51 — Christchurch relocation option
+
+# ===========================================================================
+#  CASH — liquid current/savings accounts. Safe, earns little, acts as a buffer.
+#  Each month, positive net cash flow first tops cash up to `target_buffer_months`
+#  of living costs; anything beyond is swept into the savings portfolio. In deficit
+#  months, cash is drawn down first, then investments are liquidated.
+# ===========================================================================
+cash:
+  opening_balance: 50000        # liquid cash as-of base_date # TODO set real value
+  target_buffer_months: 6       # emergency fund = 6 months of expenses
+  interest_rate: 0.06           # UAE high-yield savings — but only up to the cap below
+  interest_cap: 1000000         # the 6% applies only to the first AED 1,000,000…
+  interest_cap_currency: AED
+  excess_interest_rate: 0.01    # …the balance above AED 1M earns ~1% # TODO confirm base rate
+
+# ===========================================================================
+#  RETIREMENT PLAN — "retire in Amsterdam" (DYNAMIC).
+#  The engine simulates the accumulation phase (UAE salary, current expenses,
+#  Dublin), and the FIRST month investable assets can fund the move it RETIRES:
+#  salary stops, the listed properties are sold, the Amsterdam home is bought,
+#  expenses switch to the Dutch lifestyle, and Dutch Box-3 wealth tax kicks in.
+#  The retirement DATE is therefore an OUTPUT — change income/expenses/returns
+#  and it moves automatically. Tune the levers below.
+# ===========================================================================
+retirement:
+  enabled: true
+  not_before: 2030            # don't retire before this (kids ~4 & 6; career runway)
+  not_after: 2065             # hard cap
+  # Nest egg sized as spend / swr. 0.03 ≈ a ~35-yr decumulation given the Box-3
+  # drag is modelled explicitly below (raise to retire sooner, riskier).
+  safe_withdrawal_rate: 0.03
+  buffer_years: 1             # extra liquid years of spend on top of the nest egg
+  # Dutch Box 3 wealth tax: 5.88% deemed return × 36% ≈ 2.12%/yr on the portfolio
+  # above the couple allowance. The PRIMARY HOME is exempt (not in the Box-3 base).
+  wealth_tax:
+    rate: 0.0212
+    threshold: 115368         # heffingvrij vermogen, couple (2025)
+    currency: EUR
+  # Sell these to fund the move (proceeds → portfolio/home). Empty: keep everything.
+  # Harbour Court (Dublin) is KEPT for diversification — a different country and asset
+  # class, still throwing off rent — so the Amsterdam home is funded from the portfolio
+  # alone. That raises the FIRE bar (bigger nest egg needed), so retirement lands later.
+  sell_on_retirement: []
+  # The home bought on retirement (cash from the portfolio — a NL mortgage is
+  # useless without Box-1 income). Value grows from base to the (dynamic) buy date.
+  home:
+    id: amsterdam_home
+    name: "Amsterdam home"
+    country: NL
+    currency: EUR
+    current_value: 1800000    # ~240 m² (Amstelveen / Haarlem ~€5k/m²)
+    appreciation_rate: 0.03
+    purchase:
+      price: 1800000
+      date: 2026-01-01        # placeholder (CGT-exempt; engine buys at retirement)
+      acquisition_costs: 90000 # kosten koper ~5% (2% transfer + notary + agent)
+    mortgage:
+      principal: 0
+      first_payment_date: 2026-01-04
+      last_payment_date: 2026-02-04
+      rate_periods:
+        - rate: 0.0
+    # Running costs (OZB, maintenance, insurance) are budgeted as Home expenses
+    # below, not as property holding_costs — so they show in the Home category.
+    sale:
+      selling_costs_rate: 0.02
+      cgt:
+        rate: 0.0              # NL: no capital gains tax on the primary residence
+        annual_exemption_per_owner: 0
+        owners: 2
+  # Dutch retirement lifestyle, in the SAME categories as today's budget (no rent —
+  # you own the home; its running costs live on the home above; no Staff in
+  # retirement — the governess is gone). EUR/yr, comfortable family-of-4.
+  expenses:
+    # ---- Home ----
+    - id: nl_groceries
+      name: "Groceries"
+      category: Home
+      currency: EUR
+      growth: [{ year: 2026, per_year: 9600, growth_rate: 0.02 }]
+    - id: nl_utilities
+      name: "Electricity / Water / Taxes"
+      category: Home
+      currency: EUR
+      growth: [{ year: 2026, per_year: 3700, growth_rate: 0.02 }]
+    - id: nl_comms
+      name: "Internet / phone / home"
+      category: Home
+      currency: EUR
+      growth: [{ year: 2026, per_year: 2700, growth_rate: 0.02 }]
+    - id: nl_property_tax
+      name: "Property taxes (OZB + water)"
+      category: Home
+      currency: EUR
+      growth: [{ year: 2026, per_year: 3200, growth_rate: 0.02 }]
+    - id: nl_home_maintenance
+      name: "Home maintenance & insurance"
+      category: Home
+      currency: EUR
+      growth: [{ year: 2026, per_year: 6000, growth_rate: 0.02 }]
+    # ---- Transport ----
+    - id: nl_transport
+      name: "Car + public transport"
+      category: Transport
+      currency: EUR
+      growth: [{ year: 2026, per_year: 6500, growth_rate: 0.02 }]
+    # ---- Lifestyle ----
+    - id: nl_health
+      name: "Health (Dutch insurance)"
+      category: Lifestyle
+      currency: EUR
+      growth: [{ year: 2026, per_year: 5400, growth_rate: 0.02 }]
+    - id: nl_restaurants
+      name: "Restaurants & leisure"
+      category: Lifestyle
+      currency: EUR
+      growth: [{ year: 2026, per_year: 7200, growth_rate: 0.02 }]
+    - id: nl_travel
+      name: "Travel"
+      category: Lifestyle
+      currency: EUR
+      growth: [{ year: 2026, per_year: 10000, growth_rate: 0.02 }]
+    - id: nl_activities
+      name: "Activities"
+      category: Lifestyle
+      currency: EUR
+      growth: [{ year: 2026, per_year: 3000, growth_rate: 0.02 }]
+    - id: nl_shopping
+      name: "Shopping & subscriptions"
+      category: Lifestyle
+      currency: EUR
+      growth: [{ year: 2026, per_year: 4100, growth_rate: 0.02 }]
+    # ---- Education ----  (kept separate — a major planned cost; replaces the governess)
+    - id: nl_education
+      name: "Education (international school)"
+      category: Education
+      currency: EUR
+      # ~€40k/yr for 2 children at international secondary, while school-age.
+      # Set to 0 if you'd use (free) Dutch public schools — retires you sooner.
+      growth:
+        - { year: 2030, per_year: 40000, growth_rate: 0.02 }
+        - { year: 2045, per_year: 0, growth_rate: 0 }

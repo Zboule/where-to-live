@@ -1,0 +1,9 @@
+# INVESTMENT · brokerage · best — a strong equity decade.
+id: brokerage
+variant_label: Best — strong equity decade (8%)
+name: "Equities"
+currency: EUR
+opening_balance: 0           # invested balance as-of base_date # TODO set real value
+expected_return: 0.08        # BEST: a strong equity decade (~8% nominal)
+gains_tax_rate: 0.0          # BEST: liquidate while UAE-resident — no tax on gains
+receives_savings: true

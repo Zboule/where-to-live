@@ -1,0 +1,36 @@
+# REAL ESTATE · relocation_home · dinard — Dinard (Côte d'Émeraude, Brittany), SEA-VIEW, the COMFORTABLE size.
+# ~230 m² 4–5 bed house WITH SEA VIEW around La Malouine / Saint-Énogat — the Belle-Époque villa
+# quarters above the beaches. Bought AT the (dynamic) move; OFF by default, a relocation scenario
+# turns it on and the "Home size" toggle picks the tier. Dinard is Brittany's priciest coastal
+# market: town average ~€5.5–6.0k/m² (MeilleursAgents 2025-26), but genuine sea-view houses trade
+# at a strong premium, ~€7.5–8.5k/m². The engine projects this price (and the LTV-scaled mortgage)
+# to the actual purchase year, so a later move buys at the appreciated price, not today's. EUR 1.80M.
+id: relocation_home
+variant_label: Dinard · sea view
+name: "Dinard sea-view home"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1800000
+appreciation_rate: 0.03
+purchase:
+  price: 1800000
+  date: 2033-09-01
+  acquisition_costs: 133000     # frais de notaire (ancien) ~7.4%
+mortgage:
+  principal: 1440000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2058-09-04 # French max ~25y
+  rate_periods:
+    - rate: 0.034
+holding_costs:
+  local_property_tax: 3200      # taxe foncière, coastal resort commune
+  building_maintenance: 13000   # seaside Belle-Époque stock: salt air + wind = real upkeep (façade, joinery, roof)
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # résidence principale — fully exempt in France
+    annual_exemption_per_owner: 0
+    owners: 2

@@ -1,0 +1,20 @@
+districts:
+
+  - id: dublin-ranelagh
+    city: Dublin
+    country: Ireland
+    country_code: IE
+    district: Ranelagh
+    blurb: "Leafy Dublin 6 with period redbricks, LUAS access and English-language schools; housing very expensive."
+    price_per_sqm: { lower: 5800, upper: 8000, average: 6800 }
+    travel: { paris_hours: 5, paris_mode: flight, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2, peer_environment: 3.5, family_practicality: 2, health: 4, nature: 3 }
+    notes:
+      education: Ranelagh offers strong public primary options (RMDS, Sandford Parish NS) and top-tier secondary schools like Gonzaga College SJ with excellent Leaving Cert results, but every named secondary is fee-paying (€5,000–7,000/year) with no free public secondary in the district itself, no IB or Steiner a…
+      safe_independence: The Luas Green Line gives teens a dedicated ~10-minute tram to the city centre with multiple bus backups (routes 14, 15, 44, 61, 145, 155, 783), interim protected cycle lanes (650m, 2025) and a planned 3 km segregated active-travel route through the village are underway, but cycling infrastructur…
+      mental_health: Ireland leads the OECD in parental support (91% of 15-year-olds talk with parents weekly) and self-harm rates for 15–19 females have fallen 27% from their 2021 peak to the lowest on record, yet UNICEF ranks Ireland 24th of 43 countries for adolescent mental wellbeing with nearly 1 in 3 teens repo…
+      peer_environment: Ranelagh sits in affluent Dublin 6 with a concentration of fee-paying schools signalling an education-valuing community, the Ranelagh Gaels GAA club (1,500 members, 50/50 gender split, inclusive 'Rockets' team for children with additional needs) anchors a strong local sports culture, but the dist…
+      family_practicality: "Daily life is well-supported by five supermarkets (SuperValu, Lidl, Tesco Express, Centra, Morton's), three GP practices with 14+ doctors including paediatric interests, and a Luas commute of 8–15 minutes to the city centre with multiple bus backups, but the childcare situation is in crisis: The …"
+      health: Air quality is excellent with third-party PM2.5 at ~1.17 μg/m³ and the official DCC noise monitor at Woodstock Gardens records a remarkably quiet 46.4 dB(A) daily average, drinking water is 99.8%+ compliant with bacterial and chemical limits, and both Children's Health Ireland paediatric emergenc…
+      nature: Ranelagh Gardens Park offers a charming local green space with a lake, ducks, a well-rated playground (4.5★, 111 reviews), and wheelchair-accessible paths alongside the Victorian Dartmouth Square garden, but these are small ornamental spaces with no toilet facilities and noted cleanliness issues,…
+    sources: [ "Investropa (Daft.ie)", "CSO RPPI", "Daft.ie Q1/Q2 2025", "Numbeo", "Irish Times/RTE (CAMHS)", "Travelmath/Rome2Rio" ]

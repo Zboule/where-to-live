@@ -1,0 +1,40 @@
+# REAL ESTATE · ad_residence · 80% mortgage + cash loan for the down payment.
+# Same property; the 20% down payment is covered by a UAE personal "cash loan"
+# (≈20× monthly salary, 3-yr term) instead of liquidating savings — so only the
+# ~4% fees come out of cash. WARNING: the cash-loan repayment (~AED 27k/mo) stacked
+# on the mortgage (~AED 22k/mo) is ~AED 49k/mo — right at the 50% DBR ceiling.
+id: ad_residence
+variant_label: Mortgage + cash loan (down payment)
+name: "Abu Dhabi residence (Saadiyat)"
+enabled: false
+country: AE
+currency: AED
+owned_from: 2027-07-01
+current_value: 4400000
+appreciation_rate: 0.06
+purchase:
+  price: 4400000
+  date: 2027-07-01
+  acquisition_costs: 180000
+mortgage:
+  principal: 3520000
+  first_payment_date: 2027-08-04
+  last_payment_date: 2052-07-04
+  rate_periods:
+    - rate: 0.055
+cash_loan:
+  amount: 880000               # the 20% down payment, as a personal loan
+  rate: 0.0675                 # ~6.75% reducing
+  term_months: 36
+self_use_saving:
+  per_year: 225000
+  currency: AED
+holding_costs:
+  building_maintenance: 32000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 1

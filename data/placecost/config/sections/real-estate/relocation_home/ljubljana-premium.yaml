@@ -1,0 +1,40 @@
+# REAL ESTATE · relocation_home · ljubljana-premium — Ljubljana — Rožna dolina / Trnovo, the PREMIUM size.
+# ~350 m² large high-spec villa in the best streets of the villa quarter (Rožna dolina villa belt / riverside
+# Trnovo — plot scarcity drives the top end). Bought AT the (dynamic) move; OFF by default, a relocation scenario
+# turns it on and the "Home size" toggle picks the tier. Price fact-checked 2026: quality Rožna dolina / Trnovo
+# stock ~€4,500–5,800/m² (GURS + nepremicnine.net), but modern villas in Rožna dolina ask €6,000+/m² and prime
+# Trnovo listings reach €7,000/m²; a ~350 m² top villa ≈ €6,000/m². The engine projects this price (and the
+# LTV-scaled mortgage) to the actual purchase year, so a later move buys at the appreciated price, not today's.
+# EUR 2.10M.
+# Acquisition: 2% real-estate transfer tax (DPN) + notary + agent share + admin → ~4% all-in.
+# Holding: NUSZ building-land-use fee ~€500–1,500/yr (big plot → top of range); the announced Slovenian property
+# tax keeps being postponed. Sale: primary residence with 3y occupancy is CGT-exempt.
+id: relocation_home
+variant_label: Ljubljana - Rožna dolina · premium
+name: "Ljubljana - Rožna dolina home"
+enabled: false
+country: SI
+currency: EUR
+owned_from: 2033-09-01
+current_value: 2100000
+appreciation_rate: 0.03
+purchase:
+  price: 2100000
+  date: 2033-09-01
+  acquisition_costs: 84000      # 2% transfer tax (42k) + notary/agent/admin ≈ 4% all-in
+mortgage:
+  principal: 1680000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.033
+holding_costs:
+  local_property_tax: 1500      # NUSZ building-land-use fee ~€500–1,500/yr; real property tax still postponed
+  building_maintenance: 6300
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0                   # primary residence with 3y occupancy exempt
+    annual_exemption_per_owner: 0
+    owners: 2

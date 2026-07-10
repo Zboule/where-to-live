@@ -1,0 +1,41 @@
+# REAL ESTATE · paris · default (all cash) — a Paris pied-à-terre (lifestyle).
+# OFF by default — a what-if option you switch on in the UI. A ~55 m² 2BR in a
+# desirable central arrondissement, used ~2 months/year.
+#
+# NO rental income on purpose: a Paris *secondary* residence cannot be legally
+# short-let (Airbnb) year-round — it needs a "changement d'usage" with commercial
+# compensation that's practically impossible in central Paris (fines up to €50k).
+# So this is modeled as a lifestyle asset, not an income property.
+id: paris
+variant_label: All cash
+name: "Paris pied-à-terre"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2027-07-01
+current_value: 577000
+appreciation_rate: 0.03        # central Paris long-run (modest; recent years ~flat)
+purchase:
+  price: 577000                # ~55 m² @ ~€10.5k/m²
+  date: 2027-07-01
+  acquisition_costs: 43000     # frais de notaire ~7.5% (resale)
+mortgage:
+  principal: 0                 # all cash — no loan
+  first_payment_date: 2027-07-04
+  last_payment_date: 2027-08-04
+  rate_periods:
+    - rate: 0.0
+self_use_saving:
+  per_year: 3000               # ~1 month of Paris lodging you'd otherwise pay (travel budget)
+  currency: EUR
+holding_costs:
+  local_property_tax: 1200     # taxe foncière
+  building_maintenance: 2500   # copropriété charges
+  unit_maintenance: 1000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.06     # agency + diagnostics on disposal
+  cgt:
+    rate: 0.30                 # non-resident ~36% (<5y) / ~29% (10y) — flat 30% proxy
+    annual_exemption_per_owner: 0
+    owners: 1

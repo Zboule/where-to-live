@@ -1,0 +1,19 @@
+districts:
+  - id: ljubljana-trnovo
+    city: Ljubljana
+    country: Slovenia
+    country_code: SI
+    district: "Center/Trnovo"
+    blurb: "Riverside village-feel near the centre: green, walkable, safe small-capital family living."
+    price_per_sqm: { lower: 4500, upper: 8500, average: 6000 }
+    travel: { paris_hours: 4.5, paris_mode: flight, yerevan_hours: 8, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 4, mental_health: 2.5, peer_environment: 2.5, family_practicality: 3, health: 2, nature: 3.5 }
+    notes:
+      education: "Center/Trnovo is exceptionally well-served for school choice: OŠ Trnovo and the UNESCO-affiliated OŠ Ledina are within walking distance for primary, while a dense gimnazija cluster — including Gimnazija Bežigrad, ranked #1 nationally with an IB diploma programme in the global top 5% — plus Ljublj…"
+      safe_independence: Ljubljana's center-district schools report 60% of children travelling independently — 44% walk alone — and the adjacent car-free city center, one of Europe's largest pedestrianized zones, makes walking and cycling the natural default for Trnovo families, backed by over 300 km of city cycling path…
+      mental_health: Slovenia mandates a multi-professional school counselling service — psychologists, pedagogues, and social workers — in every primary and secondary school, and Ljubljana hosts dedicated resources like the LogOut Centre for Digital Wellbeing, giving Trnovo families a structured support safety net t…
+      peer_environment: Ljubljana's Center district has Slovenia's highest concentration of degree-holders and the country's lowest youth-offending rates, with Tivoli Park's skate park, sports complex, and courts right on Trnovo's doorstep, plus genuine integration efforts like OŠ Livada's celebrated multilingual progra…
+      family_practicality: "Day-to-day life in Trnovo is logistically easy: Bus Line 9 runs every 10–15 minutes through the neighborhood, a Mercator supermarket and multiple shops sit within a 5-minute walk, and Slovenia's nationally standardized kindergarten system with its OPK quality framework serves ~94% of children in …"
+      health: UKC Ljubljana, Slovenia's largest hospital, and the dedicated Children's Hospital sit just 2–3 km from Trnovo — roughly a 5–10 minute drive — and 98% of the population has safely managed drinking water, giving the district solid medical and environmental fundamentals. The immediate concerns are a…
+      nature: "Trnovo earns its reputation as Ljubljana's 'green oasis': Špica Park at the district's southern tip offers riverside lawns, cherry blossoms, and free sunbeds (4.6★), the Trnovski Pristan paths are flat and well-maintained, and the 5 km² Tivoli-Rožnik Landscape Park with its forested hill and hund…"
+    sources: [ "Investropa Ljubljana 2025", "Numbeo Ljubljana", "GlobalPropertyGuide Slovenia", "BISL/LIS/European School Ljubljana", "OECD PISA 2022" ]

@@ -1,0 +1,71 @@
+# EXPENSES · destination_living · bologna-simple — the SIMPLE post-move life in
+# Bologna — Santo Stefano / Murri-Colli, Italy.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# property tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal local family of four genuinely spends: one modest car (the ZTL makes carless-ish living easy in Bologna), a few hours/week of cleaning help, occasional eating out, one main holiday + a few weekends, public liceo + normal kids' activities.
+# Family is on the SSN (national health, payroll/tax-funded) → the cash line is ticket co-pays + the odd private visit. Bologna domestic help ~€10–12/hr.
+# Education: the two kids attend the International School of Bologna (private/international regardless of preset) —
+# a blended mid-tier ~€12.5k/child (early grades + sibling discount) → ~€25k/yr for two.
+# ~58800 EUR/yr (~4900 EUR/mo) excl. housing.
+# Fact-checked 2026: Numbeo Bologna, ISTAT, ARERA (energy), ACI (cars), Comune di Bologna.
+id: destination_living
+variant_label: Bologna - Santo Stefano (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 9600, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Electricity / water / heating"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3600, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: EUR
+    growth: [{ year: 2026, per_year: 960, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car + public transport"
+    category: Transport
+    currency: EUR
+    growth: [{ year: 2026, per_year: 5400, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (a few hours/week @ €10–12/hr)"
+    category: Staff
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2400, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (SSN co-pays + odd private visit)"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1000, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3000, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 3600, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 1500, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: EUR
+    growth: [{ year: 2026, per_year: 2700, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: EUR
+    growth: [{ year: 2026, per_year: 25000, growth_rate: 0.03 }]

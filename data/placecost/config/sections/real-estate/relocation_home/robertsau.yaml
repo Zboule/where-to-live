@@ -1,0 +1,34 @@
+# REAL ESTATE · relocation_home · robertsau — Robertsau (Strasbourg — green residential), the COMFORTABLE size.
+# ~230 m² 4–5 bed family house. Bought AT the (dynamic) move; OFF by default, a relocation scenario turns it on and
+# the "Home size" toggle picks the tier. Price fact-checked 2025-26 (deep multi-source market
+# analysis). The engine projects this price (and the LTV-scaled mortgage) to the actual purchase
+# year, so a later move buys at the appreciated price, not today's. EUR 1.08M.
+id: relocation_home
+variant_label: Robertsau
+name: "Robertsau home"
+enabled: false
+country: FR
+currency: EUR
+owned_from: 2033-09-01
+current_value: 1080000
+appreciation_rate: 0.025
+purchase:
+  price: 1080000
+  date: 2033-09-01
+  acquisition_costs: 81000
+mortgage:
+  principal: 864000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2058-09-04
+  rate_periods:
+    - rate: 0.034
+holding_costs:
+  local_property_tax: 3500
+  building_maintenance: 5000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 2

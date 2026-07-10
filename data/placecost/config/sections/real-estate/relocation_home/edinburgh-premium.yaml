@@ -1,0 +1,37 @@
+# REAL ESTATE · relocation_home · edinburgh-premium — Edinburgh — The Grange (Morningside belt), the PREMIUM size.
+# ~350 m² detached Victorian villa with garden in The Grange — the top of the south-Edinburgh family market, still
+# inside the Boroughmuir/James Gillespie's state-catchment belt. Bought AT the (dynamic) move; OFF by default, a
+# relocation scenario turns it on and the "Home size" toggle picks the tier. Price fact-checked 2025-26: EH10/EH9
+# prime detached villas trade well above the Morningside all-types average (~£489k, ESPC/PMI); Grange detached
+# houses commonly £1.8–2.5M, ~£5,500–6,000/m² at this size (ESPC, Savills EH10). A ~350 m² detached villa
+# ≈ £5,700/m². The engine projects this price (and the LTV-scaled mortgage) to the actual purchase year, so a later
+# move buys at the appreciated price, not today's. GBP 2.00M.
+id: relocation_home
+variant_label: Edinburgh - Morningside · premium
+name: "Edinburgh - Morningside home"
+enabled: false
+country: GB
+currency: GBP
+owned_from: 2033-09-01
+current_value: 2000000
+appreciation_rate: 0.03
+purchase:
+  price: 2000000
+  date: 2033-09-01
+  acquisition_costs: 203000     # Scottish LBTT, ~9.9% effective here (UK resident, main home, no ADS): 0% to £145k, 2% on £145–250k = £2,100, 5% on £250–325k = £3,750, 10% on £325–750k = £42,500, 12% above £750k = £150,000 → LBTT £198,350; + conveyancing/searches/registration ~£4,650.
+mortgage:
+  principal: 1600000            # 80% LTV (scaled with the price; the engine scales it again to the projected purchase-year value)
+  first_payment_date: 2033-10-04
+  last_payment_date: 2063-09-04
+  rate_periods:
+    - rate: 0.043               # UK 5-year fix, ~4.3% at 80% LTV in 2025-26.
+holding_costs:
+  local_property_tax: 4900      # Council Tax band H, ~£4,700–5,000/yr (City of Edinburgh 2026 rates incl. water/sewerage).
+  building_maintenance: 15000   # Big detached Victorian stone villa + mature garden: roof/pointing/sash windows/damp, averaged.
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02      # Agent + solicitor, Scottish selling costs ~1.5–2%.
+  cgt:
+    rate: 0.0                   # Private Residence Relief — no CGT on the main home in the UK.
+    annual_exemption_per_owner: 0
+    owners: 2

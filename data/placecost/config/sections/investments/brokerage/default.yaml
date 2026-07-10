@@ -1,0 +1,13 @@
+# INVESTMENT · brokerage · default — the market portfolio (equities/ETFs).
+# This file IS the portfolio: a single entry in assets.investments. The folder name
+# (brokerage) is the entity; each file here is one variant. Add another portfolio
+# with a sibling folder (e.g. investments/pension/). It receives surplus above the
+# cash buffer and is liquidated to cover deficits. Toggle it on/off in the UI.
+id: brokerage
+variant_label: Base — steady long-run (5%)   # the central case (vs Bad 3.5% / Best 8%)
+name: "Equities"
+currency: EUR
+opening_balance: 0           # invested balance as-of base_date # TODO set real value
+expected_return: 0.05        # nominal annual return assumption
+gains_tax_rate: 0.0          # residual tax on gains at liquidation # TODO (IE exit tax 41%, or 0 if UAE-resident)
+receives_savings: true       # this portfolio absorbs surplus above the cash buffer

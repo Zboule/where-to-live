@@ -1,0 +1,34 @@
+# REAL ESTATE · ad_residence · all cash — Abu Dhabi main residence, bought outright.
+# Same property; needs ~AED 4.58M cash up front (likely only feasible alongside
+# selling Dublin / a large investment balance). No mortgage, no interest drag.
+id: ad_residence
+variant_label: All cash
+name: "Abu Dhabi residence (Saadiyat)"
+enabled: false
+country: AE
+currency: AED
+owned_from: 2027-07-01
+current_value: 4400000
+appreciation_rate: 0.06
+purchase:
+  price: 4400000
+  date: 2027-07-01
+  acquisition_costs: 180000
+mortgage:
+  principal: 0
+  first_payment_date: 2027-07-04
+  last_payment_date: 2027-08-04
+  rate_periods:
+    - rate: 0.0
+self_use_saving:
+  per_year: 225000
+  currency: AED
+holding_costs:
+  building_maintenance: 32000
+  grows_with: inflation
+sale:
+  selling_costs_rate: 0.02
+  cgt:
+    rate: 0.0
+    annual_exemption_per_owner: 0
+    owners: 1

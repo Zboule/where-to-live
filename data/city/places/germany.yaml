@@ -1,0 +1,317 @@
+districts:
+
+  - id: berlin-zehlendorf
+    city: Berlin
+    country: Germany
+    country_code: DE
+    district: "Zehlendorf / Dahlem"
+    blurb: "Berlin's safest, greenest district: JFK & Intl School, FU Berlin in Dahlem, Grunewald forest and Wannsee lakes."
+    price_per_sqm: { lower: 4500, upper: 9500, average: 5400 }
+    travel: { paris_hours: 5, paris_mode: flight, yerevan_hours: 7, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4.5 }
+    notes:
+      education: Zehlendorf/Dahlem sits in Berlin's highest-performing borough for education, with the city's top Abitur rate and multiple strong Gymnasiums including Arndt-Gymnasium and Goethe-Gymnasium, plus the Berlin International School (full IB continuum) and the bilingual John F. Kennedy School both locate…
+      safe_independence: Zehlendorf/Dahlem combines Berlin's lowest crime rate with excellent public transit for teens — the S1 reaches central Berlin in ~20 minutes at 5-minute peak frequency and the U3 runs through Dahlem every 6–10 minutes, with weekend night service on the S1 backed by S-Bahn security patrols. Howeve…
+      mental_health: "The majority picture is reassuring — 78% of German 15-year-olds are satisfied with life and 76% report low burnout, Germany shows the lowest youth loneliness rate among seven EU countries studied, and there is no pervasive cram-school culture. The structural gaps are significant though: Germany h…"
+      peer_environment: Zehlendorf/Dahlem offers an exceptionally safe, orderly environment with educated, affluent families — the borough recorded only six vandalism incidents and eight physical attacks across its ~300,000 residents in 2022, and the Free University and Max Planck institutes bring some international div…
+      family_practicality: The district is well-served for daily life with the S1 and U3 providing frequent connections to central Berlin, multiple supermarkets (Rewe, Edeka, Aldi, Lidl, Bio Company) within 1–2 km, and over 75 medical facilities including a hospital 800 metres away. Commuters face real friction from S1 rel…
+      health: "The district is geographically blessed — leafy, low-density, largely outside BER airport flight paths and noise zones, with German tap water ranking among the world's strictest and no heavy industry. The critical gap is paediatric emergency care: the Charité paediatric ER in Dahlem was closed, sh…"
+      nature: The Grunewald forest (~3,000 ha) sits directly in and adjacent to the district with well-marked trails, while Wannsee (Europe's largest inland beach at 1,275 metres) and Schlachtensee (a CNN-rated swimming lake with a 7 km circular path) are both within the borough alongside the 43-hectare Botani…
+    sources: [ "Guthmann Berlin market report", "Investropa Berlin 2025", "JFKS / Berlin Intl School", "Berlin Kriminalitaetsatlas 2024", "OECD Germany 2025", "flight routings BER" ]
+
+  - id: bonn-bad-godesberg
+    city: Bonn
+    country: Germany
+    country_code: DE
+    district: "Bad Godesberg"
+    blurb: "Former diplomatic quarter: UN campus, Bonn Intl School and IBIS, Rhine + Siebengebirge - top intl value for price."
+    price_per_sqm: { lower: 3500, upper: 11000, average: 4100 }
+    travel: { paris_hours: 5, paris_mode: train, yerevan_hours: 8, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 2.5, mental_health: 2.5, peer_environment: 3, family_practicality: 3, health: 2.5, nature: 4.5 }
+    notes:
+      education: "Bad Godesberg offers a credible education pathway from Grundschule through Abitur, anchored by several well-regarded Gymnasien (Nicolaus-Cusanus-Gymnasium, the Jesuit-run Aloisiuskolleg) and the English-medium IBIS international primary school for ages 3–13. Key gaps: IBIS ends at age 13 with no …"
+      safe_independence: "Bad Godesberg has the bones for independent mobility — 30 km/h zones, 30 km of Fahrradstraßen across Bonn, its own train station, light rail (Line 63), and a night bus network — but the execution is patchy: the district council rejected expanded bike-street standards in 2024, existing bike lanes …"
+      mental_health: "The majority picture is reassuring — 78% of German 15-year-olds are satisfied with life and 76% of high-school students report low burnout — but the minority in distress is growing and poorly served: 25% of students report psychological distress (German School Barometer 2025/26), ~18% have self-h…"
+      peer_environment: Bad Godesberg is arguably Bonn's most diverse district — ~170 nationalities, ~33% of residents with a migration background, and a dense network of over 100 clubs and 30 sports clubs anchored by the K7 youth centre. However, the railway line has hardened into a de facto socioeconomic and ethnic di…
+      family_practicality: "Bad Godesberg is a practical base for commuters: direct trains to Köln Hbf in ~33 minutes (57–65 trains/day), a walkable pedestrian-zone core (Fronhof–Theaterplatz–Moltkeplatz) with shops and medical services on foot, and after-school clubs via IBIS. The friction is in childcare (Germany-wide Kit…"
+      health: Bonn's annual PM2.5 of ~12 µg/m³ sits within EU limits but at 2.4× the WHO guideline and above the German national average; noise is a more acute local problem, with ~550 trains daily through Bad Godesberg frequently exceeding 90 dB(A) and residential areas near the station rated at the worst noi…
+      nature: "Bad Godesberg punches well above its weight for green space: the 8-hectare Kurpark with 550+ trees (including giant sequoias and Lebanon cedars), the 160-hectare Rheinaue leisure park with 45 km of paths and a 15-hectare lake directly to the north, and the 4,000+ hectare Kottenforst nature reserv…"
+    sources: [ "Engel & Voelkers Bad Godesberg 2026", "immoportal Godesberg-Villenviertel", "Bonn Intl School / IBIS", "UN Bonn / bonn.de", "Eurostar Bonn-Paris / CGN-EVN" ]
+
+  - id: duesseldorf-oberkassel
+    city: Düsseldorf
+    country: Germany
+    country_code: DE
+    district: "Oberkassel"
+    blurb: "Elegant left-bank Rhine villa quarter: Europe's largest Japanese community, riverside Rheinwiesen, Belsenplatz hub."
+    price_per_sqm: { lower: 5100, upper: 12700, average: 6700 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 8.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3, mental_health: 2.5, peer_environment: 3, family_practicality: 3, health: 3, nature: 3 }
+    notes:
+      education: The Abitur grants unrestricted access to any German university and is globally recognised, and the NRW Gymnasium system is strong — but no IB, bilingual, or Russian-language programmes are confirmed within reach of Oberkassel (ISD is in Kaiserswerth, not the district), while bullying affects 21% …
+      safe_independence: Rheinbahn tram and U-Bahn lines serve Oberkassel reliably, and German culture broadly supports child independence — but district-specific data on traffic calming, segregated cycleways, and crime is unavailable, so the real on-the-ground safety picture for a child moving solo remains unverified.
+      mental_health: The majority picture is reassuring — 78% of German 15-year-olds are satisfied with life (PISA 2022), burnout is low for 76% of high-school students, and Germany has the lowest moderate-loneliness rate among 7 EU countries — yet 25% of students report psychological distress (rising from 21% in 202…
+      peer_environment: Oberkassel is one of Düsseldorf's most affluent, professional districts with stable, education-valuing households, and Germany's Verein culture provides a strong backdrop for organised activities — but the district is socioeconomically homogeneous and local data on antisocial behaviour, club dens…
+      family_practicality: The Luegallee corridor forms a self-contained retail and services hub with doctors and shops, and tram connections across the Rhine to the city centre are frequent and short — but Germany ranks just 21st out of 27 EU countries on digital public services (pre-filled online forms at 38% vs. the EU …
+      health: German tap water is governed by the Trinkwasserverordnung — among the strictest drinking-water regulations globally — and Düsseldorf University Hospital (UKD) is a major medical centre nearby, but air quality and noise levels are unverified for this district and Düsseldorf remains a major urban a…
+      nature: The Rhine embankment and adjacent Rheinwiesen meadows provide accessible, well-used green recreation space, and Oberkassel is tree-lined and greener than the inner city — but no large designated park or nature reserve is confirmed within the district, and with no mountains or sea nearby and Bergi…
+    sources: [ "Engel & Voelkers Oberkassel 2024-25", "ImmoScout24 / Immowelt Oberkassel", "Comenius-Gymnasium / Japanese Intl School", "Numbeo Duesseldorf", "SNCF Duesseldorf-Paris" ]
+
+  - id: freiburg-herdern
+    city: Freiburg im Breisgau
+    country: Germany
+    country_code: DE
+    district: Herdern
+    blurb: "Freiburg's leafy academic quarter: two Gymnasiums, child-psychiatry clinic on-site, Black Forest from the doorstep."
+    price_per_sqm: { lower: 5800, upper: 10371, average: 6000 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2, peer_environment: 2.5, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Weiherhofschule primary serves the district and Baden-Württemberg schools rank among Germany's best, while several strong Gymnasien (Berthold, Goethe, Rotteck) are reachable within ~10–15 minutes by tram. Freiburg hosts two IB schools (FIA K–12 and UWC Robert Bosch College for the diploma years),…
+      safe_independence: Tram Line 3 cuts through the district every 7.5 minutes to the city centre in ~6 minutes, Freiburg's 400+ km of cycling paths support its reputation as Germany's cycling capital, and violent crime is low at 342 per 100,000 — well below the national urban average. However, cycle lanes in Herdern '…
+      mental_health: The majority of German teens cope — 78% report life satisfaction (PISA 2022) and 76% show low burnout — while adolescent alcohol use has fallen substantially since 2001 to near-historic lows. Yet Germany dropped from 14th to 25th in UNICEF child wellbeing (2025), school psychologist coverage sits…
+      peer_environment: "Herdern is Freiburg's most sought-after residential district — quiet, green, and affluent with Art Nouveau villas — and city-wide youth infrastructure is rich: SC Freiburg youth programmes at €20/year for under-24s and 200+ courses via the Jugendbildungswerk. But playground provision within Herde…"
+      family_practicality: A supermarket, bakery, pharmacy, bank, and twice-weekly farmers' market sit within walking distance around Church Square, and Tram Line 3 delivers a ~6-minute ride to the city centre. Childcare is centrally organised but competitive (university Kitas are 'extremely popular' with rigid mid-Februar…
+      health: The brand-new €170M University Center for Pediatrics (opened October 2024) treats 80,000 young patients annually with all paediatric disciplines under one roof, air quality is moderate at PM2.5 ~7–8 µg/m³ (below EU limits but ~1.5× the WHO guideline of 5 µg/m³), and the district sits on flood-saf…
+      nature: With 399 m² of open space per resident and a maximum 500 metres to open landscape from any point, Herdern ranks among Freiburg's greenest districts; the Roßkopf-Schlossberg nature reserve borders the district directly, Black Forest trailheads start from the neighbourhood, the Herdermer Höhenweg c…
+    sources: [ "ImmoScout24/Homeday price atlas Q3 2024", "freiburg.de district statistics", "Uniklinik Freiburg site", "Trainline/SNCF Freiburg-Paris TGV" ]
+
+  - id: freiburg-vauban
+    city: Freiburg im Breisgau
+    country: Germany
+    country_code: DE
+    district: Vauban
+    blurb: "Car-free eco-district where kids roam free: ~70% car-free households, 24% under-18, tram to centre in ~12 min."
+    price_per_sqm: { lower: 4964, upper: 6000, average: 5500 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 12, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 4.5, mental_health: 2, peer_environment: 3.5, family_practicality: 2.5, health: 4, nature: 4 }
+    notes:
+      education: Vauban has a primary school within the district and Freiburg's strong Gymnasium network is reachable by tram, but no secondary school exists in Vauban itself and specific quality data for its schools is unavailable; the Freiburg International Academy and UWC Robert Bosch College offer full IB pro…
+      safe_independence: Vauban's car-free design — 172 cars per 1,000 residents, Spielstraßen limited to walking speed, and segregated cycleways — enables children to roam and play independently across the district, with tram stops within 400 metres of all homes running every 6–8 minutes until half past midnight; nightt…
+      mental_health: The majority of German teens cope well — 78% are satisfied with life and 76% report low burnout — and alcohol use among 12–17 year olds has declined substantially, but Germany's UNICEF child-wellbeing ranking fell from 14th to 25th out of 43 countries, a quarter of students report psychological d…
+      peer_environment: Roughly half of Vauban residents hold a university degree and the car-free layout fosters natural surveillance and community spirit, backed by Freiburg's extensive sports-club network, but academic consensus describes the district as a socioeconomically narrow 'middle-class monoculture' with low-…
+      family_practicality: Tram lines 3 and 4 provide excellent connectivity with peak headways of six minutes and the district has two cooperative grocery shops plus a weekly market, but Freiburg is in a severe Kita staffing crisis with 15–20 Fachkräfte missing, no pharmacy or doctor's practice exists within Vauban, and G…
+      health: The University Medical Center Freiburg is ranked Germany's second-best hospital with a Centre of Excellence in paediatrics, tap water meets among the strictest global standards, and the district's soundscape is dominated by birdsong and children rather than traffic noise, yet PM2.5 runs 1.4–1.6× …
+      nature: The Black Forest begins at Freiburg's doorstep with well-marked hiking trails starting directly from Vauban and panoramic views reaching to the Vosges and Swiss Jura, but the district's high density of roughly 136 people per hectare constrains in-district green space per capita below the Baden-Wü…
+    sources: [ "ImmoPortal/Immowelt price atlas 2024-25", "freiburg.de + stadtteil-vauban.de statistics", "Badische Zeitung election analysis", "Trainline/SNCF Freiburg-Paris TGV" ]
+
+  - id: heidelberg-neuenheim
+    city: Heidelberg
+    country: Germany
+    country_code: DE
+    district: "Neuenheim"
+    blurb: "Riverside academic quarter by Germany's oldest university: walkable, bike-first, child-psych clinic on campus."
+    price_per_sqm: { lower: 5300, upper: 7700, average: 7000 }
+    travel: { paris_hours: 5, paris_mode: train, yerevan_hours: 8, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3.5, mental_health: 2, peer_environment: 4, family_practicality: 2.5, health: 4.5, nature: 3.5 }
+    notes:
+      education: "Neuenheim offers unusually strong public schooling: Mönchhofschule primary sends ~89% of pupils to Gymnasium — among Heidelberg's highest rates — and three Gymnasiums sit within the district, including the public Kurfürst-Friedrich-Gymnasium. A full K–12 IB World School (H.I.S., 100% IBDP pass ra…"
+      safe_independence: "Heidelberg has one of Germany's highest cycling modal shares (29%) and low overall crime (7,914 incidents per 100k, below the Baden-Württemberg average), but Neuenheim's traffic-safety record is patchy: Tempo 30 zones on streets like Mönchhofstraße are widely ignored, Berliner Straße's cycle cros…"
+      mental_health: "Germany's youth mental-health infrastructure is stretched thin: the national school-psychologist ratio is roughly 1:5,400 students — ten times worse than the OECD recommendation of 1:500 — and only 57% of schools have any psychologist access at all. National surveys show 25% of students report ps…"
+      peer_environment: Neuenheim is Heidelberg's top professor neighbourhood — it gained more professors than any other district from 2010–2015 and has the city's highest share of college-educated residents — creating an education-valuing peer environment reinforced by a strong Verein culture and the Neckarwiese as a v…
+      family_practicality: Neuenheim is a compact, walkable district with tram lines 5/21/26 connecting to Altstadt employers and the university hospital, and Heidelberg operates a centralised Kita pre-registration system — but no data on childcare availability, waitlist lengths, or after-school (Hort) capacity was found f…
+      health: The Angelika-Lautenschläger-Klinik, Heidelberg's university paediatric centre with a 24/7 emergency department using ESI triage, is located inside Neuenheim — giving residents top-tier paediatric care within the district. Germany met all EU air-quality limits for the first time in 2024 and a June…
+      nature: The 5-hectare Neckarwiese riverside park — free, open 24/7, with two playgrounds including water play, sports lawns, and boat rental — forms the district's green heart, while the 1,300 km² Neckartal-Odenwald Nature Park and the forested Heiligenberg hill with multiple hiking loops (4.7–13 km, up …
+    sources: [ "Engel & Voelkers Heidelberg 2026", "Immowelt / immoportal Neuenheim", "Bunsen-Gymnasium / HIS", "Heidelberg Univ Hospital", "TGV Mannheim-Paris / FRA-EVN" ]
+
+  - id: munich-bogenhausen
+    city: Munich
+    country: Germany
+    country_code: DE
+    district: Bogenhausen
+    blurb: "Munich's safest Nobelviertel: Englischer Garten on the doorstep, U4 to Marienplatz in ~12 min, top Gymnasiums."
+    price_per_sqm: { lower: 6815, upper: 17462, average: 9800 }
+    travel: { paris_hours: 6, paris_mode: train, yerevan_hours: 8.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 5 }
+    notes:
+      education: Bogenhausen offers a dense network of public Grundschulen and at least four Gymnasien—including the historic Max-Josef-Stift (est. 1813) and Wilhelm-Hausenstein-Gymnasium—plus Phorms Bilingual School (K–12, German/English) right in Alt-Bogenhausen, giving families strong traditional and bilingual…
+      safe_independence: The district is widely described as one of Munich's safest, with children able to use the U4 U-Bahn independently from age 6 and a 290 km car-free Isar Cycle Path running the length of Bogenhausen's western edge; the Stuntzstraße Summer Street experiment also showed local appetite for traffic cal…
+      mental_health: "The majority of German teens are doing okay—78% of 15-year-olds report life satisfaction, 76% of high-school students show low burnout, and there is no institutionalised cram-school culture—but a substantial minority are struggling: 25% of students report psychological distress, 20.5% of 11–17 ye…"
+      peer_environment: Bogenhausen is Munich's wealthiest district, with purchasing power of €55,698 per capita, Altbogenhausen unemployment at just 0.6%, and family amenities like the Cosimawellenbad wave pool and multiple highly-rated playgrounds; nearly 36% of residents have a non-German or migration background, cre…
+      family_practicality: Daily life runs smoothly with frequent U4 U-Bahn service reaching central Munich in 10–15 minutes, bilingual childcare options like cocon and kiClub with above-legal staff ratios, and Altbogenhausen's Prinzregentenstraße and Englschalking's Freischützstraße both offering walkable concentrations o…
+      health: Air quality is good by EU standards with PM2.5 at 2.7–11.1 µg/m³ and NO₂ well below annual limits, large swaths of the district are genuinely quiet and leafy—especially Herzogpark, shielded by the Isar cliff—and the Klinikum Bogenhausen teaching hospital provides maximum-care adult medicine with …
+      nature: Bogenhausen borders the Englischer Garten—375 hectares of woods, meadows, and water larger than Central Park—and the restored Isar River floodplain runs the full length of its western edge as a continuous 5.5 km+ green corridor with a 290 km cycle path, while the Bavarian Alps and lakes like Star…
+    sources: [ "Immoscout24/Homeday/Immoportal price atlas 2024-25", "Stadt München crime statistics 2024", "Gymnasium official sites", "Trainline/SNCF Munich-Paris TGV" ]
+
+  - id: stuttgart-degerloch
+    city: Stuttgart
+    country: Germany
+    country_code: DE
+    district: "Degerloch"
+    blurb: "Filder-plateau quarter above Stuttgart's smoggy basin: ISS campus, rare G9 Gymnasium, the Zacke rack railway."
+    price_per_sqm: { lower: 4400, upper: 9000, average: 5300 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 9, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 4, mental_health: 2.5, peer_environment: 3.5, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Degerloch offers a strong public school ladder from Grundschule (Albschule, Filderschule) through Gymnasium (Waldschule, a SCORA Projektschule with an Oberstufe for Abitur), backed by the International School of Stuttgart's full IB continuum (PYP–MYP–Diploma) right in the district. The main gaps …
+      safe_independence: "Degerloch is one of Stuttgart's safest and most child-navigable districts: U-Bahn lines run every 5 minutes reaching the city centre in ~10 minutes, violent crime is vanishingly low (18 incidents in 2024 across 16,500 residents), and the city's safe-walking programme has made walking to school a …"
+      mental_health: "The majority picture is reassuring — 78% of German 15-year-olds are satisfied with life, youth loneliness is the lowest among seven EU countries studied, and Germany lacks the institutionalised cram-school culture that drives student burnout elsewhere. The real worry lies beneath: roughly one in …"
+      peer_environment: Degerloch is one of Stuttgart's wealthiest and most educationally homogeneous districts, with top-quartile net incomes and very high Abitur attainment among employed residents — this means peer families almost universally value education, but it also means the district is socioeconomically filter…
+      family_practicality: Daily logistics are anchored by multiple municipal and church-run Kitas, a 5-minute U-Bahn headway connecting to the Hauptbahnhof in ~11 minutes, and walkable everyday shopping (Edeka, organic markets). Friction points include Germany's poor EU ranking on digital public services (21st of 27, with…
+      health: "Degerloch's hillside elevation (~400–450 m) sits above Stuttgart's basin inversion layer, giving it measurably fresher air than the smog-trapping Kessel below, and Germany's largest children's hospital (Olgahospital) is reachable in 18–20 minutes by U-Bahn. The trade-offs are real: the district l…"
+      nature: Degerloch's defining natural asset is its forest — the Degerlocher Wald and Dornhaldenwald begin literally at the edge of residential streets, with an 8.5 km signposted hiking loop (Fleggaweg) featuring a playground, BBQ area, and viewpoints, plus the family-oriented Haus des Waldes forest exhibi…
+    sources: [ "immoportal / wohnungsboerse Degerloch 2025-26", "Investropa Stuttgart", "Intl School of Stuttgart", "Wilhelms-Gymnasium", "VVS / TGV Stuttgart-Paris" ]
+  - id: frankfurt-nordend
+    city: Frankfurt
+    country: Germany
+    country_code: DE
+    district: Nordend
+    blurb: Vibrant, family-friendly district with parks, schools, and multicultural flair.
+    price_per_sqm: { lower: 5500, upper: 8000, average: 6500 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 4.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3, family_practicality: 3, health: 3.5, nature: 3.5 }
+    notes:
+      education: Nordend packs an impressive concentration of public secondary options — five Gymnasien plus two comprehensive schools sit within the district — and Phorms Bilingual School provides full DE-EN education from nursery through Abitur right on Fürstenbergerstraße, giving a trilingual family a solid ba…
+      safe_independence: Oeder Weg's transformation into Frankfurt's first Fahrradstraße — with red-painted intersections, 1 m safety buffers, and a modal filter blocking through-traffic — plus dense U-Bahn coverage from six lines (U1–U5, U8) give children and teens genuine car-free mobility options across the city, and …
+      mental_health: "Germany's academic culture lacks the institutionalised cram-school pressure found in East Asia, and the majority picture is reassuring — 78% of 15-year-olds are satisfied with life and 76% of high-school students report low burnout — but the warning signs are material: Germany dropped from 14th t…"
+      peer_environment: Nordend is a gehobene Mittelschicht (upper-middle-class) district with low welfare dependency (~9% of households) and tree-lined Altbau streets that read as tranquil and well-maintained, anchored by Günthersburgpark's adventure playground with a 10 m climbing tower, sports courts, and water featu…
+      family_practicality: Nordend's central location delivers excellent U-Bahn coverage and a very short commute to the banking district, Messe, or Hauptbahnhof, with everyday shops and services within walking distance as expected of an inner-city German neighbourhood; but childcare and after-school capacity is a real str…
+      health: Bürgerhospital sits inside Nordend with a Perinatalzentrum Level I — the highest neonatal care tier, licensed for extremely premature infants — and German tap water is governed by some of the strictest drinking-water regulations globally, while the Rothschildallee monitoring station frequently re…
+      nature: Two well-equipped in-district parks — Günthersburgpark (7.4 ha, with a climbing tower, water playground, sports courts, and a strict no-dogs policy) and Holzhausenpark (3.5 ha) — anchor daily green access, while Grüneburgpark (29 ha) in adjacent Westend and the 75 km Frankfurter Grüngürtel bring …
+    sources:
+      - DeepSeek estimate — refine
+  - id: karlsruhe-durlach
+    city: Karlsruhe
+    country: Germany
+    country_code: DE
+    district: Durlach
+    blurb: Green, quiet suburb with good schools and parks, ideal for families.
+    price_per_sqm: { lower: 2500, upper: 4000, average: 3200 }
+    travel: { paris_hours: 3.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3, family_practicality: 3, health: 3, nature: 3.5 }
+    notes:
+      education: Durlach offers a genuine three-track secondary system anchored by Markgrafen-Gymnasium and the trilingual European School Karlsruhe (DE/FR/EN sections, European Baccalaureate), while Schloss-Schule primary feeds 78% of its pupils into Gymnasium — a strong academic signal. However, the European Sc…
+      safe_independence: Karlsruhe ranks among Germany's top three cycling cities for its size class (ADFC 2022/2024) and Durlach is well-served by KVV trams every 15 minutes to the city centre, with 76% of German primary children typically travelling home alone — the bones of independent mobility are there. On the other…
+      mental_health: "The majority picture is reassuring: 78% of German 15-year-olds are satisfied with life, 76% report low burnout, and Germany has the lowest youth moderate-loneliness rate among seven EU countries studied, without a pervasive cram-school culture. Counterbalancing this, Germany's UNICEF child-wellbe…"
+      peer_environment: Schloss-Schule's 78% Gymnasium transition rate signals a concentration of education-valuing families, and Durlach has long-established sports clubs like Turnerschaft Durlach 1846 (~1,250 members) and ASV Durlach (~400 members) providing organised activities. The wide Gymnasium-transition gap betw…
+      family_practicality: "Durlach is practical for daily family life: Schloss-Schule operates as a Ganztagsschule, the KVV tram reaches central Karlsruhe in about 10 minutes every quarter-hour, the district has its own Rathaus with a full Bürgerbüro and Standesamt, and Durlach railway station adds regional rail connection…"
+      health: Durlach's real-time air quality is excellent (AQI 19) and the Städtisches Klinikum Karlsruhe — a maximum-care teaching hospital with a dedicated children's emergency department — is reachable within the city, while German tap water is among the most strictly regulated in the world. The most mater…
+      nature: "The Black Forest literally begins at Durlach's eastern edge — the Turmberg hill (256 m) with its forest, panoramic summit, historic funicular, and 536-step Hexenstäffele provides immediate, accessible green space right from the residential area. The trade-off is one of scale: the Turmberg is a mo…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: munster-gievenbeck
+    city: Münster
+    country: Germany
+    country_code: DE
+    district: Gievenbeck
+    blurb: Family-friendly with green spaces, good schools, and quiet streets near Münster center.
+    price_per_sqm: { lower: 3500, upper: 5000, average: 4200 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 2.5, safe_independence: 3, mental_health: 2, peer_environment: 2.5, family_practicality: 3, health: 3.5, nature: 3.5 }
+    notes:
+      education: Gievenbeck has solid public-school infrastructure with three Grundschulen and the Freiherr-vom-Stein-Gymnasium in-district, plus a Waldorfschule offering an alternative K–13 pathway — but none has recent quality ratings, secondary options are limited to Gymnasium or Waldorf only, and there is no …
+      safe_independence: Münster's celebrated cycling culture (~38% modal share, segregated cycleways, Promenade ring) gives Gievenbeck children genuine bike-based autonomy, and the bus network (6 lines, 10–20 min headways) connects the district to the Hauptbahnhof in ~15 minutes — but transit is bus-only with no fixed-r…
+      mental_health: Most German teens are doing okay (78% satisfied with life, 76% report low burnout) and Germany lacks East Asia's institutionalised cram-school pressure, but the UNICEF child-wellbeing ranking dropped sharply from 14th to 25th, a quarter of students now report psychological distress, school-psycho…
+      peer_environment: A long-term residential core (15% of adults 20+ years) coexists with very high turnover (48% moved in within 4 years) and nine student dormitories, creating a transient undercurrent that works against stable childhood peer networks; on the positive side, ~15 Vereine including 1. FC Gievenbeck's y…
+      family_practicality: Kita coverage is excellent at 137% with at least six kindergartens including Waldorf and DRK options, multiple bus lines reach the city centre in 10–17 minutes, and the Forum Gievenbeck shopping centre plus the Michaelkirche services cluster provide walkable everyday needs — but the district is a…
+      health: Air quality is good by EU standards (NO₂ 12 µg/m³, PM2.5 ~9 µg/m³) though PM2.5 runs ~70–90% above the stricter WHO guideline, the UKM university teaching hospital with full paediatric services sits directly adjacent to the district, and German tap water is among the world's most strictly regulat…
+      nature: The 40 ha Aasee lake and parkland directly borders Gievenbeck's eastern edge with sailing, trails, playgrounds, and lawns, the Gievenbach stream corridor is undergoing renaturation into a natural floodplain with extended meanders, and the 435 ha Rieselfelder EU Bird Sanctuary lies ~7 km away — bu…
+    sources:
+      - DeepSeek estimate — refine
+  - id: nuremberg-erlenstegen
+    city: Nuremberg
+    country: Germany
+    country_code: DE
+    district: Erlenstegen
+    blurb: Quiet, green suburb with excellent schools and parks, ideal for families.
+    price_per_sqm: { lower: 3500, upper: 5500, average: 4500 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 2.5, mental_health: 2.5, peer_environment: 3, family_practicality: 2.5, health: 3, nature: 5 }
+    notes:
+      education: "Erlenstegen offers a solid Waldorfschule (Rudolf-Steiner-Schule) with Abitur pathway and a local primary school with after-school care, and the Bavarian system ranks #1 nationally, but there is no Gymnasium in the district itself—secondary students must commute to adjacent areas—and no school ins…"
+      safe_independence: Erlenstegen's quiet, tree-lined villa streets and the adjacent Erlenstegener Forst trail network create a physically safe environment for younger children's outdoor mobility, but the lack of documented protected cycleways, the major B14 arterial road cutting through the district, and the last tra…
+      mental_health: "The majority picture is reassuring: 78% of German 15-year-olds are satisfied with life, 76% report low burnout, youth loneliness is the lowest among 7 EU countries studied, and alcohol use among 12–17 year olds has declined substantially—but ~18% of schoolchildren report self-harm, 25% report psy…"
+      peer_environment: Erlenstegen is an affluent, low-density villa district with gardens, a weekly organic market, and a Waldorfschule that attracts alternative-pedagogy families, but its consistently 'exclusive' and 'coveted' reputation—reinforced by an average rent of ~€1,210/month—creates a strong economic filter …
+      family_practicality: Tram 8 connects the district to Hauptbahnhof in ~25 minutes with 5–10 minute peak frequency, a weekly organic farmer's market and a local health centre provide everyday services, and after-school care is available at both the primary school and the Waldorfschule, but no supermarket was confirmed …
+      health: Erlenstegen benefits from an edge-of-city location adjacent to the large Erlenstegener Forst, extensive tree canopy and green space acting as natural air filtration, and German tap water governed by among the world's strictest drinking-water regulations, but Nuremberg's city-wide PM2.5 of 15 µg/m…
+      nature: "Erlenstegen is exceptionally green: the 10-hectare Platnersberg park sits within the district with 400-year-old trees and 10 designated natural monuments, the vast Erlenstegener Forst (part of the Sebalder Reichswald, one of Europe's largest urban forests) is directly adjacent with a trail networ…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: berlin-prenzlauer-berg
+    city: Berlin
+    country: Germany
+    country_code: DE
+    district: Prenzlauer Berg
+    blurb: "Germany's family hotspot: highest birth rate, car-free trams to Mitte, Altbau charm, education-valuing families."
+    price_per_sqm:
+      lower: 4200
+      upper: 9000
+      average: 5700
+    travel:
+      paris_hours: 5
+      paris_mode: flight
+      yerevan_hours: 7
+      yerevan_mode: flight
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3, family_practicality: 2.5, health: 3, nature: 3.5 }
+    notes:
+      education: Prenzlauer Berg offers a dense network of public Grundschulen and multiple Gymnasien (Käthe-Kollwitz, Heinrich-Schliemann, Carl-von-Ossietzky) within walking distance, backed by Berlin's class-size cap of 26 for grades 1–6 and diverse secondary pathways including the university-track Abitur. Real…
+      safe_independence: The district is consistently rated among Berlin's safest (9/10 daytime, 8/10 night), with wide sidewalks, a calm residential atmosphere, and German cultural norms that expect children to walk to school independently from age 6–7. Berlin's dense U-Bahn/S-Bahn/tram network—including 24-hour weekend…
+      mental_health: "The baseline picture is reassuring: 78% of German 15-year-olds are satisfied with life and 76% report low burnout, without the institutionalised cram-school pressure found in East Asia—and Germany's youth loneliness rate is the lowest among seven EU countries studied. However, psychological distr…"
+      peer_environment: "The adult population is highly educated and internationally diverse (25% foreign nationals, 38% migration background), creating an aspirational, cosmopolitan peer environment with abundant organised activities, sports clubs, and visible outdoor youth culture. The trade-off is stark: 63% of househ…"
+      family_practicality: Childcare availability has genuinely improved—Pankow now has Berlin's highest child-to-place ratio at 86.1%, eased by a demographic dip of ~800 fewer under-7s—and the district's Ringbahn and U2 connections deliver a reliable 15–25 minute commute to Mitte and Kreuzberg. The serious gap is quality …
+      health: Berlin's tap water is among the most strictly regulated in the world (zero E. coli exceedances across nearly 2,000 Brandenburg measurements), and medical access is strong with Vivantes paediatric services at the southern border and the Charité's premier children's hospital ~15 minutes away—though…
+      nature: "Prenzlauer Berg punches above its weight for a dense Gründerzeit district: the 29-hectare Volkspark Prenzlauer Berg sits within the district (meadows, trails, a 91-metre hill, adventure playground, and winter sledding), the 52-hectare Volkspark Friedrichshain lies directly on the border, and Maue…"
+    sources:
+      - Immowelt / Engel & Voelkers Prenzlauer Berg
+      - Investropa Berlin 2025
+      - Phorms / SESB Europaschulen
+      - Berlin.de crime stats 2024
+      - viz.berlin.de air quality
+  - id: hamburg-blankenese
+    city: Hamburg
+    country: Germany
+    country_code: DE
+    district: Blankenese
+    blurb: "Elbe-side villa quarter: four Gymnasiums plus ISH in catchment, sandy beach, sailing culture, among Hamburg's safest."
+    price_per_sqm:
+      lower: 5300
+      upper: 13600
+      average: 8200
+    travel:
+      paris_hours: 6.25
+      paris_mode: flight
+      yerevan_hours: 11.5
+      yerevan_mode: flight
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2.5, peer_environment: 3, family_practicality: 2.5, health: 3.5, nature: 4 }
+    notes:
+      education: Blankenese feeds into Gymnasium Blankenese (2024 Abitur 2.18) and the adjacent top-tier Christianeum (2.02), the International School of Hamburg provides a full IB continuum one S-Bahn stop away in Groß Flottbek, and a Waldorf school sits just east along the Elbchaussee — together covering strong…
+      safe_independence: Blankenese rates 9/10 night safety and 10/10 day safety, the S1 S-Bahn runs every 5 minutes at peak (23–27 min to the city centre) and all night on weekends, and Copenhagen-style separated cycle lanes have been installed along the Elbchaussee — together enabling strong independent mobility for ol…
+      mental_health: The majority picture is reassuring — 78% of German 15-year-olds are satisfied with life, 76% of high-schoolers report low burnout, and Germany's youth loneliness rate is the lowest among seven EU countries studied — and there is no institutionalised cram-school culture adding systemic pressure. O…
+      peer_environment: The district is among Hamburg's wealthiest (median income €117k) with near-zero unemployment, and SV Blankenese provides a 2,200-member multi-sport club as a genuine hub for organised youth activity. On the other side, the 10.2% immigrant share is far below the Hamburg average, no Pfadfinder scou…
+      family_practicality: The S1 delivers a reliable 23–27 minute direct commute to the city centre every 5 minutes at peak, the local weekly market (since 1929) and Bahnhofstraße boutiques cover daily needs, and the Stadtteilschule offers free after-school care with homework help until 16:00. Catches are that no large su…
+      health: Air quality is good (NO₂ ~16–17 µg/m³, well under the EU 40 µg/m³ limit), the 242-bed Altonaer Kinderkrankenhaus sits 5–7 km east with 11 paediatric specialties and a 24/7 paediatric ER, and German tap water is governed by some of the world's strictest drinking-water regulations. The flight path …
+      nature: Blankenese occupies a dramatic wooded slope above the Elbe at its widest point (~2.8 km), with the Hirschpark deer park, the Art Nouveau Römischer Garten, a sandy river beach along the Strandweg, and the 67 ha Wittenbergen Nature Reserve with Hamburg's last natural Elbe beach lying immediately to…
+    sources:
+      - Immowelt/ImmoScout24 price snapshots 2024-25
+      - Hamburg police crime stats 2023-24
+      - ISH fee schedule
+      - UKE COPSY study, airline routings
+  - id: munich-gruenwald
+    city: Munich
+    country: Germany
+    country_code: DE
+    district: Grünwald
+    blurb: "Germany's wealthiest commune: forest-wrapped Isar-valley suburb, Tram 25 to Munich in ~19 min, ultra-low local tax."
+    price_per_sqm:
+      lower: 7600
+      upper: 13500
+      average: 9800
+    travel:
+      paris_hours: 6
+      paris_mode: train
+      yerevan_hours: 8.5
+      yerevan_mode: flight
+    scores: { education: 3.5, safe_independence: 3.5, mental_health: 2, peer_environment: 3.5, family_practicality: 3, health: 4, nature: 4.5 }
+    notes:
+      education: Grünwald sits in Bavaria's strong Gymnasium system, with the Abitur granting unrestricted access to any German university and Munich International School (Starnberg) plus the European School within regional reach for IB/alternative pathways. Traditional bullying has measurably declined since 2009…
+      safe_independence: Grünwald is one of Germany's wealthiest and safest municipalities, with MVV tram line 25 and S-Bahn connecting teens independently to Munich in ~25 minutes, and a culture that normalizes solo school travel from age 6–7. No district-specific traffic-calming or cycle-infrastructure data is availabl…
+      mental_health: "The majority of German youth cope well — 78% of 15-year-olds are satisfied with life (PISA 2022) and 76% report low burnout — but the safety net is thin: Germany averages one school psychologist per 5,438 students (10× worse than the OECD-recommended 1:500–1,000), only 57% of schools have any psy…"
+      peer_environment: Grünwald is an exceptionally affluent, highly-educated professional enclave with Germany's strong Verein (club) culture funding excellent sports, music, and scout infrastructure, and antisocial behaviour is minimal in this profile. The trade-off is socioeconomic homogeneity — the district lacks t…
+      family_practicality: A ~25–35 minute MVV tram+S-Bahn commute to Munich's centre, a self-contained local commercial hub with shops and medical practices, and regulated-quality German childcare make daily family logistics workable, though nationwide Kita/Hort shortages likely apply here too. Administrative friction is …
+      health: Munich's world-class university hospitals — including the Haunersches Kinderspital (paediatric) and Klinikum Rechts der Isar — are within ~20 minutes, German tap water is governed by the legally rigorous Trinkwasserverordnung with near-zero exceedances nationwide, and Grünwald's position south of…
+      nature: "The district's name means 'green forest' and it delivers: Grünwald borders the contiguous Grünwalder Forst and Perlacher Forst forests, sits directly along the Isar River green corridor with well-maintained trails and swimming spots, and the Bavarian Alps (Garmisch, Tegernsee) are reachable in ab…"
+    sources:
+      - Homeday/Immoportal/Immoverkauf24 price atlas 2024-25
+      - STMI Bayern PKS 2024
+      - IHK München Gewerbesteuer data
+      - School official sites

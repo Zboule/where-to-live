@@ -1,0 +1,74 @@
+# EXPENSES · destination_living · edinburgh-simple — the SIMPLE post-move life in
+# Edinburgh — Morningside/Bruntsfield, Scotland. ALL amounts in GBP.
+# Researched bottom-up for a FAMILY OF FOUR (2 adults + 2 kids), 2026 — NOT the Abu Dhabi lifestyle re-priced.
+# The family OWNS its home (relocation_home), so housing is excluded by design: no rent, mortgage,
+# council tax or major maintenance here.
+# Simple: frugal-but-comfortable — what a normal Edinburgh family of four genuinely spends: one modest car +
+# Lothian buses, occasional cleaning help (~£15–18/hr), occasional eating out, one main holiday + a few weekends,
+# mid-tier private day school + normal kids' activities.
+# Healthcare is NHS ≈ free; the cash line is dental/optical.
+# Energy note: Victorian stone houses leak heat — gas/electric runs well above a modern build.
+# Education: mid-tier private day school (e.g. George Watson's / ESMS ~£16.5k/child/yr) for TWO kids ≈ £33k/yr.
+# ~66000 GBP/yr (~5500 GBP/mo) excl. housing.
+# Fact-checked 2026: Numbeo Edinburgh, ONS family spending, Ofgem price cap, Lothian Buses fares, George Watson's
+# College fee schedule 2026 (£12,888–19,990/yr).
+id: destination_living
+variant_label: Edinburgh - Morningside (simple)
+name: "Destination living"
+enabled: false
+items:
+  - id: dl_groceries
+    name: "Groceries"
+    category: Home
+    currency: GBP
+    growth: [{ year: 2026, per_year: 8500, growth_rate: 0.02 }]
+  - id: dl_utilities
+    name: "Energy / water (Victorian houses leak heat)"
+    category: Home
+    currency: GBP
+    growth: [{ year: 2026, per_year: 3200, growth_rate: 0.02 }]
+  - id: dl_comms
+    name: "Internet / phone"
+    category: Home
+    currency: GBP
+    growth: [{ year: 2026, per_year: 900, growth_rate: 0.02 }]
+  - id: dl_transport
+    name: "Car (modest) + Lothian buses"
+    category: Transport
+    currency: GBP
+    growth: [{ year: 2026, per_year: 5000, growth_rate: 0.02 }]
+  - id: dl_help
+    name: "Cleaning (occasional, ~£15–18/hr)"
+    category: Staff
+    currency: GBP
+    growth: [{ year: 2026, per_year: 2000, growth_rate: 0.03 }]
+  - id: dl_health
+    name: "Health (NHS ≈ free; dental/optical)"
+    category: Lifestyle
+    currency: GBP
+    growth: [{ year: 2026, per_year: 500, growth_rate: 0.02 }]
+  - id: dl_restaurants
+    name: "Restaurants"
+    category: Lifestyle
+    currency: GBP
+    growth: [{ year: 2026, per_year: 2500, growth_rate: 0.02 }]
+  - id: dl_travel
+    name: "Travel"
+    category: Lifestyle
+    currency: GBP
+    growth: [{ year: 2026, per_year: 5000, growth_rate: 0.02 }]
+  - id: dl_activities
+    name: "Kids' activities"
+    category: Lifestyle
+    currency: GBP
+    growth: [{ year: 2026, per_year: 2200, growth_rate: 0.02 }]
+  - id: dl_shopping
+    name: "Shopping & subscriptions"
+    category: Lifestyle
+    currency: GBP
+    growth: [{ year: 2026, per_year: 3200, growth_rate: 0.02 }]
+  - id: dl_education
+    name: "International school (2 kids, mid-tier)"
+    category: Education
+    currency: GBP
+    growth: [{ year: 2026, per_year: 33000, growth_rate: 0.03 }]

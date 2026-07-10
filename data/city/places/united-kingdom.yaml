@@ -1,0 +1,133 @@
+districts:
+  - id: cambridge-newnham
+    city: Cambridge
+    country: United Kingdom
+    country_code: GB
+    district: "Newnham / Central"
+    blurb: "World-leading Oxbridge town with exceptional cycling for teens and clean air; family housing is pricey."
+    price_per_sqm: { lower: 5800, upper: 10500, average: 8000 }
+    travel: { paris_hours: 4, paris_mode: flight, yerevan_hours: 10.5, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 1.5, peer_environment: 3, family_practicality: 3, health: 3.5, nature: 4 }
+    notes:
+      education: Newnham Croft Primary is a strong Ofsted Good school with above-average SATs results, and Cambridge offers two top-200 state secondaries (Chesterton, Parkside) plus IB programmes at Impington and Landmark International — but there is only a single small-capacity state primary in the ward with no …
+      safe_independence: "Newnham is the safest ward in Cambridge (~21 crimes per 1,000 vs 96 city average, top decile nationally) and sits in the UK's #1 cycling city where ~30% of children cycle to school, supported by the citywide 20mph scheme and dedicated bike paths — but bicycle theft runs 552% above the regional av…"
+      mental_health: Cambridge benefits from expanding NHS Mental Health Support Teams in schools and near-universal school phone restrictions, and risky behaviours among 11–15s continue a long-term decline — but these local positives sit within a UK-wide youth mental health crisis where the country ranks bottom-thir…
+      peer_environment: "Newnham combines exceptionally high educational attainment (87.7% degree-holders), top-17% household incomes, and striking international diversity (37% foreign-born, 17% Asian) with low antisocial behaviour — but children are scarce: only 6.6% of residents are under 17 (the lowest proportion in a…"
+      family_practicality: The Newnham village centre covers daily basics well with a Co-op, French bakery, pharmacy, and a Post Office open seven days a week, and the UK's digital government infrastructure ranks among the world's best — but Cambridge is in a severe childcare sufficiency crisis driven by staffing shortages…
+      health: Cambridge's air quality is good enough that its Air Quality Management Area was revoked in January 2025 after five compliant years, and Addenbrooke's Hospital provides a comprehensive paediatric centre at a CQC-rated Good teaching hospital — but NO₂ and PM2.5 still run at roughly double WHO healt…
+      nature: Lammas Land delivers an unusually rich in-district green space with a playground, paddling pool, tennis courts, and bowling green alongside Coe Fen's grazed common land and riverside walks, with Grantchester Meadows immediately adjacent and Thetford Forest reachable in under 45 minutes — but East…
+    sources: [ "Ofsted 2024-25", "CrimeRate", "Greater Cambridge Cycling Index 2024", "PlumPlot/HouseMetric (Land Registry)", "Cambridge City Council AQ 2025", "ONS Census 2021" ]
+
+  - id: edinburgh-morningside
+    city: Edinburgh
+    country: United Kingdom
+    country_code: GB
+    district: "Morningside"
+    blurb: "Affluent family district with Edinburgh's best state secondaries, free U-22 bus travel and free uni tuition."
+    price_per_sqm: { lower: 4100, upper: 5500, average: 5100 }
+    travel: { paris_hours: 4, paris_mode: flight, yerevan_hours: 10.5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3, mental_health: 1.5, peer_environment: 3.5, family_practicality: 4, health: 3, nature: 4 }
+    notes:
+      education: "South Morningside Primary is exceptional — a flawless 400/400 league-table score and UK Primary School of the Year 2026 — feeding into Boroughmuir High, ranked #10 in Scotland, with Edinburgh Steiner School offering a Waldorf alternative and a long-established Russian Saturday school in the city.…"
+      safe_independence: "Morningside has Edinburgh's lowest crime rate (36.2 per 1,000, violent crime mapped at zero) and ~86% of roads at 20mph, with frequent buses to the city centre every 5–10 minutes and a Quiet Route corridor serving six primary schools. Offsetting this: an 8-year-old was hit by a van at Morningside…"
+      mental_health: The UK context is grim — ranking 27th out of 36 wealthy countries for child mental health and joint-second-last for teenage life satisfaction — with CAMHS median wait times of ~8 months, nearly 40,000 children waiting over 2 years, and the largest drop in school belonging of any OECD country sinc…
+      peer_environment: Morningside sits in SIMD decile 10 — among Scotland's least deprived 0.1% — with attendance rates above city and national averages, a cosmopolitan mix of students in flats alongside families in million-pound homes, and strong organised activities including a long-running after-school care club an…
+      family_practicality: Daily life is well-supported by buses every 5–10 minutes to the city centre in 10–20 minutes, a Waitrose and M&S Simply Food on Morningside Road, a Montessori nursery, and an established after-school care club operating since 1991 — and the UK's digital government infrastructure ranks 3rd in the …
+      health: Air quality is generally good (PM2.5 readings of 4–8 µg/m³ on most monitors), the local GP practice has 9–10 doctors, side streets are quiet, and the Braid Burn flood protection scheme shields ~950 homes from 1-in-200-year flood events — but the old Sick Kids hospital at Sciennes closed permanent…
+      nature: The Hermitage of Braid and Blackford Hill Local Nature Reserve puts 60 hectares of woodland, burns, and panoramic-view hilltop within Morningside itself, with wheelchair-accessible paths, Braidburn Valley Park adding play areas and an outdoor gym, and the Pentland Hills Regional Park reachable in…
+    sources: [ "Education Scotland/Parent Power 2024", "gov.scot/Transport Scotland", "ESPC 2024-25", "Public Health Scotland 2025", "NRS Census 2022", "Met Office" ]
+
+  - id: london-richmond
+    city: London
+    country: United Kingdom
+    country_code: GB
+    district: "Richmond upon Thames"
+    blurb: "Greenest, safest London borough by the river; world-class schools and parks, but high house prices."
+    price_per_sqm: { lower: 11000, upper: 16000, average: 13000 }
+    travel: { paris_hours: 3, paris_mode: train, yerevan_hours: 9.5, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 3, mental_health: 1, peer_environment: 3.5, family_practicality: 4, health: 3, nature: 5 }
+    notes:
+      education: Richmond's state primary schools are exceptional—80% rated Ofsted Outstanding with zero failing schools, and secondaries like Grey Court School achieve a Progress 8 of 0.81, among the best in England—but secondary quality is uneven (The Richmond upon Thames School sits at only 0.06). A LinguaPlay…
+      safe_independence: Richmond is the safest London borough by overall crime rate (60.7 offences per 1,000) with 98% of roads under 20mph limits, a multi-line Zone 4 rail/tube station, and an extensive bus network including night routes—but protected cycle tracks cover only 2% of road length, School Streets reach just…
+      mental_health: "The UK context is grim for youth mental health: the country ranks 27th out of 36 wealthy nations for child mental wellbeing, teenage life satisfaction is joint second-last among 36 countries, ~16% of students suffer high exam anxiety (among the highest in the West), and the median CAMHS wait time…"
+      peer_environment: The borough is the happiest place to live in Britain (Rightmove 2023), with 54% of residents in professional occupations, six dedicated youth clubs, a thriving Scout District, and the lowest crime rate in London—but anti-social behaviour runs 29% above the UK average as the top reported crime in …
+      family_practicality: Richmond is a designated 'childcare oasis'—top 5 in England for childcare access with multiple Outstanding-rated nurseries—served by South Western Railway (~20 minutes to Waterloo), the District Line (6 trains per hour to central London), and the London Overground, with UK e-government among the …
+      health: PM2.5 snapshot readings of ~5 µg/m³ are good by London standards but likely exceed the WHO annual guideline of 5 µg/m³, while 70–75% of the year brings Heathrow arrival flights low over Richmond, Kew, and Barnes, with the remaining 25% putting Twickenham and Teddington under the departure path—cr…
+      nature: Richmond is extraordinarily green—57% of the borough is open space with 27% tree canopy (second-leafiest in London), anchored by Richmond Park (2,500 acres) and Bushy Park (1,100 acres), both Royal Parks within borough boundaries, holding a record number of Green Flag Awards and open 24 hours to …
+    sources: [ "Ofsted/snobe", "police.uk/CrimeRate", "ONS Census 2021", "housemetric (Land Registry)", "Rightmove", "PoundSterlingLive (GBP-EUR)" ]
+
+  - id: london-wimbledon
+    city: London
+    country: United Kingdom
+    country_code: GB
+    district: "Wimbledon (Merton)"
+    blurb: "Very safe, transit-hub suburb by the Common; strong schools plus Sutton grammar access, cheapest of the three."
+    price_per_sqm: { lower: 8000, upper: 12500, average: 10000 }
+    travel: { paris_hours: 3, paris_mode: train, yerevan_hours: 9.5, yerevan_mode: flight }
+    scores: { education: 4, safe_independence: 3, mental_health: 1.5, peer_environment: 3.5, family_practicality: 3.5, health: 3.5, nature: 4 }
+    notes:
+      education: Wimbledon offers outstanding Ofsted-rated state primaries (Bishop Gilpin, Holy Trinity) and solid state secondaries (Rutlish, Ursuline) alongside elite private schools, with King's College School delivering one of the UK's top IB programmes (average 42.2 points). The IB and top-tier academic path…
+      safe_independence: "Merton leads London with 28 School Streets and 20mph limits on 97.8% of borough roads, and residential wards like Wimbledon Park have low violent crime (17.5/1000), but the picture darkens for teens: 48% of young people feel unsafe after dark on public transport, night buses are described as 'pac…"
+      mental_health: "The UK ranks 27th out of 36 wealthy countries for child mental health with teenage life satisfaction joint second-last, and while school phone bans are near-universal and MHSTs are deploying, the systemic picture is grim: CAMHS waiting times stretch to a median 8 months (some over 2 years), nearl…"
+      peer_environment: Wimbledon Village and Hillside wards sit in the top 5% most affluent nationally with household incomes exceeding £80,000–£108,000, and residential pockets like Wimbledon Chase enjoy antisocial behaviour rates 68% below the London average, but this affluence exists alongside a profound east-west d…
+      family_practicality: Wimbledon station is a major transport hub (~17 minutes to Waterloo, District Line, trams, night buses) and the UK ranks 3rd in the OECD for digital government, but childcare quality is uneven — an Outstanding Montessori nursery contrasts with a major provider rated 'Requires Improvement' — and s…
+      health: PM2.5 readings at Wimbledon High School are a healthy 4–6 µg/m³ and the ULEZ expansion delivered ~15% NOx reduction, with excellent paediatric hospitals (Queen Mary's, St George's) within 3–6 miles, though NO₂ may still exceed WHO annual guidelines, the A3 bypass and South Western Railway create …
+      nature: Wimbledon Common is one of London's largest expanses of common land with an Iron Age hill fort, complemented by the Grade II* listed Wimbledon Park with its lake, highly rated playground, and splash pool, plus the Green Flag Dundonald Recreation Ground — yet the lake prohibits swimming despite a …
+    sources: [ "ISI/Ofsted/Atom", "CrimeRate", "Merton Council/AELTC", "housemetric (Land Registry)", "daynurseries", "PoundSterlingLive (GBP-EUR)" ]
+  - id: bathwick
+    city: Bath
+    country: United Kingdom
+    country_code: GB
+    district: Bathwick
+    blurb: Georgian architecture, scenic hills, and top schools make Bathwick a prime family neighbourhood.
+    price_per_sqm: { lower: 4500, upper: 7500, average: 6000 }
+    travel: { paris_hours: 5.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 2.5, mental_health: 1, peer_environment: 4, family_practicality: 3, health: 2.5, nature: 4 }
+    notes:
+      education: Bathwick St Mary CofE Primary (Good, top 8% nationally for KS2 attainment) and Ralph Allen School (Good, Progress 8 +0.34, Times Comprehensive School of the Year South West 2026) form a strong state-school spine, though the primary is oversubscribed with class sizes of 32. IB Diploma is available…
+      safe_independence: 20mph speed limits blanket Bathwick's residential streets and the multi-million-pound Bath Walking, Wheeling and Cycling Links scheme promises segregated cycle lanes including a route up to the university, but construction is not expected to start until 2026 and no segregated lanes are operationa…
+      mental_health: "The UK context is grim: UNICEF Innocenti Report Card 19 (2025) ranks the UK 27th out of 36 wealthy countries for child mental health and joint 2nd last for teenage life satisfaction, while only 63% of English students feel they belong at school — the largest decline in school belonging of any OEC…"
+      peer_environment: Bathwick is the least deprived ward in B&NES with 49% of residents holding degree-level qualifications (vs 34% nationally) and only 7% with no qualifications, and its 24% foreign-born population — second highest in the authority — brings a diverse ethnic mix. The area hosts Sea Cadets and Scout g…
+      family_practicality: Bath Spa station delivers London in 1h 20min and Bristol in 10–15 minutes, and Bath's compact Georgian layout puts the city centre within a 15–20 minute walk of most of Bathwick, making school runs and local errands genuinely walkable. But the main in-ward childcare option — Little Willows Day Nu…
+      health: All 167 NO₂ monitoring sites across B&NES fell below the UK legal limit in 2024 and the Clean Air Zone cut NO₂ by 40% versus 2019, though levels under 36μg/m³ still substantially exceed the WHO guideline of 10μg/m³, and PM₂.₅ likely sits well above the 5μg/m³ WHO target. The Royal United Hospital…
+      nature: Two substantial parks sit directly within Bathwick — Henrietta Park (7 acres, mature London Plane and century-old Horse Chestnuts) and Sydney Gardens (6.4 acres, large children's playground, tennis courts, café, and canal-side walks) — and the National Trust's Bath Skyline Walk, a 6-mile circuit …
+    sources:
+      - DeepSeek estimate — refine
+  - id: harrogate-duchy
+    city: Harrogate
+    country: United Kingdom
+    country_code: GB
+    district: Duchy
+    blurb: Duchy is a leafy, upscale neighbourhood with excellent schools and parks, ideal for families.
+    price_per_sqm: { lower: 3500, upper: 5500, average: 4500 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3, safe_independence: 3.5, mental_health: 1.5, peer_environment: 3, family_practicality: 3.5, health: 3, nature: 4.5 }
+    notes:
+      education: Harrogate Grammar School (Ofsted Outstanding, Progress 8 +0.44) and St Aidan's (Progress 8 +0.72) offer genuinely strong secondary pathways, and Harrogate Grammar unusually offers Russian at A-Level — a rare find for maintaining the family's trilingual profile. However, there is no International …
+      safe_independence: The Duchy Road area is very safe for violent crime (5.3 per 1,000) with a phase-1 20mph zone covering 200+ streets, a School Street pilot, and a new tiger crossing on Oatlands Drive; teens benefit from the £1 youth bus fare and the high-frequency route 36 to Leeds every 10 minutes. Cycling infras…
+      mental_health: "The UK-wide picture for youth mental health is poor: the country ranks 27th out of 36 wealthy nations for child mental health, teenage life satisfaction is joint second-last among peers, and CAMHS waiting times stretch to a median of ~8 months with the 90th percentile exceeding 2 years. Positives…"
+      peer_environment: The Duchy is a stable, affluent pocket — 57% of households experience no deprivation, 70% are owner-occupied, and antisocial behaviour on Duchy Road itself is very low (6.8 per 1,000). Harrogate offers 14 Scout groups, Sea Cadets, and an annual street-food festival, but the district is 95% White …
+      family_practicality: Commuter links are strong — Leeds in 28–39 minutes every half hour, York in ~35 minutes hourly — and the Asda superstore sits just 0.1–0.2 miles from the southern edge of the estate with M&S and Tesco Express within 0.3 miles. Practical friction comes from significant nursery waitlists (Children'…
+      health: "Harrogate District Hospital improved to a CQC 'Good' rating in May 2025 with children's services also rated Good, drinking water compliance is 99.97%, and the town ranks #1 in the UK for 'slow living' with leafy, quiet streets. However, the hospital's Safe domain still 'Requires improvement', PM2…"
+      nature: "Harrogate is officially ranked the #1 UK town for parks and green space, anchored by The Stray — 200 acres of protected open grassland running through the town centre that cannot be built on by Act of Parliament — with Nidd Gorge offering free wild swimming and woodland trails within the town. Be…"
+    sources:
+      - DeepSeek estimate — refine
+  - id: oxford-summertown
+    city: Oxford
+    country: United Kingdom
+    country_code: GB
+    district: Summertown
+    blurb: Top-rated schools, leafy parks, and a vibrant community make Summertown ideal for families.
+    price_per_sqm: { lower: 5500, upper: 7500, average: 6500 }
+    travel: { paris_hours: 4.5, paris_mode: train, yerevan_hours: 6, yerevan_mode: flight }
+    scores: { education: 3.5, safe_independence: 4, mental_health: 1.5, peer_environment: 3.5, family_practicality: 3.5, health: 3, nature: 4 }
+    notes:
+      education: Summertown is anchored by The Cherwell School — the highest-performing state secondary in Oxford (68% Grade 5+ English/Maths, Ofsted Outstanding) — while primary options are solidly Good (St. Barnabas', Wolvercote) though none in the neighbourhood itself are rated Outstanding. St. Clare's on Banb…
+      safe_independence: Summertown has the lowest crime rate of all 24 Oxford wards (34.0 per 1,000 residents, 68.5% below the Oxford average) and Cherwell School is the UK's top cycling school (~60% of pupils cycle, ~15% walk), supported by citywide 20mph limits and the Woodstock Road segregated cycleway; however, Banb…
+      mental_health: The UK-wide youth mental-health context is deeply concerning — ranked 27th out of 36 wealthy countries for child mental health (UNICEF 2025), teenage life satisfaction joint-second-last, with ~16% of UK students suffering high exam anxiety and CAMHS median wait times of ~8 months — and Summertown…
+      peer_environment: Summertown sits in the bottom 2% least deprived areas in England with average household incomes around £91,000 and very low antisocial behaviour (2.1 per 1,000 residents), set within an international academic community that gives it greater ethnic diversity than the Oxfordshire average; however, …
+      family_practicality: Summertown is walkable (7/10 score) with five supermarkets within walking distance, good nursery provision (The Oxford Nursery, Summertown Montessori), and fast rail to London Paddington (~48 minutes), backed by the UK's 3rd-ranked OECD digital government; but the London commute is expensive (£50…
+      health: Oxford's air quality is improving (NO₂ down 38% from pre-pandemic levels, all UK legal limits met) and the John Radcliffe Hospital in nearby Headington has a dedicated Children's Emergency Department that serves as the Thames Valley paediatric trauma centre, but PM2.5 at 6–8 µg/m³ still exceeds t…
+      nature: Port Meadow — 440 acres of ancient grazing common land dating to the Domesday Book (1086), designated a Site of Special Scientific Interest — sits directly adjacent to Summertown with legally protected public access, complemented by the 70-acre University Parks along the River Cherwell and the Co…
+    sources:
+      - DeepSeek estimate — refine
