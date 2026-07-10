@@ -342,7 +342,7 @@ function PlacesPageInner({ meta }: { meta: CityRankingMeta }) {
               {COLUMNS.map((c, i) => (
                 <th
                   key={c.key}
-                  className={`rot sortable${c.key === 'price' ? ' col-price' : ''}${c.key === 'monthlycost' ? ' col-cost' : ''}${hoverDim === c.key ? ' hl' : ''}`}
+                  className={`rot sortable${c.key === 'price' ? ' col-price' : ''}${c.key === 'monthlycost' ? ' col-cost' : ''}${c.key !== 'monthlycost' ? ' col-sec' : ''}${hoverDim === c.key ? ' hl' : ''}`}
                   title={c.max != null ? `${c.label} — up to ${c.max} pts` : c.label}
                   style={{ zIndex: COLUMNS.length - i + 1 }}
                   onClick={() => onSort(c.key)}
@@ -467,7 +467,7 @@ function DistrictRow({
   const cell = (key: string, points: number, max: number) => (
     <td
       key={key}
-      className={`num${hoverDim === key ? ' hl' : ''}`}
+      className={`num col-sec${hoverDim === key ? ' hl' : ''}`}
       onMouseEnter={() => onHoverDim(key)}
       onMouseLeave={() => onHoverDim(null)}
     >
@@ -490,7 +490,7 @@ function DistrictRow({
         </td>
         {meta.dimensions.map((def) => { const d = dim(r, def.key); return cell(def.key, d.points, d.weight); })}
         {cell('connectivity', r.connectivity.points, r.connectivity.weight)}
-        <td className="num" title={`${eur.format(p.lower)} – ${eur.format(p.upper)}`}>{eur.format(p.average)}</td>
+        <td className="num col-sec" title={`${eur.format(p.lower)} – ${eur.format(p.upper)}`}>{eur.format(p.average)}</td>
         <td
           className="num places-costcell"
           title={monthlyCost != null

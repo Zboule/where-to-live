@@ -29,10 +29,12 @@ import {
 // One question, one graph: how much equity does each city need at the chosen
 // move year — per home size (color), to FIRE (solid) or just mortgage-free
 // (pale). Horizontal bars: cities on the Y axis, cheapest first.
+// One-accent ramp: the three home tiers as light → deep emerald (matches the
+// Places score ramp, keeping the whole app on a single hue).
 const SIZES: { id: HomeSize; label: string; sqm: number; color: string }[] = [
-  { id: '3bed', label: '3-bed', sqm: 140, color: '#1baf7a' },
-  { id: 'comfortable', label: 'Comfortable', sqm: 230, color: '#2a78d6' },
-  { id: 'premium', label: 'Premium', sqm: 350, color: '#8b5cf6' },
+  { id: '3bed', label: '3-bed', sqm: 140, color: '#8ed3ba' },
+  { id: 'comfortable', label: 'Comfortable', sqm: 230, color: '#22a878' },
+  { id: 'premium', label: 'Premium', sqm: 350, color: '#0a6f4e' },
 ];
 // reachable mortgage-free bars: paler than FIRE but clearly "active" — well
 // above the grayed-out (over-mark) state so the two never look alike
@@ -70,10 +72,10 @@ const C_HOME_DEBT = '#fca5a5';
 const C_EQUITIES = '#34d399';
 const C_INCOME = '#f472b6'; // net income, the Finance tab's income pink
 
-// Left butterfly: Need = soft orange ramp, Have = soft green ramp. Softer
-// than the modal's saturated hues so the two families read at a glance.
-const NEED = { living: '#f0a552', mortgage: '#e08145', holding: '#f7d3a8' };
-const HAVE = { income: '#5cb98d', draw: '#a6ddc0' };
+// Left butterfly: Need = neutral slate ramp, Have = accent-green ramp — one
+// accent + neutral, so "have" (the accent) reads as the good outcome.
+const NEED = { living: '#aeb6c4', mortgage: '#8b95a8', holding: '#d7dbe3' };
+const HAVE = { income: '#22a878', draw: '#8ed3ba' };
 
 /** "Oud-Zuid (Amsterdam)" → "Amsterdam"; plain labels stay as-is. */
 function shortLabel(label: string): string {
@@ -846,7 +848,7 @@ export function PlaceCostPage() {
                 tickFormatter={(v) => abbr(v, ccy)}
               />
               {isMobile ? (
-                <YAxis type="category" dataKey="city" width={72} interval={0} tick={mobileCityTick} />
+                <YAxis type="category" dataKey="city" width={86} interval={0} tick={mobileCityTick} />
               ) : (
                 <YAxis type="category" dataKey="city" hide />
               )}
@@ -994,7 +996,7 @@ export function PlaceCostPage() {
                 tickFormatter={(v) => abbr(v, ccy)}
               />
               {isMobile ? (
-                <YAxis type="category" dataKey="city" width={72} interval={0} tick={mobileCityTick} />
+                <YAxis type="category" dataKey="city" width={86} interval={0} tick={mobileCityTick} />
               ) : (
                 <YAxis
                   type="category"
